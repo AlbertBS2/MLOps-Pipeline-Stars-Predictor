@@ -7,6 +7,6 @@ users:
    home: /home/appuser
    shell: /bin/bash
    ssh_authorized_keys:
-	#addme
+	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDh8AaREKS+AvGyYkWEjm53W5pfAVQL1k0dgbicK2EHbETyzbOSQIbZoUqiROmW02SWskbik+l4S5Bolmw1Hx4B2FagUC18cDdm6Y7CQqc4mcX30XJY8cOuDOUzgTmmn07vlPmVsSyKMdclMWQXRQWEBJSLaXYSArxvsqdYOe1Kd3Akqni/jOMgiR2XdqclMC9oDmERQy/vEtcNY83WvG3V+8OpcW2+1MtFlzBsPR53QcTkOyLXX/HetLlBu8sBMNy2cFZmpoffqeeUS+/aXHMhZICjZZ+UHOiYW/FQRuSKMH1MC7gd/uR156zwCY9gRz5ygxQEscV53qVg2jLvRwmLMESK55XoCUXrQ/hpOZIWoydfAG+Vpto3xiGOornLTm/EgpdB6b3+M58GwyRw1dAoM6bbaTgz9DsP8VgxzwUhQKUljPi1BO0d12lmq82+zqggkWiJ/6dsNC3rTtt2xd1KQVIZk8glGfAp1BUDeeW4PDWmJtNfrgXogkYLvk4BU28= ubuntu@group13-main
 
 byobu_default: system
