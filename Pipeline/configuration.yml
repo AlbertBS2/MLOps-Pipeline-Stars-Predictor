@@ -15,6 +15,7 @@
       apt: update_cache=yes upgrade=dist
       become: true
 
+# TODO update to work with private repo!
     - name: Download git repository
       become: true
       git:
@@ -22,7 +23,7 @@
         dest: /project
     
 - hosts: prodserver
-
+# TODO fix setup_var.yml if we need it
   vars_files:
     - setup_var.yml
 
@@ -35,10 +36,6 @@
         - software-properties-common
       become: true
 
-    - name: apt update
-      apt: update_cache=yes upgrade=dist
-      become: true
-    
     - name: Add docker repository key
       apt_key:
         url: https://download.docker.com/linux/ubuntu/gpg
@@ -47,10 +44,6 @@
 
     - name: Add docker repository
       command: add-apt-repository -y "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-      become: true
-
-    - name: apt update
-      apt: update_cache=yes upgrade=dist
       become: true
 
     - name: Create Ansible docker config directory
