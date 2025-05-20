@@ -3,7 +3,7 @@
   vars:
     ssh_user: appuser
     ssh_key_src: /home/ubuntu/.ssh/id_ed25519
-    
+
   tasks:
     - name: Ensure {{ ssh_user }}.ssh directory exists
       file:
@@ -35,6 +35,15 @@
         name: github.com
         key: "{{ lookup('pipe','ssh-keyscan -t rsa github.com') }}"
 
+
+    - name: Ensure project directory exists and is owned by {{ ssh_user }}
+      file:
+        path: /DE2_proj
+        state: directory
+        owner: "{{ ssh_user }}"
+        group: "{{ ssh_user }}"
+        mode: '0755'
+
     - name: Clone private GitHub repo as {{ ssh_user }}
       become_user: "{{ ssh_user }}"
       git:
@@ -44,7 +53,6 @@
         force: yes
         key_file: /home/{{ ssh_user }}/.ssh/id_ed25519
         accept_hostkey: yes
-
 
 # PLAY 2: Update code on both servers
 - hosts: dev_server,prod_server
