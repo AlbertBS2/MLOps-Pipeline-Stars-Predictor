@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Star Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap & Poppins -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/fill_random.js') }}"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+        }
+
+        .container-main {
+            padding-top: 1.25rem;
+        }
+
+        .title-header {
+            font-weight: 700;
+            font-size: 2.3rem;
+        }
+
+        .form-label {
+            font-weight: 500;
+        }
+
+        .repo-input {
+            height: 100%;
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        .btn-primary {
+            background-color: #0b3d91;
+            border-color: #0b3d91;
+            font-weight: 600;
+            padding: 10px 36px;
+            font-size: 1rem;
+            border-radius: 8px;
+        }
+
+        .btn-primary:hover {
+            background-color: #082f73;
+        }
+
+        .btn-outline-secondary {
+            font-weight: 500;
+        }
+
+        .results {
+            background-color: white;
+            border-radius: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 1.8rem;
+            margin-top: 2.2rem;
+        }
+
+        .results h5 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.4rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+
+        .prediction-item {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .badge {
+            font-size: 0.95rem;
+            padding: 0.45em 1em;
+            font-weight: 500;
+        }
+
+        .rank-number {
+            font-weight: 600;
+            margin-right: 0.4rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="container container-main">
+    <div class="text-center mb-4">
+        <h1 class="title-header mb-2">GitHub Star Predictor</h1>
+        <button class="btn btn-outline-secondary" onclick="fillRandomRepos()">Fill with Random Repositories</button>
+    </div>
+
+    <!-- Form -->
+    <form method="POST">
+        <div class="row g-3 justify-content-center">
+            {% for i in range(1, 6) %}
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="repo-input">
+                    <label for="repo_{{ i }}" class="form-label">GitHub Repo {{ i }}</label>
+                    <input type="text" name="repo_{{ i }}" id="repo_{{ i }}" class="form-control" placeholder="e.g. pandas-dev/pandas" required>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="col-sm-6 col-md-4 col-lg-4 d-none d-md-block"></div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary">Predict Stars</button>
+        </div>
+    </form>
+
+    <!-- Results -->
+    {% if predictions %}
+    <div class="row justify-content-center">
+        <div class="col-md-8 results">
+            <h5 class="text-center">⭐ Star Rankings</h5>
+            <ul class="list-group">
+                {% for item in predictions %}
+                <li class="list-group-item d-flex justify-content-between align-items-center prediction-item">
+                    <span><span class="rank-number">{{ loop.index }}.</span> {{ item.repo }}</span>
+                    <span class="badge bg-success">{{ item.stars }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
