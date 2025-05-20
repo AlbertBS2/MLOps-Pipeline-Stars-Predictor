@@ -1,53 +1,46 @@
-# PLAY 1: Bootstrap all servers
+#PLAY1 
 - hosts: all
   become: true
-  gather_facts: true
-
+  vars:
+    ssh_user: appuser
+    ssh_key_src: /home/ubuntu/.ssh/id_ed25519
   tasks:
-    - name: Generate hosts file
-      lineinfile:
-        dest: /etc/hosts
-        regexp: '.*{{ item }}$'
-        line: "{{ hostvars[item].ansible_default_ipv4.address }} {{ item }}"
-        state: present
-      when: hostvars[item].ansible_default_ipv4.address is defined
-      with_items: "{{ groups['all'] }}"
+    - name: Ensure {{ ssh_user }}.ssh directory exists
+      file:
+        path: /home/{{ ssh_user }}/.ssh
+        state: directory
+        owner: "{{ ssh_user }}"
+        group: "{{ ssh_user }}"
+        mode: "0700"
 
-#    - name: apt update & upgrade
-#      apt:
-#        update_cache: yes
-#        upgrade: dist
-
-    - name: Copy SSH deploy key
+    - name: Install deploy key for GitHub
       copy:
-        src: /home/ubuntu/.ssh/id_ed25519
-        dest: /home/appuser/.ssh/git_key
-        owner: appuser
-        group: appuser
-        mode: '0600'
+        src: "{{ ssh_key_src }}"
+        dest: /home/{{ ssh_user }}/.ssh/id_ed25519
+        owner: "{{ ssh_user }}"
+        group: "{{ ssh_user }}"
+        mode: "0600"
 
-    - name: Add GitHub to known_hosts
+    - name: Add GitHub to {{ ssh_user }} known_hosts
       known_hosts:
-        path: /home/appuser/.ssh/known_hosts
+        path: /home/{{ ssh_user }}/.ssh/known_hosts
         name: github.com
-        key: "{{ lookup('pipe', 'ssh-keyscan github.com') }}"
+        key: "{{ lookup('pipe','ssh-keyscan -t rsa github.com') }}"
+        owner: "{{ ssh_user }}"
+        group: "{{ ssh_user }}"
+        mode: "0644"
 
-    - name: Clone private GitHub repo
+    - name: Clone private GitHub repo as {{ ssh_user }}
+      become: true
+      become_user: "{{ ssh_user }}"
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
         dest: /DE2_proj
         version: main
         force: yes
-        key_file: /home/appuser/.ssh/git_key
-      become: true
+        key_file: /home/{{ ssh_user }}/.ssh/id_ed25519
+        accept_hostkey: yes
 
-    - name: Ensure appuser owns the repo directory
-      file:
-        path: /DE2_proj
-        state: directory
-        recurse: yes
-        owner: appuser
-        group: appuser
 
 # PLAY 2: Update code on both servers
 - hosts: dev_server,prod_server
