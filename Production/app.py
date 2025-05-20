@@ -15,9 +15,9 @@ def index():
                 predictions.append({"repo": f"Repository {i}", "stars": "Missing ID"})
                 continue
             try:
-                features = extract_features(repo_id)
-                predicted = predict_star_count(features["commits"], features["forks"], features["watchers"])
-
+                # features = extract_features(repo_id)
+                # predicted = predict_star_count(features["commits"], features["forks"], features["watchers"])
+                predicted = predict_star_count(1, 2, 3)
                 predictions.append({"repo": repo_id, "stars": predicted})
             except Exception as e:
                 predictions.append({"repo": repo_id, "stars": f"Error: {e}"})
