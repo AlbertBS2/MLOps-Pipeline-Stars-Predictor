@@ -1,0 +1,1001 @@
+full_name,stargazers_count,description,created_at,updated_at,forks_count,watchers_count,size,language,has_issues,has_projects,has_downloads,has_wiki,has_pages,has_discussions,archived,open_issues_count
+Stan-Ost/TableViewWithCollapsibleSections,75,,2017-05-26T06:15:44Z,2023-08-23T11:13:57Z,19,75,1091,Swift,True,True,True,True,False,False,False,2
+zhouzhuo810/ZzBeeLayout,75,A nice Image ViewGroup like honeycomb.,2016-09-07T15:48:10Z,2023-03-03T09:35:03Z,10,75,336,Java,True,True,True,True,False,False,False,0
+gbyy422990/salience_object_detection,75,,2018-03-02T05:48:00Z,2023-09-07T11:14:51Z,17,75,1507,Python,True,True,True,True,False,False,False,5
+songnick/CircleBar,75,"some beautiful bar, implement them use View or ViewGroup or RLF...(RelativeLayout LinearLayout FrameLayout....), practice how to define UI by ourselves",2015-08-18T13:52:07Z,2019-02-19T06:25:32Z,27,75,6385,Java,True,True,True,True,False,False,False,1
+michalkonturek/LINQ4Obj-C,75,Provides fluent interface of LINQ-style query to Objective-C.,2013-06-22T14:03:13Z,2023-09-13T19:56:44Z,3,75,1638,Objective-C,True,True,True,True,False,False,False,0
+chonthu/Codeigniter-Google-Analytics-Class,75,Codeigniter 2 class for google analytics api,2012-01-05T19:33:51Z,2023-05-18T22:24:03Z,32,75,133,PHP,True,True,True,True,False,False,False,1
+mediaupstream/SublimeText-Crypto,75,Encrypt and Decrypt a document or selection using OpenSSL in Sublime Text 2 & 3,2012-07-13T23:24:26Z,2023-02-05T21:13:41Z,21,75,375,Python,True,True,True,True,False,False,True,4
+jupyter/docker-demo-images,75,Demo images for use in try.jupyter.org and tmpnb.org,2014-11-21T02:47:51Z,2023-01-28T21:02:32Z,131,75,41849,Jupyter Notebook,True,False,True,False,False,False,True,0
+jaredly/hooks-experimental,75,"An experiment using react's new ""hooks"" with ReasonReact",2018-10-29T14:01:25Z,2021-08-30T15:14:56Z,5,75,235,OCaml,True,True,True,True,False,False,False,0
+ocaml/v3.ocaml.org-rescript,75,"The next implementation of ocaml.org, built on OCaml, ReScript, NextJS, and Tailwind.",2020-12-07T21:07:19Z,2023-08-12T10:46:14Z,10,75,33238,ReScript,True,True,True,True,False,True,True,74
+t-vi/candlegp,75,Gaussian Processes in Pytorch,2017-10-23T20:45:51Z,2024-12-11T03:03:04Z,8,75,2748,Jupyter Notebook,True,True,True,True,False,False,False,0
+ltratt/aeschylus,75,Auto-Editing ScreenCast system,2021-01-06T19:09:03Z,2024-08-25T06:11:12Z,3,75,81,Python,True,True,True,True,False,False,False,0
+hylinux1024/datingtoday,75,基于Flask开发企业级API应用系列文章项目源码,2019-07-27T03:12:10Z,2024-12-13T10:25:55Z,32,75,19,Python,True,True,True,True,False,False,False,1
+RealMoMo/CircleFloatBar,75,CircleFloatBar（with animation） 圆形悬浮窗（带动画特效）,2018-01-14T14:12:39Z,2024-02-28T14:54:27Z,14,75,22213,Java,True,True,True,True,False,False,False,1
+AnandChowdhary/hello-bar,75,👋 Greet your visitors with a hello bar,2018-12-30T16:44:23Z,2024-12-17T17:32:18Z,10,75,6906,JavaScript,True,True,True,True,True,False,False,6
+rsrohan99/llamabot,75,"An open-source Discord bot, created using LlamaIndex, that -  Listens to your server conversations, continuously learns from them & answers your questions from the entire server.",2024-02-04T09:07:02Z,2024-12-18T08:43:49Z,14,75,102,Python,True,True,True,True,False,False,False,0
+paabloLC/astro-neumorphism,75,"A simple and responsive template focused on the entire UI design style with neumorphism styles. Built with AstroJS, TypeScript, Preact, and styled with Tailwind CSS.",2022-08-22T16:34:05Z,2025-01-04T22:15:09Z,27,75,687,Astro,True,True,True,True,False,False,False,0
+Amazing-J/structural-transformer,75,"Code corresponding to our paper ""Modeling Graph Structure in Transformer for Better AMR-to-Text  Generation"" in EMNLP-IJCNLP-2019",2019-08-23T10:08:15Z,2024-08-15T14:43:40Z,8,75,14598,Python,True,True,True,True,False,False,False,7
+planet-work/php-malware-scanner,75,PHP files analyzer for malware detection,2015-05-08T09:33:46Z,2024-08-12T19:17:22Z,18,75,722,Python,True,True,True,True,False,False,False,10
+NilStack/NKWatchActivityIndicator,75,An activity indicator library for Apple Watch and a sample to push the limit of animation in watchOS 2. — Edit,2015-08-14T23:20:03Z,2024-08-12T19:18:49Z,6,75,169,Objective-C,True,True,True,True,False,False,False,2
+MagicPwnrin/CVE-2022-30206,75,Exploit for CVE-2022-30206,2022-09-10T13:44:40Z,2024-08-12T20:26:54Z,25,75,289,C++,True,True,True,True,False,False,False,0
+MakerLabMe/Marlin_STM32,75,3d printer Marlin firmware for 32 bit arm cpu STM32F10X,2014-12-30T11:05:09Z,2024-08-12T03:45:17Z,47,75,13788,C,True,True,True,True,False,False,False,4
+cicec/react-components,75,:ghost: 基于React的通用组件,2018-08-03T03:10:03Z,2024-12-12T14:05:39Z,59,75,313,JavaScript,True,True,True,True,True,False,False,2
+dreamRs/r2d3maps,75,r2d3 experiment to draw maps in D3,2018-05-08T22:09:18Z,2024-07-21T18:49:45Z,2,75,3371,R,True,True,True,True,False,False,False,2
+uzh-rpg/imips_open,75,Matching Features Without Descriptors: Implicitly Matched Interest Points,2019-07-23T13:55:48Z,2024-07-25T02:15:20Z,10,75,5227,Python,True,True,True,True,False,False,False,3
+endink/Thrifty,75,"Thrifty include interface based remote call, tsl support, load balancing, and automatic service registration & discovery, thrift serializer, etc...",2017-12-01T09:49:56Z,2024-07-24T09:42:46Z,21,75,316,C#,True,True,True,True,False,False,False,2
+kmcallister/rpi-battery-monitor,75,Monitor battery voltage from a Raspberry Pi,2017-06-23T04:21:20Z,2025-02-14T11:58:32Z,6,75,704,Rust,True,True,True,True,False,False,False,1
+9176324/Daat,75,a simple intel vt code both support x86 & x64. PatchGuard monitor.,2019-01-06T22:25:03Z,2024-09-24T13:16:40Z,47,75,602,C,True,True,True,True,False,False,False,0
+trakt-for-plex/configuration,75,trakt (for Plex) configuration interface,2015-07-01T01:53:51Z,2024-11-20T02:36:29Z,11,75,1249,JavaScript,True,True,True,True,True,False,False,46
+lilianweng/generalization-experiment,75,TBA,2019-03-14T21:26:57Z,2024-09-10T07:48:35Z,3,75,475,Python,True,True,True,True,False,False,False,1
+BertrandBordage/django-super-inlines,75,"Adds useful features to inlines, such as the ability to nest them.",2015-04-10T16:06:43Z,2024-09-11T12:20:24Z,8,75,63,HTML,True,True,True,True,False,False,False,12
+peterarsentev/java-courses,75,Практический Java курс. Бесплатно.,2015-03-13T13:38:39Z,2025-03-15T22:27:54Z,89,75,131,Java,True,True,True,True,False,False,False,0
+cynorg/PebbleTimely,75,Timely watchface for Pebble smartwatch,2013-05-19T19:21:21Z,2024-11-21T02:35:58Z,39,75,4721,C,False,True,True,True,False,False,False,2
+milosob/milo,75,Cryptography library for modern C++.,2022-07-12T09:12:17Z,2024-11-11T11:36:23Z,5,75,2041,C++,True,True,True,True,False,False,False,1
+justdmitry/NetTelegramBotApi,75,C# client library for building Telegram bot,2015-06-25T15:05:37Z,2024-11-24T21:57:32Z,29,75,367,C#,True,True,True,True,False,False,False,10
+vertxxyz/NTexturePreview,75,Enhanced Texture Previewer for Unity,2018-03-31T00:46:18Z,2024-11-23T15:36:31Z,7,75,14770,C#,True,False,True,False,False,False,True,3
+64robots/nuxt-content-blog,75,Create blog posts from the command line and get them up and running automaticly,2020-06-06T15:47:33Z,2024-10-21T06:37:32Z,4,75,3174,Vue,True,True,True,True,False,False,False,23
+MonsieurZbanowanYY/NFT-Marketplace-App-UI-Flutter,75,NFT Marketplace App UI with support for dark mode. Created by Martin Gogołowicz under 6 hours.,2022-01-14T23:23:03Z,2025-01-09T00:37:45Z,24,75,2527,Dart,True,True,True,True,False,False,False,0
+ryo-utsunomiya/vanilla-autokana,75,A Vanilla-JavaScript library to complete furigana automatically.,2018-03-29T11:52:16Z,2024-11-26T05:20:47Z,21,75,815,JavaScript,True,True,True,True,False,False,False,14
+aliyun/fc-docker,75,Dockerfiles for local building or running function of FC,2018-05-18T02:06:04Z,2024-12-03T12:34:03Z,20,75,912,Dockerfile,True,True,True,True,False,False,False,42
+journey-ad/Snow-Typecho-Plugin,75,简单的，有丰富自定义项的 typecho 页面下雪插件,2017-12-20T03:13:35Z,2024-10-07T03:49:32Z,15,75,5,PHP,True,True,True,True,False,False,True,0
+evertheylen/Notation,75,":pencil2: A simple web app to make drawings that are easy to embed, particularly for Notion.so.",2018-09-09T12:15:44Z,2024-10-13T11:11:32Z,8,75,39,JavaScript,True,True,True,True,False,False,False,1
+j4velin/WiFi-Automatic,75,Automatically turn off WiFi if you don't need it,2013-11-19T23:07:21Z,2025-03-15T12:03:02Z,33,75,699,Java,True,True,True,True,False,False,False,20
+TomDoesTech/t3-chat,75,,2022-07-17T22:16:17Z,2025-03-15T19:42:57Z,24,75,66,TypeScript,True,True,True,True,False,False,False,0
+Team254/FRC-2018-Public,75,Public release of Lockdown's 2018 FRC Code,2018-07-07T02:37:59Z,2025-03-16T01:41:34Z,35,75,423,Java,True,True,True,True,False,False,False,1
+cockroachdb/examples-go,75,Sample uses of cockroachDB.,2015-09-22T19:10:32Z,2024-09-17T15:56:49Z,31,75,12869,Go,True,True,False,True,False,False,True,3
+AdamAtomic/Mode,75,"A small (but sadly not that simple) demo game built on the flixel framework.  Hopefully it will become kind of obsolete with the creation of more targeted, simple, and smaller open source demo games!",2009-10-19T00:17:31Z,2024-11-15T22:14:38Z,22,75,1755,ActionScript,True,True,True,True,False,False,False,3
+m1guelpf/threads-api,75,Reverse-engineered Rust client for Instagram's Threads app.,2023-07-06T17:31:45Z,2025-02-18T16:36:52Z,1,75,8,Rust,True,False,True,False,False,False,False,0
+MaxwellGengYF/Unity-Custom-Rendering-Pipline,75,A custom rendering pipeline(not SRP)'s practice & implement,2018-09-05T13:06:17Z,2024-10-16T08:53:44Z,30,75,11299,ShaderLab,True,True,True,True,False,False,False,0
+bpennypacker/phad,75,Pi-Hole Alternate Display,2018-08-14T01:11:56Z,2024-10-20T17:44:07Z,8,75,67,Python,True,True,True,True,False,False,False,7
+raganwald-deprecated/rewrite_rails,75,RewriteRails adds syntactic abstractions like Andand and String to Block to Rails projects without monkey-patching,2008-12-20T02:28:35Z,2024-10-19T19:22:23Z,6,75,246,Ruby,True,True,True,True,False,False,False,7
+thinkive/webcms,75,,2016-03-15T08:01:10Z,2020-11-09T15:48:35Z,0,75,40047,HTML,True,True,True,True,False,False,False,0
+guilhermecomum/inkscape-bootstrap,75,,2012-08-11T19:18:53Z,2024-05-08T00:46:36Z,21,75,1118,,True,True,True,True,False,False,False,0
+dmichael/amazon-mws,75,Amazon Marketplace Web Service (MWS) library for Ruby,2009-10-09T14:01:09Z,2024-05-15T14:39:00Z,83,75,312,Ruby,True,True,True,True,False,False,False,1
+NeilCrosby/frontend-test-suite,75,People don't give love to automated testing of the frontend. I intend to.,2008-11-26T21:59:47Z,2024-10-31T12:50:54Z,7,75,202,PHP,True,True,True,True,True,False,False,0
+XNAL/vue-github-rank,75,Vue.js+Node.js爬虫，GitHub数据的爬取与展示。,2017-09-21T13:51:48Z,2024-10-25T04:45:44Z,21,75,573,JavaScript,True,True,True,True,False,False,False,0
+bparsons/atlassian-systemd,75,Systemd unit files for Atlassian products,2013-01-21T14:11:41Z,2024-10-30T12:35:59Z,22,75,12,,True,True,True,True,False,False,False,0
+hawkingfoo/demo-agent,75,java agent demo,2018-01-14T13:31:04Z,2025-02-11T06:20:43Z,44,75,14,Java,True,True,True,True,False,False,False,1
+gfronza/rabbitmq-alert,75,Send notifications to the staff when predefined conditions are triggered,2013-06-19T01:19:39Z,2025-02-13T11:13:08Z,45,75,122,Python,True,True,True,True,False,False,False,7
+mihirdilip/aspnetcore-authentication-basic,75,Easy to use and very light weight Microsoft style Basic Scheme Authentication Implementation for ASP.NET Core.,2018-03-21T15:07:34Z,2025-01-31T07:59:24Z,8,75,142,C#,True,True,True,True,True,False,False,0
+pierredavidbelanger/logback-awslogs-appender,75,An Amazon Web Services (AWS) Logs (CloudWatch) appender for Logback,2016-06-09T15:49:06Z,2025-01-29T15:04:32Z,30,75,105,Java,True,True,True,True,False,False,False,7
+glmcdona/LuxPythonEnvGym,75,"Matching python environment code for Lux AI 2021 Kaggle competition, and a gym interface for RL models.",2021-08-22T17:11:03Z,2025-02-04T17:53:19Z,37,75,1534,Python,True,True,True,True,False,False,False,5
+ryanwinchester/kwiki,75,markdown wiki/blog,2015-04-22T23:47:02Z,2025-02-16T04:18:21Z,11,75,91,PHP,True,True,True,True,False,False,False,1
+TrilbyWhite/Leela,75,A CLI frontend to the poppler-glib libary of PDF tools,2012-05-29T20:35:49Z,2025-03-20T19:04:10Z,2,75,161,C,True,True,True,True,False,False,False,1
+JiaShun-Xiao/BLAST-bioinfor-tool,75,"Python implementation of Basic Local Alignment Search Tool (BLAST) , which is the core algorithm in sequence alignment for genomes.",2016-05-11T14:58:44Z,2025-03-20T22:58:30Z,29,75,947,Python,True,True,True,True,False,False,False,1
+ademidun/austrian-quant,75,Quantitative trading algorithms with Python and Quantopian.,2017-06-02T21:51:44Z,2025-03-16T16:08:35Z,40,75,71487,Python,True,True,True,True,False,False,False,1
+strinking/Good-Reads-And-Tips-About-Programming,75,This little repo contains helpful Links to various topics about Programming.,2017-08-26T20:30:05Z,2025-01-01T15:53:15Z,6,75,14,,True,False,True,False,False,False,False,3
+Tynamix/ObjectFiller.NET,75,The .NET ObjectFiller fills the properties of your .NET objects with random data,2014-04-12T23:33:36Z,2025-01-21T13:49:40Z,33,75,3498,C#,True,True,True,True,True,False,False,13
+danielmarbach/PerformanceTricksAzureSDK,75,Performance tricks I learned from contributing to the Azure .NET SDK,2022-03-11T14:04:43Z,2025-02-08T10:48:13Z,4,75,47446,JavaScript,True,False,True,False,True,False,False,0
+sdslabs/beast,75,Jeopardy-style CTF challenge deployment and management tool.,2018-06-05T03:04:14Z,2025-03-19T12:09:24Z,7,75,19710,Go,True,True,True,True,False,False,False,62
+johannesuhl/hironex,75,"HiRoNEx: Historical road network extractor: A python tool for automatic, fully unsupervised extraction of historical road networks from historical maps.",2022-04-04T22:40:56Z,2025-03-19T19:01:20Z,2,75,8767,Python,True,True,True,True,False,False,False,0
+ruiliu-ai/DivCo,75,"Official Pytorch implementation of ""DivCo: Diverse Conditional Image Synthesis via Contrastive Generative Adversarial Network"" (CVPR'21)",2021-03-14T11:21:04Z,2025-02-10T09:07:44Z,12,75,92,Python,True,True,True,True,False,False,False,2
+kwonoj/woodpile,75,SWC AST visitor in Javascript,2023-07-25T15:23:22Z,2025-03-19T10:30:01Z,2,75,52,Rust,True,False,True,False,False,False,False,2
+antfu/vite-fs,75,Reactive FileSystem for Vite accessible in client-side,2021-01-24T21:16:32Z,2024-11-14T10:16:07Z,0,75,44,TypeScript,True,True,True,True,False,False,False,0
+jeremynewlin/Accel,75,,2014-11-20T03:00:01Z,2025-03-01T07:51:50Z,15,75,47316,Mathematica,True,True,True,True,False,False,False,0
+yy1261633791/rtsp-web-converter,75,转码RTSP，RTMP或其他格式的流用于浏览器播放,2020-01-16T03:00:19Z,2025-03-07T11:22:46Z,31,75,59,Java,True,True,True,True,False,False,False,8
+tonarino/panel-firmware,75,"Firmware for the volume control hardware, targeting an STM32F4 board",2020-07-03T12:09:33Z,2025-03-05T08:18:07Z,10,75,117,Rust,True,True,True,False,False,False,False,8
+DAVFoundation/dav-js,75,"Enable integration of JavaScript, TypeScript, and Node.js code with the DAV Network",2017-07-29T17:38:30Z,2025-03-04T04:20:11Z,49,75,3462,TypeScript,True,False,True,True,False,False,False,8
+clojure-garden/clojure-garden,75,The navigator in the Clojure ecosystem,2021-11-29T19:24:09Z,2025-02-20T20:55:43Z,6,75,8577,Clojure,True,True,True,True,False,False,False,7
+VowpalWabbit/reinforcement_learning,75,"Interaction-side integration library for Reinforcement Learning loops: Predict, Log, [Learn,] Update",2018-10-03T19:02:54Z,2025-03-21T16:07:47Z,40,75,16460,C++,True,True,True,True,False,False,False,68
+zjrn/LSTM-CNN_CLASSIFICATION,75,,2018-04-25T12:41:58Z,2025-03-21T16:07:19Z,30,75,421,Python,True,True,True,True,False,False,False,1
+xtt129/seCrawler,75,A scrapy project can crawl search result of Google/Bing/Baidu,2015-10-28T18:16:07Z,2025-02-23T08:38:58Z,41,75,12,Python,True,True,True,True,False,False,False,3
+Torxgewinde/Desk-Lamp-Alternative-Firmware,75,An alternative firmware for the Mijia Xiaomi Desk Lamp,2018-04-13T19:13:35Z,2025-01-23T19:11:04Z,8,75,10604,C++,True,True,True,True,False,False,False,0
+twogate/cordova-plugin-sign-in-with-apple,75,A native-implemented plugin of Sign in with Apple // Thanks to your contribution! // Cordova>=8 iOS>=13,2019-08-26T14:22:36Z,2025-03-11T07:46:32Z,50,75,36,JavaScript,True,True,True,True,False,False,False,18
+cbilgili/zemberek-nlp-server,75,Zemberek Türkçe NLP Java Kütüphanesi üzerine REST Docker Sunucu,2018-04-22T12:09:13Z,2024-11-22T03:09:45Z,17,75,201,Java,True,True,True,True,False,False,False,1
+Alexis12119/nightly.nvim,75,"A customized theme for Neovim, based on the Everblush color scheme.",2023-01-29T23:47:44Z,2025-04-09T08:04:12Z,4,75,118,Lua,True,True,True,True,False,False,False,0
+AndySparks/public-journal,75,Knowledge and essays. Personal and public.,2018-01-01T23:29:01Z,2025-04-09T04:29:55Z,2,75,591,,True,True,True,True,False,False,False,0
+sanity-io/community-studio,75,Sanity Community Management Studio,2020-04-02T09:40:12Z,2025-04-10T11:32:10Z,10,75,25655,TypeScript,True,True,True,True,False,False,False,15
+wesleymilan/nginx-for-nodejs,75,Short tutorial on how to setup NGinx to run with NodeJS using PM2,2022-09-07T14:21:36Z,2025-04-10T11:53:00Z,41,75,178,TypeScript,True,True,True,True,False,False,False,0
+scudzey/UVROverlay,75,Universal VR Overlay,2016-08-07T04:39:24Z,2025-04-16T14:06:15Z,11,75,826,C++,True,True,True,True,False,False,False,6
+h3rald/hastysite,75,A small but powerful static site generator,2016-10-22T19:19:40Z,2025-04-16T05:07:20Z,2,75,11739,CSS,True,True,True,True,False,False,False,0
+Menci/simple-sandbox,75,A simple Linux sandbox with Node.js API.,2017-05-01T00:03:55Z,2025-04-16T22:47:40Z,21,75,159,C++,True,True,True,True,False,False,False,11
+behitek/social-scraper,75,"Vietnamese text data crawler scripts for various sites (including Youtube, Facebook, 4rum, news, ...)",2020-02-28T07:24:28Z,2025-04-17T01:41:09Z,46,75,23107,Python,True,True,True,True,False,False,True,0
+francisengelmann/3D-MPA,75,[CVPR 2020] Multi Proposal Aggregation for 3D Semantic Instance Segmentation,2020-04-04T17:51:09Z,2025-04-17T14:13:21Z,3,75,5552,,True,True,True,True,True,False,False,5
+s-matyukevich/bash-cni-plugin,75,,2018-08-08T21:02:10Z,2025-04-18T13:24:11Z,28,75,3,Shell,True,True,True,True,False,False,False,0
+CLUEbenchmark/CLUEWSC2020,75,CLUEWSC2020: WSC Winograd模式挑战中文版，中文指代消解任务,2020-05-24T14:37:33Z,2025-04-19T05:04:03Z,2,75,5,,True,True,True,True,False,False,False,1
+tayormi/writesync,75,"A modern, responsive blog engine built with Jaspr and Dart.",2025-02-10T02:22:45Z,2025-04-19T12:26:22Z,5,75,26533,Dart,True,True,True,True,False,False,False,0
+ShallowFeather/ReadWriteDriver,75,Read Write Memory without attach,2024-08-11T15:14:09Z,2025-03-08T06:21:41Z,4,75,26687,C,True,True,True,True,False,False,False,0
+hngprojects/hng_boilerplate_expressjs,75,,2024-07-18T10:21:39Z,2025-03-22T01:37:00Z,84,75,2702,TypeScript,True,True,True,True,False,False,False,75
+phimage/morphi,75,Shapes for SwiftUI ♡☾,2019-07-17T19:14:07Z,2025-03-30T01:46:29Z,2,75,314,Swift,True,False,True,False,False,False,False,2
+yesmeck/mini-store,100,A minimal state store for React component.,2017-10-21T04:13:05Z,2023-08-26T17:04:00Z,13,100,55,TypeScript,True,True,True,True,False,False,True,1
+acorncache/acorn-cache,100,A Configurable HTTP Proxy Caching Gem,2016-02-12T15:01:20Z,2022-04-08T16:20:43Z,8,100,114,Ruby,True,True,True,True,False,False,False,0
+civkit/paper,100,Civ Kit whitepaper,2023-04-13T00:30:08Z,2024-12-06T08:34:31Z,6,100,409,,True,True,True,False,False,False,False,4
+bgourlie/rs-nes,100,A work-in-progress NES emulator written in Rust,2015-06-29T03:41:35Z,2024-12-14T04:36:46Z,4,100,1706,Rust,True,True,True,True,False,False,False,15
+slavivanov/Style-Tranfer,100,Implementation of original style transfer paper (Gatys et al),2017-02-10T15:55:25Z,2024-01-04T16:11:19Z,36,100,2504,Jupyter Notebook,True,True,True,True,False,False,False,0
+pablo14/funModeling,100,"R package: funModeling: data cleaning, importance variable analysis and model perfomance",2016-02-08T20:24:33Z,2024-08-16T20:04:47Z,29,100,9399,HTML,True,True,True,True,True,False,False,3
+anthonybudd/WP_Model,100,A simple drop-in abstract class for creating active record style eloquent-esque models of WordPress Posts,2016-11-03T10:46:07Z,2024-01-03T12:18:29Z,20,100,158,PHP,True,True,True,True,False,False,False,4
+stevemao/awesome-pull-requests,100,How people work together (PR welcome!),2016-09-30T12:32:04Z,2024-12-20T04:20:57Z,9,100,5,,True,True,True,True,False,False,False,1
+vitjs/vit,100,🚀  React application framework inspired by UmiJS / 类 UmiJS 的 React 应用框架,2021-03-24T15:10:19Z,2024-05-22T03:38:20Z,7,100,556,TypeScript,True,False,True,False,False,False,False,1
+Alro10/YOLO-darknet-on-Jetson-TX2,100,How to run YOLO on Jetson TX2,2017-11-22T17:44:34Z,2024-06-06T10:53:51Z,31,100,2750,,True,True,True,True,False,False,False,3
+ICU2020/Maotai,100,抢茅台github项目精选,2021-01-05T07:04:09Z,2024-10-04T13:54:41Z,27,100,6,,True,True,True,True,False,False,False,1
+dzenbot/XCSnippetr,100,An Xcode Plugin to upload code snippets directly into Slack and Gist,2015-07-19T05:31:34Z,2025-02-20T01:36:13Z,3,100,4416,Objective-C,True,False,True,False,False,False,True,3
+miguelbranco80/goconfig,100,Configuration file parser for Go.,2009-11-25T16:42:12Z,2024-11-10T14:35:18Z,147,100,34,Go,True,True,True,True,False,False,True,2
+mossmann/retroreflectors,100,RF retroreflectors,2014-07-16T03:26:59Z,2024-11-30T18:42:47Z,20,100,110,KiCad,True,True,True,True,False,False,False,1
+ryanbelke/strapi-next,100,Strapi CMS tutorial with Nextjs,2018-10-07T15:26:37Z,2024-09-15T21:29:18Z,22,100,19159,JavaScript,True,True,True,True,False,False,False,0
+uswitch/bifrost,100,Safely archive data from Apache Kafka to S3 with no Hadoop dependencies :),2014-06-06T13:46:04Z,2024-12-15T16:52:49Z,15,100,58,Clojure,True,True,True,True,False,False,True,0
+Riim/Rionite,100,Rionite – реактивная обёртка над custom-elements,2015-10-27T16:05:28Z,2024-11-15T21:56:56Z,3,100,4341,TypeScript,True,True,True,True,False,False,False,0
+anexia-it/winshock-test,100,Bash script that tests if a system is Winshock (MS14-066) vulnerable,2014-11-13T10:05:19Z,2024-11-21T15:36:33Z,54,100,185,Shell,True,True,True,True,False,False,True,5
+ustwo/autocluster,100,The code base around the cluster prototypes. ,2015-02-03T17:05:12Z,2025-02-14T01:56:11Z,10,100,13726,JavaScript,True,True,True,True,False,False,False,1
+EnviralDesign/NodeMCU-Arduino-Pixel-Driver,100,Streaming Led pixel control,2016-12-13T19:20:54Z,2025-01-31T11:14:05Z,12,100,10987,C++,True,True,True,True,False,False,False,4
+ResearchKit/AsthmaHealth,100,"ResearchKit app studying Asthma, developed by Mt Sinai.",2015-03-25T18:29:40Z,2025-02-06T16:00:45Z,47,100,22092,Objective-C,True,True,True,False,False,False,False,0
+trilwu/miLazyCracker,100,Mifare Classic Plus - Hardnested Attack Implementation for SCL3711 LibNFC USB reader,2017-02-13T03:04:32Z,2025-02-06T20:31:55Z,25,100,45,Shell,False,True,True,True,False,False,False,1
+loganmeetsworld/awesome-newsroom-tech,100,"List of newsrooms around the world that are using software engineering, data science, osint, and various tech to elevate reporting.",2019-10-01T12:21:11Z,2025-02-03T03:48:58Z,10,100,92,,True,True,True,True,False,False,False,0
+johnmyleswhite/JAGSExamples,100,Examples of statistical models implemented using JAGS,2012-02-10T00:38:04Z,2025-02-06T00:38:23Z,39,100,6132,R,True,True,True,True,False,False,False,0
+arturadib/thewall,100,Anonymous Twitter-like wall (Agility.js demo),2011-07-20T22:39:12Z,2025-02-06T00:38:23Z,12,100,638,JavaScript,True,True,True,True,False,False,False,5
+zverok/wheretz,100,Fast and precise time zone by geo coordinates lookup,2016-01-28T15:32:24Z,2025-02-06T00:38:23Z,12,100,92145,Ruby,True,True,True,True,False,False,False,3
+misd-service-development/guzzle-bundle,100,[NOT MAINTAINED] Integrates Guzzle into your Symfony2 application,2012-11-12T11:15:58Z,2025-02-06T00:38:23Z,54,100,1001,PHP,True,True,True,False,False,False,False,21
+drublic/less-mixins,100,LESS mixins for general use,2013-08-13T08:23:20Z,2025-02-06T00:38:23Z,9,100,184,CSS,True,True,True,True,False,False,False,0
+keithpitt/vendor,100,Dependency management for iOS and OSX development,2011-08-28T00:54:10Z,2025-02-06T00:38:23Z,7,100,5008,Ruby,True,True,True,False,False,False,True,5
+simonedegiacomi/gphotosuploader,100,Unofficial Google Photos uploader and Go library,2017-06-25T14:27:03Z,2025-03-09T17:18:47Z,29,100,118,Go,True,True,True,True,False,False,False,8
+Juliest88/mysql-node-express,100,,2020-07-29T20:55:14Z,2025-03-16T12:20:42Z,38,100,22,JavaScript,True,True,True,True,False,False,False,12
+seanjgildea/CoreSpring5CertificationGuide,100,This guide is designed to help you prepare for the Core Spring 5.0 certification exam,2019-02-10T21:18:54Z,2025-03-16T05:44:34Z,37,100,589,,True,True,True,True,False,False,False,1
+quickjs-go/quickjs-go,100,golang binding quickjs,2021-01-07T08:40:49Z,2024-12-31T07:07:51Z,22,100,53273,Go,True,True,True,True,False,False,False,5
+adriacabeza/erudito,100,Erudito: Easy API/CLI to ask questions about your documentation,2023-03-20T18:43:27Z,2025-01-14T09:37:31Z,10,100,724,Python,True,True,True,False,True,False,False,7
+PearOCR/pearocr_issue,100,This repository is currently only used for issue tracking for https://pearocr.com,2021-08-10T07:37:06Z,2025-01-14T05:44:19Z,8,100,5,,True,True,True,True,False,False,False,44
+wudejian789/2020TIANCHI-ProteinSecondaryStructurePrediction-TOP1,100,2020天池大赛，蛋白质结构预测大赛TOP1方案分享,2020-03-25T08:04:02Z,2025-01-18T02:04:51Z,21,100,4828,Python,True,True,True,True,False,False,False,1
+dlenski/wtf,100,Whitespace Total Fixer,2014-08-30T17:25:49Z,2025-01-01T22:46:46Z,12,100,73,Python,True,True,True,True,False,False,False,10
+evilfer/react-phaser,100,,2016-04-02T12:02:37Z,2025-01-03T17:54:11Z,16,100,6494,JavaScript,True,True,True,True,False,False,False,7
+sindresorhus/gulp-ftp,100,[DEPRECATED] Upload files to an FTP-server,2013-12-25T14:32:16Z,2025-01-07T20:10:50Z,22,100,30,JavaScript,False,False,True,False,False,False,True,0
+erickreutz/mixturefm,100,Mixes for the masses. ,2012-03-31T22:52:50Z,2025-02-23T12:13:14Z,27,100,919,JavaScript,True,True,True,False,False,False,False,1
+ayushjain1594/Stock-Forecasting,100,Hidden Markov Model (HMM) based stock forecasting,2018-02-27T21:07:20Z,2025-01-19T23:33:04Z,57,100,1729,Python,True,True,True,True,False,False,False,2
+codrops/StackSlider,100,An experimental image slider that flips through images in 3D. Two stacks resemble image piles where images will be lifted off from and rotated to the center for viewing.,2012-12-03T10:24:57Z,2025-03-10T06:57:43Z,44,100,547,JavaScript,True,True,True,True,False,False,False,2
+kjpgit/metal-fireworks,100,"Fireworks Graphics Demo (Swift, Metal, macOS)",2015-11-16T16:41:20Z,2025-04-08T09:47:27Z,2,100,112,Swift,False,False,True,False,False,False,True,1
+rajetic/auto_oculus_touch,100,Tools to allow AutoHotKey to read the state of the Oculus Touch controllers.,2017-01-17T22:49:26Z,2025-04-09T08:33:38Z,20,100,449,C++,True,True,True,True,False,False,False,21
+Mav3rick33/ZenLdr,100,Basic implementation of Cobalt Strikes - User Defined Reflective Loader feature,2023-02-27T10:23:34Z,2025-04-10T17:25:31Z,8,100,138,C,True,True,True,True,False,False,False,0
+gaffling/PHP-Grab-Google-Reviews,100,:star: Get Google-Reviews with PHP cURL and API Key,2019-04-16T07:40:21Z,2025-04-11T05:32:35Z,33,100,70,PHP,True,True,True,True,False,False,False,0
+kowainik/typerep-map,100,⚡️Efficient implementation of Map with types as keys,2017-12-15T23:16:22Z,2025-04-12T22:47:26Z,18,100,192,Haskell,True,True,True,True,False,False,False,17
+jiangjh0908/Yolov8_with_DCNv3,100,在YOLOv8中替换卷积为DCNv3，实现有效涨点,2024-03-08T08:34:25Z,2025-04-14T11:38:56Z,0,100,61375,Python,True,True,True,False,False,False,False,6
+jwilk-archive/pdf2djvu,100,PDF to DjVu converter,2015-05-29T18:50:07Z,2025-04-15T09:33:57Z,19,100,8357,C++,True,False,True,False,False,False,True,52
+yanjao/vue-simple-template,100,vue+vuex+vue-router simple template,2017-12-27T03:23:28Z,2025-04-16T08:06:51Z,41,100,23,JavaScript,True,True,True,True,False,False,False,0
+GATB/bcalm,100,compacted de Bruijn graph construction in low memory,2014-12-25T16:11:49Z,2025-04-17T06:51:08Z,20,100,589,Python,True,True,True,True,False,False,False,18
+hpc/Spindle,100,Scalable dynamic library and python loading in HPC environments,2013-05-21T18:08:33Z,2025-04-19T00:21:21Z,25,100,4091,C,True,True,True,True,False,True,False,24
+gps-sdr/gps-sdr,100,Open source GPS receiver based on USRP and GN3S,2008-05-13T23:44:18Z,2025-04-19T22:13:59Z,50,100,9657,C++,True,True,True,True,True,False,False,0
+OpenFOAM/OpenFOAM-7,100,OpenFOAM Foundation repository for OpenFOAM version 7,2019-07-08T08:37:30Z,2025-03-29T08:26:22Z,105,100,85284,C++,True,True,True,True,False,False,False,2
+rubymorillo/pocket-ux-list,100,"A small, but formidable, list of UX-related resources for people interested in learning more about UX concepts. ",2019-08-31T15:33:28Z,2025-03-28T19:09:32Z,9,100,25,,True,True,True,True,False,False,False,1
+ServiceNow/example-restclient-myworkapp-nodejs,100,This project contains source code for an example Node.js web application that interacts with ServiceNow's REST APIs.,2016-03-04T22:10:00Z,2025-03-29T19:49:17Z,113,100,1032,JavaScript,True,True,True,True,False,False,False,7
+TurboPack/Orpheus,100,Orpheus is an award-winning UI toolkit for Embarcadero Delphi & C++Builder,2015-02-18T12:02:53Z,2025-03-23T01:27:31Z,37,100,9273,Pascal,True,True,True,True,False,False,False,9
+theraw/The-World-Is-Yours,100,Nginx L7 DDoS Protection! And many more features :boom: :zap:,2017-11-29T11:16:29Z,2025-04-03T23:36:12Z,36,100,82707,Shell,True,True,True,True,True,False,False,1
+EzequielRamis/liga,100,Get your favourite programming font with ligatures ✨,2021-11-30T17:30:45Z,2025-04-04T23:57:41Z,3,100,10029,Python,True,True,True,True,False,False,False,0
+HelloWk/MagicMirror,100,,2016-03-25T11:44:08Z,2025-04-01T01:07:33Z,47,100,24404,JavaScript,True,True,True,True,False,False,False,4
+mdadams/clang_libraries_companion,100,Companion Repository for the Lecture Slides for the Clang Libraries,2022-12-27T21:10:00Z,2025-03-28T05:28:42Z,12,100,222,C++,True,True,True,True,False,False,False,0
+go-distributed/epaxos,100,epaxos,2014-01-25T20:26:18Z,2025-03-02T06:36:24Z,25,100,1904,Go,True,True,True,True,False,False,False,21
+robinvanderknaap/MvcJqGrid,100,Fluent jqGrid Html Helper for ASP.NET MVC,2010-06-07T21:08:19Z,2025-03-04T00:00:06Z,74,100,43966,C#,True,True,True,False,False,False,False,8
+ideasman42/isect_segments-bentley_ottmann,100,BentleyOttmann sweep-line implementation (for finding all intersections in a set of line segments),2015-10-18T10:08:31Z,2025-03-28T01:55:09Z,42,100,352,Python,True,True,True,False,False,False,False,9
+uken/newrelic-timing,100,Integrates Single Page Apps with NewRelic's Real User Monitoring,2013-11-27T21:32:03Z,2025-04-26T12:25:46Z,17,100,20,JavaScript,True,True,True,False,False,False,False,3
+HazyResearch/fonduer-tutorials,100,A collection of simple tutorials for using Fonduer,2018-03-23T20:13:51Z,2025-04-29T11:49:29Z,26,100,8514,Jupyter Notebook,True,False,True,False,False,False,False,9
+hanc00l/jscat,100,JScript RAT,2020-01-08T13:23:04Z,2025-04-30T01:33:42Z,26,100,86,Python,True,True,True,True,False,False,True,0
+k-yomo/fixtory,100,"Type-safe, DRY, flexible test fixture factory based on Go 1.18+ Generics",2020-08-08T15:23:10Z,2025-04-30T02:54:17Z,5,100,108,Go,True,True,True,True,False,False,False,5
+Stuhl/javascript-entity-component-system,100,A simple and small sized Entity Component System for HTML5 games,2019-04-19T12:51:57Z,2025-04-21T08:21:21Z,1,100,1140,JavaScript,True,True,True,True,True,False,False,2
+ymex/banner,100," Android Viewpager rotation control, application guide page controls, support vertical, horizontal cycle scrolling, extended from view support animation, indicator extension and so on;Android viewpager轮播图控件、app引导页控件，支持垂直、水平循环滚动，扩展自viewpager 支持动画，指示器扩展等。",2017-09-08T14:15:05Z,2025-04-22T04:45:42Z,19,100,17425,Java,True,True,True,True,False,False,False,1
+KeithYokoma/AccountAutoCompleteEditText,100,Simple extension for account suggestion and auto completion.,2014-03-05T02:16:33Z,2025-05-02T16:51:57Z,17,100,361,Java,True,True,True,False,False,False,False,0
+edjw/find-nearest-tailwind-colour,100,A webapp to find the nearest Tailwind CSS colour from a given hex colour code,2020-12-31T14:37:37Z,2025-05-01T20:15:58Z,13,100,761,JavaScript,True,True,True,True,False,False,False,2
+fu123456/SHIQ,100," Project for CVPR21 paper: ""A Multi-Task Network for Joint Specular Highlight Detection and Removal"".",2021-07-15T08:19:21Z,2025-05-03T21:05:02Z,17,100,1053,Shell,True,True,True,True,False,False,False,22
+Kautenja/RackNES,100,A Nintendo Entertainment System (NES) emulator module for VCV Rack.,2020-06-14T05:16:38Z,2025-05-03T23:29:19Z,3,100,2531,C++,True,False,True,False,False,False,False,10
+pyside/Shiboken,100,Python bindings generator that uses API Extractor and outputs CPython code.,2010-12-23T17:20:54Z,2025-05-06T08:22:28Z,26,100,11316,C++,True,True,True,False,False,False,False,24
+YQ-YSY/stroke-seq_MB,100,单手笔顺输入法码表 Code table for Chinese stroke sequence (one hand) input method,2016-04-15T13:51:16Z,2025-05-04T22:08:22Z,28,100,192311,Python,True,True,True,True,False,False,False,7
+MithunTechnologiesDevOps/maven-web-application,100,,2019-09-10T14:52:04Z,2025-05-05T08:56:51Z,12494,100,353,Java,True,True,True,True,False,False,False,212
+valebes/rsClock,100,A simple terminal clock written in Rust.,2019-07-06T13:04:35Z,2025-05-06T12:38:10Z,6,100,7728,Rust,True,True,True,True,False,False,False,6
+Cobalt-Strike/sleepmask-vs,100,A simple Sleepmask BOF example,2024-07-04T11:39:52Z,2025-05-07T03:36:49Z,22,100,39,C++,False,True,True,False,False,False,False,0
+rmarkello/abagen,100,A toolbox for working with Allen Human Brain Atlas microarray expression data,2018-03-20T21:01:39Z,2025-05-07T02:51:49Z,44,100,8035,Python,True,True,True,True,False,False,False,33
+LSPosed/LSPlt,100,Simple PLT hook for Android,2022-11-23T11:01:14Z,2025-05-09T09:32:36Z,18,100,604,C++,True,True,True,True,True,False,False,0
+huan-xi/blockchainj,100,java区块链，实现联盟链溯源系统,2019-01-23T09:55:00Z,2025-05-10T11:47:51Z,55,100,75,Java,True,True,True,True,False,False,False,6
+AdguardTeam/AdGuardVPNCLI,100,AdGuard VPN command-line version,2024-04-04T16:25:19Z,2025-05-11T07:32:53Z,2,100,73,Shell,True,False,True,False,False,False,False,42
+Wujiaxuan007/intellij-sdk-code-samples,100,IntelliJ 插件开发代码示例 ,2022-12-20T02:33:36Z,2025-05-13T02:41:17Z,23,100,768,Kotlin,True,True,True,True,False,True,False,0
+devpew/muffinReactNative,100,,2021-05-05T15:52:06Z,2025-05-13T03:35:38Z,3,100,201,JavaScript,True,True,True,True,False,False,False,0
+VIS4ROB-lab/decoSLAM,100,,2023-02-27T09:33:47Z,2025-05-12T15:15:40Z,8,100,38119,C++,True,True,True,True,False,False,False,2
+TimSoethout/goodwe-sems-home-assistant,100,Sensor for Home Assistant pulling data from the GoodWe SEMS API for solar panel production metrics.,2019-01-04T21:12:46Z,2025-05-13T13:37:28Z,40,100,314,Python,True,True,True,True,False,True,False,23
+vercel-labs/ai-sdk-preview-roundtrips,100,,2024-09-04T12:28:35Z,2025-05-14T04:01:50Z,16,100,346,TypeScript,True,True,True,True,False,False,False,0
+bingryan/WeChatAI,100,All in One AI Chat Tool( GPT-4 / GPT-3.5 /OpenAI API/Azure OpenAI/Prompt Template Engine),2023-04-20T07:51:59Z,2025-05-14T07:33:45Z,14,100,4191,Rust,True,True,True,True,False,False,False,3
+luttje/Key2Joy,100,Simulate a GameController/Joystick using your keyboard and mouse.,2022-03-01T23:10:52Z,2025-05-14T21:00:24Z,2,100,109214,C#,True,False,True,False,False,True,False,25
+usail-hkust/UUKG,100,UUKG: Unified Urban Knowledge Graph Dataset for Knowledge-Enhanced Urban Spatiotemporal Prediction,2023-02-02T13:48:09Z,2025-05-15T02:32:50Z,14,100,34228,Python,True,True,True,True,False,False,False,5
+lkmio/lkm,100,"A high-performance, Go-based streaming media server that supports JT/T 1078 and GB28181 protocols.",2024-07-15T11:54:25Z,2025-05-15T06:38:54Z,17,100,408,Go,True,True,True,True,False,False,False,9
+shengqing1/openmv-stm32,100,基于openmv+stm32的二维云台追踪系统,2022-10-07T06:38:39Z,2025-05-16T09:12:04Z,7,100,15890,C,False,True,True,False,False,False,False,0
+gematik/api-erp,100,gematik provides a comprehensive overview of the e-prescription interfaces. This API documentation serves as a supplement to gematik's standard regulatory documents and details the e-prescription profiles based on the FHIR standard.,2020-04-30T10:31:16Z,2025-05-16T06:03:33Z,23,100,185866,HTML,True,True,True,True,True,False,False,3
+curiousily/ragbase,100,"Completely local RAG. Chat with your PDF documents (with open LLM) and UI to that uses LangChain, Streamlit, Ollama (Llama 3.1), Qdrant and advanced methods like reranking and semantic chunking.",2024-07-11T10:12:30Z,2025-05-15T19:54:32Z,36,100,419,Python,True,True,True,False,False,False,False,9
+minhmanho/deep_preset,100,[WACV'21] Deep Preset: Blending and Retouching Photos with Color Style Transfer,2020-07-20T09:56:10Z,2025-05-16T15:20:36Z,12,100,172201,Python,True,True,True,True,True,False,False,0
+inway/flutter_ringtone_player,100,"Simple Flutter plugin to play ringtone, alarm & notification sounds",2019-04-26T18:31:23Z,2025-05-18T10:21:43Z,83,100,3258,Dart,True,False,True,False,False,True,False,13
+inlabru-org/inlabru,100,inlabru,2016-10-18T14:56:46Z,2025-05-18T20:48:58Z,21,100,5558856,R,True,True,True,True,True,True,False,26
+lucidrains/MaMMUT-pytorch,100,"Implementation of MaMMUT, a simple vision-encoder text-decoder architecture for multimodal tasks from Google, in Pytorch",2023-05-05T19:03:19Z,2025-05-17T16:30:13Z,4,100,99,Python,True,True,True,True,False,False,False,1
+WraithsDev/img-logger,100,,2025-02-25T12:58:06Z,2025-05-17T22:16:52Z,163,100,8,Python,True,True,True,True,False,False,False,3
+rsieiro/RSOAuthEngine,150,ARC based OAuth engine for MKNetworkKit,2011-12-13T23:17:18Z,2023-04-11T07:19:22Z,31,150,908,Objective-C,True,True,True,True,False,False,False,1
+lintool/Mr.LDA,150,Scalable Topic Modeling using Variational Inference in MapReduce,2012-01-31T01:59:43Z,2024-11-14T02:47:45Z,95,150,781,Java,True,False,True,False,True,False,True,8
+DrSleep/nas-segm-pytorch,150,"Code for Fast Neural Architecture Search of Compact Semantic Segmentation Models via Auxiliary Cells, CVPR '19",2019-06-16T02:30:36Z,2024-11-26T01:50:10Z,24,150,21733,Smalltalk,True,True,True,True,False,False,True,2
+EricWVGG/AngularSlideables,150,"A ""pure"" Angular implementation of jQuery-style toggleSlide().",2013-11-01T21:06:15Z,2024-10-15T04:58:49Z,42,150,262,JavaScript,True,True,True,True,False,False,False,12
+MagiCircles/SchoolIdolAPI,150,The ultimate resource for LLSIF players,2015-01-21T13:49:22Z,2024-09-15T20:55:29Z,28,150,60360,Python,True,True,True,True,False,False,False,149
+rafaelgomesxyz/esgst,150,An extension that enhances SteamGifts / SteamTrades.,2017-09-14T14:09:52Z,2025-02-14T07:53:28Z,23,150,89416,JavaScript,True,False,True,True,False,False,False,89
+AllenCoder/AndroidCustomView,150,一个简单的投票排名对比图,2016-08-15T10:08:14Z,2025-01-30T16:09:28Z,28,150,1377,Java,True,True,True,True,False,False,False,1
+FermiQC/Fermi.jl,150,Fermi quantum chemistry program,2020-06-23T18:22:50Z,2025-03-20T18:48:30Z,26,150,45520,Julia,True,True,True,True,True,True,False,22
+taviso/lotusdrv,150,Lotus 1-2-3 R4D Display Driver for DOSEMU,2021-03-01T15:55:49Z,2025-01-15T05:41:41Z,2,150,318,C,True,True,True,True,False,False,False,2
+PhilipSchmid/k8s-home-lab,150,Setup for a K8s home lab running on a single host (e.g. Intel NUC),2020-09-27T11:07:05Z,2025-03-19T17:22:06Z,20,150,18789,,True,False,True,False,False,False,False,4
+bbcmicrobit/hardware,150,Hardware designs for the BBC micro:bit,2017-03-01T16:03:26Z,2025-02-22T14:16:56Z,44,150,665,,True,True,True,True,False,False,False,1
+armory3d/sdfgen,150,GPU-based SDF generator,2017-07-15T14:13:43Z,2025-01-26T23:23:12Z,13,150,19524,Haxe,True,True,True,True,False,False,True,0
+bobheadxi/gobenchdata,150,"📉 Run Go benchmarks, publish results to an interactive web app, and check for performance regressions in your pull requests",2019-04-25T06:06:15Z,2025-03-06T16:54:45Z,13,150,8990,Go,True,False,True,False,True,True,False,11
+numeristical/introspective,150,Repo for the ML_Insights python package,2016-09-28T21:30:53Z,2025-04-14T00:02:58Z,67,150,20479,Jupyter Notebook,True,True,True,True,False,False,False,18
+nickrusso42518/slt-py-example,150,Safari Live Training - Python by Example,2018-09-06T19:53:10Z,2025-03-22T19:12:37Z,192,150,60,Python,True,True,True,True,False,False,False,0
+JPMinty/MindMaps,150,Collection of created MindMaps,2020-04-28T09:25:15Z,2025-03-28T23:03:06Z,25,150,160847,,True,True,True,True,False,False,False,0
+fivethirtyeight/police-settlements,150,A FiveThirtyEight/The Marshall Project effort to collect comprehensive data on police misconduct settlements from 2010-19.,2021-02-22T20:54:39Z,2025-04-02T21:56:31Z,35,150,70695,R,True,False,True,True,False,False,False,3
+AstraZeneca/awesome-shapley-value,150,"Reading list for ""The Shapley Value in Machine Learning"" (JCAI 2022)",2022-04-29T13:50:41Z,2025-04-26T05:23:47Z,12,150,637,,True,True,True,True,False,False,False,0
+phoinixi/jsonresume-theme-stackoverflow,150,Stack Overflow theme for JSON Resume,2015-09-07T15:06:07Z,2025-04-26T17:35:08Z,147,150,280,Handlebars,True,False,True,True,False,False,False,3
+SmallRuralDog/yundocs,150,云档3.0版本，taro开发。可打包多平台小程序，h5，IOS和Android客户端。欢迎star跟进,2019-01-10T10:49:59Z,2025-04-30T02:16:37Z,28,150,598,TypeScript,True,True,True,True,False,False,False,3
+fengzhenHIT/OpenCV_Projects,150,OpenCV实现计算机视觉项目,2020-09-08T04:15:50Z,2025-04-30T03:39:17Z,25,150,5,,True,True,True,True,False,False,False,0
+KYX1234/Element-Admin,150,基于 Vue3、TypeScript、Vite、Pinia、Element-Plus、Unocss 的一套后台管理框架。,2023-07-12T12:31:18Z,2025-04-23T07:32:30Z,24,150,17599,Vue,True,True,True,True,True,False,False,1
+hanshaze/MS17-010-EternalBlue-WinXP-Win10,150,EternalBlue Metasploit Port to various Windows Versions from Windows XP SP2 up to Windows 10 Pro,2017-10-22T18:33:57Z,2025-04-21T17:45:40Z,88,150,59,Ruby,False,True,True,True,False,False,False,0
+norbusan/pymupdf-debian,150,Packaging of pymupdf for Debian,2020-02-15T22:38:11Z,2025-04-22T13:17:10Z,0,150,19045,SWIG,True,True,True,True,False,False,True,0
+mwarning/SimpleDNS,150,A very simple and small DNS Server to help understanding the protocol basics.,2013-04-14T22:51:03Z,2025-04-22T13:07:21Z,49,150,47,C,True,True,True,True,False,False,False,0
+pcouy/rpi-eth-display,150,Turn a RPi into an additionnal video output over Ethernet,2023-03-14T10:47:47Z,2025-04-24T22:13:28Z,4,150,43,Shell,True,False,True,False,False,True,False,1
+aweris/gale,150,GitHub Action Local Executor,2023-04-19T19:16:47Z,2025-04-30T20:18:25Z,5,150,5542,Go,True,True,True,True,True,False,False,10
+Bitvested/ta.js,150,Financial Technical Analysis in JavaScript,2020-08-24T10:36:24Z,2025-04-30T15:47:04Z,34,150,635,JavaScript,True,True,True,True,False,False,False,3
+Shopify/shopify-frontend-template-react,150,,2022-04-08T14:29:37Z,2025-05-06T04:02:03Z,71,150,342,JavaScript,True,True,True,True,False,False,False,24
+dragonman225/stm32f469-usbaudio,150,Enable 24-bit / 96kHz Hi-Fi PCM stereo audio output via USB Audio Class 1.0 asynchronous mode on STM32469I-Discovery · Volume and mute control implemented,2019-09-19T17:28:22Z,2025-05-08T16:20:27Z,36,150,17664,C,True,True,True,True,False,False,False,6
+IIT-PAVIS/AI-Thermometer,150,Code for automatically measuring the temperature of people using a thermal camera.,2020-03-19T20:07:42Z,2025-05-08T21:10:42Z,57,150,2394,Python,True,True,True,True,False,False,False,2
+speedskater/hot,150,HOT - Height Optimized Trie,2017-07-25T18:08:42Z,2025-05-08T03:36:58Z,34,150,399,C++,True,True,True,True,False,False,False,9
+scalegenius/pg_bitemporal,150,Bitemporal tables in Postgres,2015-12-07T21:14:04Z,2025-05-09T15:03:03Z,29,150,3371,PLpgSQL,True,True,True,True,False,False,False,3
+tysonwu/dash-tradingview,150,Tradingview Lightweight Charts wrapper for Plotly Dash apps,2022-09-10T13:58:11Z,2025-05-10T07:07:04Z,27,150,6652,Python,True,True,True,True,False,False,False,8
+cabbage-ex/cabbage,150,Story BDD tool for executing elixir in ExUnit,2016-12-28T15:08:22Z,2025-05-10T22:59:58Z,34,150,233,Elixir,True,True,True,True,False,True,False,18
+YaN9-Y/lafin,150,LaFIn: Generative Landmark Guided Face Inpainting,2019-11-25T10:34:06Z,2025-05-12T02:20:06Z,28,150,503,Python,True,True,True,True,False,False,False,12
+excalidraw/svg-to-excalidraw,150,Convert SVGs into Excalidraw data,2021-02-18T23:39:31Z,2025-05-11T22:34:34Z,34,150,780,TypeScript,True,True,True,True,False,False,False,12
+BaileyJM02/markdown-to-pdf,150,A GitHub Action to make PDF and HTML files from Markdown,2020-04-21T19:46:36Z,2025-05-13T07:16:09Z,38,150,155,CSS,True,True,True,False,False,True,False,26
+TRaSH-Guides/Synology-Templates,150,Here you will find a collection of docker-compose's for Synology related to TRaSH Guides,2021-01-26T17:58:36Z,2025-05-12T13:57:13Z,37,150,333,Shell,True,False,True,False,False,False,False,3
+julia-vscode/StaticLint.jl,150,Static Code Analysis for Julia,2017-12-03T21:36:24Z,2025-05-14T10:47:29Z,29,150,1516,Julia,True,False,True,True,True,False,False,63
+amastaneh/IranianBankLogos,150,Iranian bank logos - لوگوهای بانک های ایران,2016-06-06T18:27:53Z,2025-05-13T16:48:56Z,24,150,32397,HTML,True,True,True,True,True,False,False,17
+surayashivji/potter-pics,150,harry potter themed social network similar to IG,2016-11-17T04:29:44Z,2025-05-13T18:21:03Z,35,150,45272,Swift,True,True,True,True,False,False,False,0
+bl0/moco,150,"Unofficial implementation with pytorch DistributedDataParallel for ""MoCo: Momentum Contrast for Unsupervised Visual Representation Learning""",2020-01-23T10:22:58Z,2025-05-14T05:50:59Z,18,150,60,Python,True,True,True,True,False,False,False,2
+R3ab/ttpla_dataset,150, aerial images dataset on transmission towers and power lines,2020-09-30T01:22:49Z,2025-05-14T06:15:35Z,34,150,51083,Python,True,True,True,True,False,False,False,9
+aws/rolesanywhere-credential-helper,150,,2022-07-20T03:26:39Z,2025-05-15T21:46:31Z,49,150,1941,Go,True,True,True,False,False,False,False,25
+rapiddweller/rapiddweller-benerator-ce,150,"BENERATOR is a leading software solution to generate, obfuscate, pseudonymize and migrate data for development, testing, and training purposes with a model-driven approach.",2021-01-20T12:13:30Z,2025-05-16T06:13:26Z,27,150,37004,Java,True,True,True,True,False,True,False,13
+MPI-SWS/genmc,150,Generic model checker for concurrent C programs (mirror repository),2019-02-11T14:21:22Z,2025-05-16T10:12:25Z,24,150,2700,C++,True,True,True,True,False,False,False,18
+wdecoster/cramino,150,"A *fast* tool for BAM/CRAM quality evaluation, intended for long reads",2022-09-05T21:00:50Z,2025-05-16T18:23:10Z,11,150,180176,Rust,True,True,True,True,False,False,False,4
+google-fabric/galley,150,Orchestrator for local Docker containers,2015-09-17T19:05:12Z,2025-05-17T01:11:49Z,9,150,252,CoffeeScript,True,True,True,True,False,False,True,1
+hugues31/coinnect,150,Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.,2017-02-14T23:22:33Z,2025-05-16T15:27:51Z,43,150,373,Rust,True,True,True,True,False,False,False,8
+Forgot-Dream/STS-Bcut,150,使用必剪API，语音转字幕，支持输入声音文件，也支持输入视频文件自动提取音频。,2023-02-25T06:08:54Z,2025-05-17T07:22:12Z,16,150,110,C#,True,True,True,True,False,False,False,1
+co-cddo/api-catalogue,150,The list of APIs in Government,2019-09-05T11:03:45Z,2025-05-17T23:52:56Z,36,150,27353,Ruby,True,True,True,False,True,True,False,46
+Shougo/dpp.vim,150,Dark powered plugin manager for Vim/Neovim,2023-08-08T23:23:02Z,2025-05-18T08:23:21Z,5,150,380,TypeScript,True,True,True,True,False,False,False,0
+endurodave/StateMachine,150,State Machine Design in C++,2017-10-28T15:10:24Z,2025-05-19T08:20:18Z,42,150,76,C++,True,True,True,True,False,False,False,3
+pawamoy/markdown-exec,150,Utilities to execute code blocks in Markdown files.,2022-02-11T22:48:50Z,2025-05-19T13:23:07Z,15,150,2230,Python,True,True,True,True,True,True,False,19
+mijia/gopark,150,A Naive/Local Go Porting of Spark/DPark,2013-10-12T09:07:16Z,2025-04-03T01:42:54Z,16,150,217,Go,True,True,True,True,False,False,False,2
+BlackHC/neural_net_checklist,150,,2024-08-13T19:01:01Z,2025-03-27T03:44:43Z,8,150,52,Python,True,True,True,True,False,False,False,0
+varletjs/varlet-vue2,150,Material design mobile component library for Vue2 / 基于 Vue2 的 Material design 风格移动端组件库,2022-02-16T05:50:31Z,2025-03-30T08:26:22Z,27,150,12133,Vue,True,True,True,True,False,False,True,0
+heqing0712/vue-codepen,150,vue-codepen 在线代码编辑器  ,2018-03-17T16:25:08Z,2025-03-31T13:23:24Z,40,150,4029,JavaScript,True,True,True,True,True,False,False,10
+jixianu/EasyFun,150,a project  using react antd webpack es6 ,2017-02-23T15:49:25Z,2025-03-31T21:56:10Z,46,150,1580,JavaScript,True,True,True,True,False,False,False,3
+zygmuntz/numer.ai,150,Validation and prediction code for numer.ai,2015-12-16T20:54:00Z,2023-12-13T17:49:43Z,41,150,19,Python,True,True,True,True,False,False,False,0
+mateuszkocz/3l,150,Lots of Love for LESS,2012-03-21T23:27:55Z,2024-01-17T15:48:34Z,22,150,1222,CSS,True,True,True,True,True,False,False,4
+tolgaergin/social,150,jQuery plugin for listing profiles and sharing,2013-01-07T14:03:10Z,2024-01-17T15:59:15Z,56,150,722,CSS,True,True,True,True,False,False,False,9
+science-periodicals/jsonld-vis,150,Turn JSON-LD into pretty graphs,2015-12-15T22:17:56Z,2024-12-09T16:39:33Z,26,150,685,JavaScript,True,True,True,True,False,False,False,6
+fullscale/pypes,150,A component based data flow framework with a drag-n-drop Web 2.0 interface. Based on Stackless Python and inspired by Yahoo! Pipes.,2011-12-13T16:12:27Z,2024-07-25T15:07:51Z,50,150,2518,JavaScript,True,True,True,True,False,False,False,3
+hifocus/instapp,150,"Get apps instantly via web. (This project is currently deprecated, aside from some infrequent fixes)",2018-06-02T05:31:26Z,2024-05-09T06:32:28Z,15,150,13307,HTML,True,False,True,False,True,False,False,3
+juxt/iota,150,Infix operators for test assertions,2015-07-17T14:13:45Z,2024-10-23T06:13:58Z,7,150,27,Clojure,True,True,True,True,False,False,False,5
+jp1017/Android-Development-Aircraft-Carrier,150,打造安卓开发航空母舰，Android Studio 使用集锦,2015-10-20T03:12:15Z,2025-02-21T15:48:04Z,38,150,17,,True,True,True,True,False,False,False,1
+1135/1135-CobaltStrike-ToolKit,150,about CobaltStrike,2019-02-22T09:36:44Z,2025-02-19T17:47:46Z,35,150,23,,True,True,True,True,False,False,False,0
+deadlydog/Invoke-MsBuild,150,Invoke-MsBuild PowerShell module to make building projects and solutions with MsBuild.exe easy.,2016-05-25T06:29:01Z,2025-01-28T08:07:59Z,34,150,193,PowerShell,True,True,True,True,False,False,False,4
+jolicode/composer-cheatsheet,150,:clipboard: Everything you have to know about composer.json in one page.,2012-07-25T13:10:37Z,2025-01-12T17:08:02Z,43,150,182,HTML,True,True,True,True,True,False,False,7
+nicolasgramlich/AndEnginePhysicsBox2DExtension,150,AndEngine - Physics Box2D Extension,2011-11-22T22:29:03Z,2025-03-22T23:37:16Z,187,150,24367,C++,True,True,True,True,False,False,False,9
+Akira-Hayasaka/ofxInkSim,150,openFrameworks ink/fluid deposition simulator addon.,2015-05-15T07:55:41Z,2025-03-21T22:23:13Z,27,150,12194,C++,True,True,True,True,False,False,False,4
+glumes/AndroidDevWithCpp,150,Android Develop With C++,2017-05-25T16:23:55Z,2025-02-06T09:20:01Z,39,150,303,C,True,True,True,True,False,False,False,1
+crisbal/docker-torch-rnn,150,Docker images for using torch-rnn,2016-05-15T11:42:33Z,2025-03-01T06:14:16Z,37,150,14,Dockerfile,True,True,True,True,False,False,False,9
+vincentdchan/jetpack.js,150,A JavaScript bundler and minifier implemented in C++ aimed at excellent performance.,2019-09-12T18:29:39Z,2025-02-28T04:19:11Z,9,150,27601,C++,True,True,True,True,False,False,False,7
+OneGraph/graphiql-explorer-example,150,Example of OneGraph's GraphiQL Explorer in action,2019-01-22T20:43:41Z,2025-01-29T19:53:39Z,54,150,1613,JavaScript,True,True,True,True,True,False,False,29
+openwebwork/webwork2,150,Course management front end for WeBWorK,2011-12-28T19:22:20Z,2025-03-26T11:42:58Z,165,150,89565,Perl,True,True,True,True,False,True,False,127
+chenshuo/linux-debug,150,,2016-04-06T03:19:52Z,2025-03-25T09:21:00Z,53,150,598086,C,True,True,True,True,False,False,False,1
+yarodevuci/backgroundTask,150,An infinite backgroundTask based on playing blank audio file ...,2016-08-28T05:24:18Z,2025-03-25T19:09:32Z,24,150,67,Swift,True,True,True,True,False,False,False,1
+ivafanas/sltbench,150,"C++ benchmark tool. Practical, stable and fast performance testing framework.",2016-06-19T12:12:16Z,2025-03-25T15:07:40Z,10,150,349,C++,True,True,True,True,False,False,False,11
+liftoff-sr/CIPster,150,Ethernet/IP (Common Industrial Protocol) stack in C++.  This started as a C to C++ conversion of C based OpENer.,2016-04-26T20:45:40Z,2025-04-08T23:22:37Z,52,150,1813,C++,True,True,True,True,False,True,False,3
+jpuigcerver/Laia,150,Laia: A deep learning toolkit for HTR based on Torch,2016-03-15T14:32:19Z,2025-04-14T05:54:09Z,56,150,1884,Shell,True,True,True,True,False,False,False,8
+zerofox-oss/SNAP_R,150,A machine learning based social media pen-testing tool,2016-07-28T20:35:35Z,2025-04-17T00:24:00Z,41,150,37,Python,True,True,True,True,False,False,False,1
+thinks/fast-marching-method,150,"Single file, header-only, no dependencies C++ implementation of the fast marching method in arbitrary dimensions.",2015-10-11T19:17:34Z,2025-04-17T06:31:00Z,28,150,10065,C++,True,True,True,True,False,False,False,0
+Scrawk/2D-Deformable-body-in-Unity,150,A 2D Deformable body simulation in Unity using FEM,2017-12-31T10:09:38Z,2025-04-16T01:35:05Z,12,150,3134,C#,True,True,True,True,False,False,False,1
+cyberboysumanjay/APIs,150,This Repository contains link to many Open or Closed Source APIs which I've made,2020-06-08T12:59:18Z,2025-04-18T16:58:54Z,26,150,44,,True,True,True,True,True,False,False,1
+Interbotix/interbotix_ros_manipulators,150,ROS Packages for Interbotix Arms,2020-10-22T18:46:20Z,2025-04-21T04:03:11Z,95,150,13881,Python,True,False,True,False,False,False,False,20
+vincent-picaud/Bazel_and_CompileCommands,150,Add compile_commands.json to your C++ Bazel Project,2017-06-26T13:44:52Z,2025-04-23T12:00:08Z,32,150,27,Shell,True,True,True,True,False,False,False,0
+Shinmera/deploy,150,Deployment tools for standalone Common Lisp applications,2017-06-06T16:58:07Z,2025-04-26T23:26:38Z,16,150,166,Common Lisp,True,True,True,True,True,False,False,4
+Ebryx/Nessus_Map,150,Parse .nessus file(s) and shows output in interactive UI,2019-02-07T12:28:43Z,2025-04-29T04:32:02Z,42,150,372,HTML,True,True,True,True,False,False,False,0
+catharsis/spotifile,150,FUSE file system for Spotify,2013-04-09T19:03:54Z,2025-04-29T19:25:25Z,7,150,279,C,True,True,True,False,True,False,False,16
+fail0verflow/radeon-tools,150,Radeon reverse engineering tools,2016-12-27T21:34:27Z,2025-05-01T12:39:37Z,17,150,28,Python,True,True,True,True,False,False,False,1
+pentilm/FactAI,150,"Harnessing the Power of AI to Navigate the Information Age – Uncovering Truth, Promoting Transparency, and Championing Fact-Based Discourse!",2023-05-30T11:04:14Z,2025-05-01T12:28:57Z,40,150,16259,Python,True,True,True,True,False,True,False,0
+redstreet/fava_investor,150,"Comprehensive set of reports, analyses, and tools for investments, for Beancount and Fava (plain text, double entry accounting software). Includes Fava plugins, command line tools, and libraries for each module.",2020-03-08T22:57:55Z,2025-05-08T21:33:53Z,21,150,1139,Python,True,True,True,True,False,False,False,12
+apache/ofbiz-plugins,150,"Apache OFBiz is an open source product for the automation of enterprise processes. It includes framework components and business applications for ERP, CRM, E-Business/E-Commerce, Supply Chain Management and Manufacturing Resource Planning. OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise solutions.",2017-03-05T08:00:07Z,2025-05-11T11:53:19Z,173,150,168103,Java,False,True,True,False,False,False,False,7
+Harinadha/STM32_MPU6050lib,150,MPU6050 I2C Library for STM32f103xx family of microcontrollers,2012-05-22T09:32:51Z,2025-05-02T23:12:43Z,89,150,280,C,True,True,True,True,False,False,False,4
+decile-team/distil,150,DISTIL: Deep dIverSified inTeractIve Learning. An active/inter-active learning library built on py-torch for reducing labeling costs.,2020-12-28T05:45:45Z,2025-05-07T12:26:17Z,26,150,23641,Jupyter Notebook,True,True,True,True,False,False,False,9
+qwacko/sveltekit-lucia-starter,150,,2023-03-26T18:02:49Z,2025-05-15T09:58:21Z,14,150,1596,JavaScript,True,True,True,True,False,False,False,0
+erincandescent/elfload,150,An ELF loader for embedded systems.,2014-10-04T20:11:47Z,2025-05-15T14:27:35Z,39,150,24,C,True,True,True,True,False,False,False,3
+eskimoblood/jim-knopf,200,:o: small JavaScript library to create knobs using SVG,2012-10-23T21:13:03Z,2024-12-26T13:11:18Z,43,200,80,JavaScript,True,True,True,False,True,False,False,2
+NLP-kr/tensorflow-ml-nlp,200,텐서플로우와 머신러닝으로 시작하는 자연어처리(로지스틱회귀부터 트랜스포머 챗봇까지),2018-11-18T08:20:47Z,2024-11-20T00:42:45Z,102,200,161996,Jupyter Notebook,True,True,True,True,False,False,False,5
+landaire/unfuck,200,Python 2.7 bytecode d̶e̶o̶b̶f̶u̶s̶c̶a̶t̶o̶r unfucker,2021-08-05T16:48:34Z,2025-02-12T08:47:09Z,12,200,3126,Rust,True,True,True,True,False,True,False,1
+taobao/TBSchedule,200,一个简洁的分布式任务调度引擎,2012-05-04T06:10:19Z,2025-01-27T13:44:37Z,79,200,100,,True,True,True,True,False,False,False,5
+monaGeju/FEShare,200,前端资料共享,2021-01-04T03:56:53Z,2025-04-12T07:32:25Z,7,200,841002,HTML,True,True,True,True,False,False,False,0
+MatrixAINetwork/SMARTCONTRACT,200,Both reference and MATRIX original sol files,2018-08-24T09:43:47Z,2025-04-17T05:04:44Z,168,200,66546,,True,True,True,True,False,False,False,0
+force-net/Crc32.NET,200,Fast version of Crc32 algorithm for .NET,2016-06-19T11:16:18Z,2025-03-24T15:49:03Z,52,200,1278,C#,True,True,True,True,False,False,False,13
+ajlopez/SoliditySamples,200,Solidity Smart Contracts Samples,2017-10-28T12:49:05Z,2025-03-25T09:21:26Z,49,200,1173,JavaScript,True,True,True,True,False,False,False,18
+tomokuni/Myrica,200,プログラミング用フォント Myrica（ミリカ）,2014-08-31T16:32:17Z,2025-04-04T04:02:17Z,16,200,500838,Python,True,True,True,True,False,False,False,2
+rvm/rvm-capistrano,200,RVM / Capistrano Integration Gem,2012-03-26T15:19:12Z,2025-03-23T17:53:13Z,39,200,152,Ruby,True,True,True,True,False,False,False,4
+USTC-Hackergame/hackergame2023-writeups,200,Hackergame 2023 的官方与非官方题解 ,2023-11-04T03:03:42Z,2025-04-26T13:13:15Z,63,200,242145,JavaScript,True,True,True,False,False,False,False,2
+voxpupuli/puppet-python,200,"Puppet module for installing and managing Python, pip, virtualenvs and Gunicorn virtual hosts.",2012-09-09T22:36:58Z,2025-04-28T19:33:09Z,374,200,1131,Ruby,True,False,True,False,False,False,False,77
+agoncal/agoncal-application-petstore-ee6,200,A Java Petstore using the Java EE 6,2012-01-22T21:18:56Z,2025-04-29T03:15:31Z,199,200,510,Java,True,True,True,True,False,False,False,24
+g0v/twgeojson,200,geojson data for Taiwan,2012-11-07T10:52:18Z,2025-04-30T06:31:18Z,83,200,93138,LiveScript,True,True,True,True,True,False,False,18
+FrogSquare/GodotFireBase,200,"FireBase for godot, new version https://github.com/FrogSquare/GDFirebase",2017-03-19T07:26:37Z,2025-05-04T02:57:34Z,35,200,320,Java,False,True,True,True,False,False,True,19
+ChengyiLIU-cs/Generative-Diffusion-Models-on-Graphs,200,,2023-06-07T07:06:51Z,2025-05-07T14:09:54Z,13,200,151,,True,True,True,True,False,False,False,0
+laurencelundblade/QCBOR,200,"Comprehensive, powerful, commercial-quality CBOR encoder/ decoder that is still suited for small devices.",2018-09-13T19:21:35Z,2025-05-08T09:28:56Z,53,200,2548,C,True,True,True,True,False,False,False,19
+jixiuf/vterm-toggle,200,toggles between the vterm buffer and whatever buffer you are editing.,2019-03-23T14:31:10Z,2025-05-10T17:48:07Z,12,200,85,Emacs Lisp,True,True,True,True,False,False,False,6
+mobinni/Complete-SQL-Database-Bootcamp-Zero-to-Mastery,200,,2020-04-26T19:40:12Z,2025-05-14T23:50:49Z,548,200,398,,True,True,True,True,False,False,False,66
+iomoath/SharpStrike,200,A Post exploitation tool written in C# uses either CIM or WMI to query remote systems.,2021-08-22T05:25:36Z,2025-05-15T11:14:00Z,51,200,76015,C#,True,True,True,True,False,False,False,0
+tjammer/raylib-ocaml,200,OCaml bindings for raylib and raygui,2020-08-27T21:16:05Z,2025-05-18T17:24:19Z,14,200,8114,OCaml,True,True,True,True,True,False,False,4
+gvcgo/asciinema,200,🔥🎨 ⚡️📝A cross-platform asciinema(v2) terminal session recorder for MacOS/Linux/Windows. Currently a better choice than the official one.,2023-07-30T14:40:29Z,2025-05-16T19:10:30Z,8,200,93,Go,True,True,True,True,False,False,False,0
+DumprX/DumprX,200,DumprX: A Script to Dump Android ROMs/Firmwares,2022-03-10T12:21:19Z,2025-05-17T03:03:47Z,91,200,22759,Shell,True,True,True,True,False,False,False,3
+linuxserver/docker-chromium,200,Web accessible Chromium inside an Debian Container,2023-03-18T18:31:26Z,2025-05-16T23:33:22Z,54,200,480,Dockerfile,True,True,True,True,False,False,False,2
+xiosec/Reverse-engineering,200,Reverse Engineering tools,2021-06-05T06:21:22Z,2025-05-17T16:22:41Z,27,200,4899,C,True,True,True,True,False,False,False,0
+BaseMax/GitHub-Repository-Export-List,200,Python: A tiny script to get list of all repository of a GitHub user and generate HTML output with style.,2021-03-21T14:53:17Z,2025-05-17T17:13:31Z,29,200,117,HTML,True,True,True,True,True,False,False,6
+SauravMukherjee44/CodeIN-Community-Website,200,"Open Source Website for CodeIN Community built using HTML, CSS, JavaScript, Firebase and Bootstrap ",2021-09-27T21:28:15Z,2025-05-18T08:08:38Z,422,200,103803,HTML,True,True,True,True,True,True,False,178
+orels1/orels-Unity-Shaders,200,A collection of practical Unity shaders for your next project,2021-01-17T20:08:28Z,2025-05-19T10:12:27Z,17,200,106683,HLSL,True,True,True,False,True,True,False,37
+AllTheMods/ATM-10,200,All the Mods 10,2024-06-17T23:11:45Z,2025-05-19T14:48:47Z,113,200,576743,JavaScript,True,True,True,True,False,True,False,99
+frezs/MateBook14-Hackintosh,200,Matebook 14/13 (2019/2020/2021) MacOS Monterey & Bigsur Installation tutorial,2019-05-12T15:16:08Z,2025-05-19T16:55:47Z,38,200,90127,ASL,True,True,True,True,False,False,False,28
+sofish/han,200,a module for tanslating Chinese(汉字) into /\w+/ or pinyin,2012-10-04T13:43:39Z,2023-05-11T12:27:30Z,34,200,431,JavaScript,True,True,True,True,False,False,False,3
+simondevyoutube/MinecraftClone,200,,2020-02-09T14:05:03Z,2025-03-27T19:59:15Z,111,200,1917,JavaScript,True,True,True,True,True,False,False,1
+juks/iso-8583-socket-queue,200,ISO 8583 gateway,2015-08-19T17:00:43Z,2025-04-02T19:09:06Z,113,200,269,JavaScript,True,True,True,True,False,True,False,10
+Sappharad/MultiPatch,200,Multi-Format File Patching App for macOS,2014-03-02T17:17:08Z,2025-03-31T23:33:32Z,16,200,3617,Shell,True,True,True,True,False,False,False,4
+npm/normalize-package-data,200,"normalizes package metadata, typically found in package.json file.",2013-04-08T16:57:30Z,2025-04-09T14:29:02Z,48,200,570,JavaScript,True,True,True,False,False,False,False,19
+sous-chefs/apt,200,Development repository for the apt cookbook,2012-03-14T18:11:00Z,2025-04-14T13:55:02Z,264,200,740,Ruby,True,False,False,False,False,False,False,9
+georgepalmer/couch_foo,200,CouchFoo provides an ActiveRecord API interface to CouchDB,2009-02-04T10:32:20Z,2025-04-12T21:46:59Z,10,200,212,Ruby,True,True,True,True,False,False,False,1
+candlewill/Chinsese_word_vectors,200,Chinsese_word_vectors,2016-01-07T05:59:32Z,2025-04-15T08:14:17Z,44,200,18386,C,True,True,True,True,False,False,False,3
+alberteije/T2Ti-Pegasus-PDV,200,Repositório do Projeto T2Ti Pegasus PDV,2021-04-13T17:09:23Z,2025-04-22T00:49:53Z,121,200,93879,Dart,True,True,True,True,False,False,False,3
+mzbac/llama2-fine-tune,200,Scripts for fine-tuning Llama2 via SFT and DPO.,2023-08-13T14:11:55Z,2025-05-08T07:39:42Z,37,200,8,Python,True,True,True,True,False,False,False,3
+SAP-samples/abap-platform-fiori-feature-showcase,200,"Feature showcase that demonstrates and documents how to implement annotation-driven SAP Fiori Elements UI features for oData V4, using the ABAP RESTful Application Programming Model (RAP).",2022-10-10T07:11:03Z,2025-05-09T09:18:40Z,50,200,27810,,True,True,True,True,False,False,False,4
+github/jtml,200,"Write HTML in JavaScript, using template-tags.",2020-10-26T15:25:45Z,2025-01-09T19:58:44Z,9,200,376,TypeScript,True,True,True,True,False,False,True,4
+swghosh/DeepFace,200,"Keras implementation of the renowned publication ""DeepFace: Closing the Gap to Human-Level Performance in Face Verification"" by Taigman et al. Pre-trained weights on VGGFace2 dataset.",2019-09-23T20:59:07Z,2025-05-07T19:17:33Z,62,200,482,Python,True,True,True,True,True,False,False,2
+m-a-d-n-e-s-s/madness,200,Multiresolution Adaptive Numerical Environment for Scientific Simulation,2014-05-23T13:34:34Z,2025-05-06T16:41:16Z,67,200,486699,C++,True,True,True,True,True,True,False,52
+dlcowen/sansfor509,200,Public script from SANS FOR509 Enterprise Cloud Incident Response,2021-05-01T21:07:52Z,2025-05-06T22:16:23Z,41,200,65,Python,True,True,True,True,False,False,False,1
+wvangansbeke/Self-Supervised-Learning-Overview,200,📜 Self-Supervised Learning from Images: Up-to-date reading list.,2021-02-12T01:29:51Z,2025-05-08T02:13:19Z,24,200,71,,True,True,True,True,False,False,False,0
+wxy2077/video_spider,200,😛 源视频mp4链接获取: toutiao今日头条app视频;🍉xigua西瓜视频; 🐧tencent腾讯视频;  🎼douyin抖音分享短链接解析，获取无水印播放链接;,2018-07-30T00:04:06Z,2025-05-13T15:23:50Z,85,200,97,Python,True,True,True,True,False,False,False,2
+pipecat-ai/gemini-webrtc-web-simple,200,Gemini Multimodal Live + WebRTC in a single `app.ts`,2024-12-20T17:15:14Z,2025-05-15T10:02:00Z,27,200,14,Python,True,True,True,True,False,False,False,1
+Washington-University/workbench,200,Connectome Workbench,2012-03-07T21:18:00Z,2025-05-15T17:02:43Z,66,200,75992,C++,True,True,True,True,False,False,False,10
+CBLabresearch/Clematis,200,PE to shellcode,2024-12-26T08:44:02Z,2025-05-18T17:08:10Z,37,200,3051,Python,True,True,True,True,False,False,False,2
+themefisher/pinwheel-astro,200,Pinwheel is a multipurpose SaaS theme built with Astro and TailwindCSS.,2023-05-01T09:48:28Z,2025-05-18T17:42:25Z,155,200,7916,Astro,True,True,True,True,False,False,False,3
+Gowtham1729/Image-Processing,200,Image Processing Toolbox in Verilog using Basys3 FPGA,2018-12-04T19:13:03Z,2025-05-18T13:42:57Z,39,200,26176,VHDL,True,True,True,True,False,False,False,0
+destoryD/chaoxing-api,200,超星/超星尔雅/智慧树/学习通/职教云/智慧职教/中国大学MOOC/雨课堂/考试星等网课题库查题接口API,2020-04-22T10:53:51Z,2025-05-18T08:39:06Z,17,200,549,,True,True,True,True,False,False,False,0
+ryze-labs/how-to-solana,200,"Repository of our How to Solana book, open for all to suggest edits and recommendations.",2021-08-18T13:57:21Z,2025-05-18T00:15:27Z,27,200,111,,True,True,True,True,False,False,False,3
+philipplackner/ShoppingListTestingYT,200,,2020-08-21T10:30:26Z,2025-05-17T17:13:26Z,211,200,253,Kotlin,True,True,True,True,False,False,False,3
+opendilab/awesome-ui-agents,200,"A curated list of of awesome UI agents resources, encompassing Web, App, OS, and beyond (continually updated)",2024-06-17T08:00:13Z,2025-05-19T08:57:53Z,22,200,1147,,True,True,True,True,False,False,False,0
+dmaydan/Maze_Solver_Generator,200,Solve and generate mazes in JS,2019-01-27T08:03:20Z,2024-07-28T03:55:39Z,20,200,424,JavaScript,True,True,True,True,True,False,False,1
+alexyoung/nodeinpractice,200,The source code for the book Node.js in Practice (ISBN: 9781617290930),2014-11-17T17:07:59Z,2025-03-23T11:23:30Z,100,200,13801,JavaScript,True,True,True,True,False,False,False,5
+Fankouzu/my-crypto-zombie,200,僵尸之谜-迷恋尸-区块链收藏游戏,2019-12-18T18:02:48Z,2025-03-22T05:18:51Z,101,200,12236,JavaScript,True,True,True,True,True,False,False,16
+daveaglick/FluentBootstrap,200,"Provides extensions, helper classes, model binding, and other goodies to help you use the Bootstrap CSS framework from .NET code.",2014-07-22T17:50:55Z,2025-03-29T12:07:23Z,76,200,35748,C#,True,True,True,True,False,False,True,27
+subinps/TG-WhatsApp,200,Receive your WhatsApp messages on Telegram,2022-10-05T05:14:51Z,2025-04-09T20:53:47Z,89,200,325,JavaScript,True,True,True,True,False,False,False,1
+getjump/VkApiPHP,200,[Abandoned] Library for work with API Vk.com,2014-05-04T04:24:12Z,2025-03-05T03:20:06Z,53,200,125,PHP,True,True,True,True,False,False,False,17
+tracyhenry-visionOS/GenerativeDoodleArt_VisionOS,200,A compact visionOS project that offers a deep dive into the platform's core functionalities,2023-08-09T00:09:33Z,2025-04-24T08:58:38Z,18,200,17373,Swift,True,True,True,False,False,False,False,2
+fsprojects/ExcelFinancialFunctions,200,.NET Standard library providing the full set of financial functions from Excel.,2013-12-18T13:55:08Z,2025-04-24T14:08:17Z,64,200,2437,F#,True,True,True,True,True,False,False,7
+vog/sha1,200,SHA-1 implementation in C++. Do not use SHA-1 unless you have to! https://en.wikipedia.org/wiki/SHA-1#Birthday-Near-Collision_Attack_%E2%80%93_first_practical_chosen-prefix_attack,2014-06-08T12:10:54Z,2025-04-25T04:36:39Z,80,200,36,C++,True,True,True,True,False,False,False,3
+davicotico/jquery-menu-editor,200,Multilevel Menu Editor for Bootstrap 4.x (Html & Javascript code),2017-01-12T21:52:02Z,2025-05-05T11:30:34Z,89,200,327,JavaScript,True,True,True,True,True,False,False,5
+Elrori/EBAZ4205,200,EBAZ4205 BOARD,2019-04-30T07:19:19Z,2025-05-06T05:20:18Z,85,200,8317,C,True,True,True,True,False,False,False,1
+fictorial/BHTabBar,200,A web-browser like tab bar implementation for iOS4+,2011-07-08T05:40:11Z,2024-12-18T11:57:32Z,41,200,400,Objective-C,True,True,True,True,True,False,False,5
+yatinsns/HPGrowingTextView,200,,2011-10-31T08:03:42Z,2024-06-17T13:17:26Z,56,200,147,Objective-C,True,True,True,True,False,False,False,5
+codecasts/codecasts,200,CODECASTS's source code,2016-09-22T22:46:28Z,2024-06-08T14:48:17Z,42,200,2912,PHP,True,True,True,True,False,False,False,14
+MengZhaoFly/wechatApp-netease_cloudmusic,200,小程序模仿——网易云音乐,2017-05-04T11:11:08Z,2025-01-20T07:22:52Z,56,200,5510,JavaScript,True,True,True,True,False,False,False,4
+woowacourse/prolog,200,우아한테크코스 크루들이 배운 내용을 기록하는 학습로그 저장소입니다.,2021-04-29T22:33:03Z,2025-05-11T23:13:29Z,29,200,8150,Java,True,True,True,True,False,True,False,104
+45Drives/cockpit-identities,200,User and group management plugin for Houston UI (Cockpit),2022-03-24T18:14:25Z,2025-05-10T09:35:07Z,8,200,2469,Vue,True,True,True,True,False,False,False,7
+dream2023/awesome-lesscode,200,less code / no code 前后端实践和工具列表,2020-01-16T01:12:54Z,2025-05-14T05:44:06Z,32,200,46,,True,True,True,True,False,False,False,0
+SeakMengs/WindowPet,200,"Pet overlay app built with tauri and react that lets you have adorable companion such as pets, anime characters on your screen.",2023-07-18T09:17:58Z,2025-05-16T07:30:11Z,13,200,45923,TypeScript,True,True,True,True,False,True,False,6
+olivierfriard/BORIS,200,Behavioral Observation Research Interactive Software,2014-01-28T21:42:45Z,2025-05-16T12:36:06Z,41,200,184643,Python,True,False,True,True,False,True,False,164
+westpa/westpa,200,WESTPA: The Weighted Ensemble Simulation Toolkit with Parallelization and Analysis,2014-09-29T02:04:49Z,2025-05-17T08:10:51Z,57,200,48971,Python,True,True,True,True,True,True,False,29
+thatsmanmeet/Tasky,200,Tasky is a highly intuitive and easy-to-use todo list application designed for those who seek a powerful yet minimalistic way to manage their daily tasks.,2023-02-19T12:35:36Z,2025-05-18T08:12:00Z,8,200,14220,Kotlin,True,True,True,True,False,False,False,1
+abhiTronix/deffcode,200,A cross-platform High-performance FFmpeg based Real-time Video Frames Decoder in Pure Python 🎞️⚡,2022-03-07T07:14:21Z,2025-05-18T21:48:51Z,7,200,92893,Python,True,True,True,False,True,True,False,3
+jqtangust/hawk,200,🔥 🔥 🔥 [NeurIPS 2024] Official Implementation of Hawk: Learning to Understand Open-World Video Anomalies ,2024-05-23T12:22:08Z,2025-05-19T03:17:09Z,3,200,5612,Python,True,True,True,True,False,False,False,1
+Zimbra/zm-build,200,"zm-build for Zimbra Collaboration Suite, FOSS Edition",2017-03-22T16:53:15Z,2025-05-19T12:57:05Z,89,200,15050,Perl,False,True,True,True,False,False,False,14
+pantheon-systems/documentation,200,Pantheon Docs,2014-11-18T19:26:21Z,2025-05-19T15:24:33Z,716,200,487758,JavaScript,True,True,True,False,False,False,False,90
+dersonsena/clean-arch-pokemon,200,Clean Architecture de um modo divertido e prático integrando uma API com uma API de Pokémon.,2020-12-25T15:19:26Z,2024-12-10T20:22:59Z,26,200,2270,PHP,True,True,True,True,False,False,False,1
+harvardinformatics/JAuth,200,Java GUI client to generate Google authentication codes,2011-09-23T02:34:34Z,2024-12-19T02:06:53Z,50,200,66056,Java,True,True,True,False,True,False,False,14
+purekid/mongodm,200,"MongoDB ORM that includes support for references,embed and multilevel inheritance.",2013-04-28T07:36:50Z,2025-01-12T17:45:17Z,47,200,360,PHP,True,True,True,True,False,False,False,19
+ixty/xarch_shellcode,200,Cross Architecture Shellcode in C,2016-08-24T14:09:24Z,2025-02-03T12:02:07Z,40,200,48,C,True,True,True,True,False,False,False,0
+markusahlstrand/cloudworker-proxy,200,An api gateway for cloudflare workers,2019-07-27T11:53:46Z,2025-04-08T18:49:06Z,23,200,1871,TypeScript,True,True,True,True,False,False,False,42
+sgugger/Adam-experiments,200,Experiments with Adam/AdamW/amsgrad,2018-07-02T22:03:11Z,2025-04-06T04:23:37Z,36,200,19,Python,True,True,True,True,False,False,False,3
+schmittjoh/JMSAopBundle,200,Adds AOP capabilities to Symfony,2011-09-13T23:04:13Z,2025-03-22T21:50:35Z,53,200,42,PHP,True,True,True,False,False,False,False,18
+jecelyin/920-Text-Editor-old,200,new project,2012-08-24T05:47:37Z,2025-04-16T10:20:49Z,87,200,3547,Java,True,True,True,True,True,False,False,21
+t7morgen/misato-dataset,200,,2023-05-24T19:56:21Z,2025-04-20T14:28:28Z,19,200,179052,Jupyter Notebook,True,True,True,True,False,False,False,10
+JuliaReach/ReachabilityAnalysis.jl,200,Computing reachable states of dynamical systems in Julia,2019-12-03T13:04:40Z,2025-04-26T03:02:07Z,17,200,14427,Julia,True,False,True,True,True,False,False,148
+lsongdev/node-bluetooth,200,:large_blue_diamond:😬Bluetooth serial port communication for Node.js,2016-06-28T08:22:47Z,2025-04-26T10:06:06Z,56,200,71,C++,True,True,True,True,False,False,False,27
+ppwwyyxx/SoPaper,200,Automatically Search and Download Papers,2014-03-13T04:31:19Z,2025-04-28T14:45:39Z,44,200,3797,Python,True,True,True,True,False,False,False,3
+Codehagen/Dingify,200,Dingify is helping you unlock the power of seamless real-time monitoring,2024-05-10T05:39:13Z,2025-04-28T03:32:53Z,28,200,2504,TypeScript,True,True,True,True,False,False,False,8
+mkchoi212/paper-jekyll-theme,200,A minimal Jekyll theme for personal blogs,2017-07-21T01:49:26Z,2025-05-06T02:45:02Z,141,200,227,SCSS,True,True,True,True,True,False,False,4
+sahlberg/libiscsi,200,iscsi client library and utilities,2010-12-04T21:21:43Z,2025-05-03T10:50:01Z,168,200,6285,C,True,True,True,True,False,False,False,13
+lcswillems/torch-ac,200,Recurrent and multi-process PyTorch implementation of deep reinforcement Actor-Critic algorithms A2C and PPO,2019-04-07T08:47:24Z,2025-05-06T19:56:54Z,65,200,24,Python,True,True,True,True,False,False,False,7
+lxwagn/using-go-with-c-libraries,200,A tutorial project showing how to use C static and dynamic libraries (.a and .so) with Golang,2017-12-04T23:39:50Z,2025-05-07T13:39:13Z,20,200,22,Go,True,False,True,False,False,False,False,2
+DDoSolitary/OkcAgent,200,A utility that makes OpenKeychain available in your Termux shell,2019-07-17T03:42:05Z,2025-05-11T22:59:31Z,16,200,800,Kotlin,True,True,True,True,False,False,False,56
+marlenesco/material-cards,400,Card style based on Google Material color palette,2015-07-21T15:03:54Z,2025-02-22T07:30:40Z,127,400,47,Less,True,True,True,True,False,False,False,0
+devlive-community/dbm,400,"Full platform database management tool, supports ClickHouse, Presto, Trino, MySQL, PostgreSQL, Apache Druid, ElasticSearch...",2021-05-19T11:09:11Z,2025-04-25T00:41:11Z,54,400,15469,TypeScript,True,False,True,False,True,True,False,18
+kiibohd/pcb,400,PCB and PCB related bits,2015-02-14T03:57:37Z,2025-04-24T22:13:23Z,80,400,14241,,True,True,True,True,False,False,False,6
+awesome-inc/FontAwesome.Sharp,400,A library for using Font Awesome in WPF & Windows Forms applications,2015-03-15T14:20:12Z,2025-05-05T13:32:32Z,91,400,7587,C#,True,True,True,True,True,False,False,3
+Mongo2Go/Mongo2Go,400,Mongo2Go - MongoDB for .NET integration tests,2012-07-26T10:02:42Z,2025-05-09T01:48:12Z,73,400,484946,C#,True,False,True,True,False,False,False,7
+TexTools/FFXIV_TexTools_UI,400,,2020-07-12T17:31:50Z,2025-05-08T03:58:36Z,69,400,4506,C#,True,True,True,True,False,False,False,16
+tegon/traktflix,400,Trakt.tv + Netflix = :heart:,2015-06-16T01:41:43Z,2025-05-15T03:05:53Z,45,400,7367,JavaScript,True,True,True,True,True,False,True,64
+AngelJumbo/lavat,400,Lava lamp simulation using metaballs in the terminal ,2022-10-17T01:03:39Z,2025-05-18T12:11:16Z,8,400,21080,C,True,True,True,True,False,False,False,0
+gokadin/ai-simplest-network,400,The simplest form of an artificial neural network explained and demonstrated. ,2019-07-31T01:05:31Z,2025-05-18T16:02:03Z,30,400,265,Go,True,True,True,True,False,False,False,0
+ethyca/fides,400,The Privacy Engineering & Compliance Framework,2021-02-04T22:42:33Z,2025-05-16T18:15:28Z,82,400,116950,Python,True,True,True,False,True,False,False,287
+adrianhajdin/storage_management_solution,400,,2024-11-07T14:57:09Z,2025-05-17T16:15:13Z,135,400,741,TypeScript,True,True,True,True,False,False,False,15
+abbbi/virtnbdbackup,400,Backup utility for  Libvirt / qemu / kvm supporting incremental and differential backups + instant recovery (agentless).,2020-11-11T20:12:16Z,2025-05-17T19:04:27Z,49,400,1900,Python,True,True,True,True,True,True,False,21
+ibigio/shell-ai,400,"A delightfully minimal, yet remarkably powerful AI Shell Assistant.",2022-06-24T17:27:04Z,2025-05-18T05:44:26Z,33,400,10553,Go,True,True,True,True,False,False,False,12
+Open-Deep-ML/DML-OpenProblem,400,,2024-07-12T11:48:14Z,2025-05-18T09:32:12Z,131,400,21154,HTML,True,True,True,True,True,False,False,150
+rxrbln/t2sde,400,T2 SDE Linux,2021-05-13T09:08:43Z,2025-05-19T11:02:48Z,56,400,111234,C,True,True,True,True,False,False,False,148
+NeoRazorX/facturascripts,400,Open source ERP software. Built on modern PHP and bootstrap 4. Easy and powerful.,2013-04-06T16:53:45Z,2025-05-19T16:32:36Z,261,400,51775,PHP,False,False,True,False,False,False,False,74
+eagleoflqj/p1a3_script,400,Tampermonkey Script for 1point3acres / 一亩三分地的油猴脚本,2019-01-17T16:30:01Z,2025-05-19T19:06:16Z,52,400,288,CSS,True,True,True,True,False,False,False,3
+chuxuzhang/KDD2019_HetGNN,400,code of HetGNN,2019-05-15T15:53:46Z,2025-04-01T01:25:05Z,101,400,62703,Python,True,True,True,True,False,False,False,21
+moqod/ios-material-design,400,,2015-01-15T13:17:33Z,2025-02-06T01:13:13Z,70,400,1077,Objective-C,True,True,True,True,False,False,False,5
+Mieze/IntelMausiEthernet,400,OS X driver for Intel onboard LAN,2015-03-06T21:53:09Z,2025-04-09T07:37:32Z,97,400,570,C,True,True,True,True,False,False,False,5
+marcoskirsch/nodemcu-httpserver,400,A (very) simple web server written in Lua for the ESP8266 firmware NodeMCU.,2015-02-03T00:44:41Z,2025-04-15T09:52:54Z,165,400,404,Lua,True,True,True,True,False,False,False,15
+SebLague/Ray-Tracing,400,,2023-04-01T11:06:29Z,2025-04-27T03:35:31Z,35,400,6966,C#,True,True,True,False,False,False,False,0
+bubbliiiing/pspnet-pytorch,400,这是一个pspnet-pytorch的源码，可以用于训练自己的模型。,2020-09-24T01:55:58Z,2025-05-10T10:45:03Z,71,400,9516,Python,True,True,True,True,False,False,False,32
+bokub/nopaste,400,:clipboard: Client-side paste service,2020-02-13T14:51:59Z,2025-05-12T10:36:07Z,139,400,532,JavaScript,True,True,True,True,True,False,False,4
+lokles/Web-Development-Interview-With-Java,400,Java 开发相关技术栈（大中厂）高频面试问题收录。,2020-11-19T04:32:07Z,2025-05-05T06:32:39Z,107,400,10268,,True,True,True,True,False,False,False,1
+vjpr/monaco-bold,400,The Monaco font with a bold variant,2013-06-08T06:29:58Z,2025-05-13T15:06:15Z,86,400,1106,,True,True,True,True,False,False,False,6
+izimobil/django-rest-framework-datatables,400,Seamless integration between Django REST framework and Datatables.,2018-04-10T08:30:20Z,2025-05-14T00:20:21Z,90,400,355,Python,True,True,True,True,False,False,False,18
+JavierIH/miniKame,400,ESP8266 based quadruped with 8DOF and oscillator based gaits.,2015-11-26T18:13:19Z,2025-05-13T23:34:28Z,106,400,19500,KiCad,True,True,True,True,False,False,False,2
+apple/swift-nio-ssl,400,"TLS Support for SwiftNIO, based on BoringSSL.",2018-02-20T02:03:33Z,2025-05-15T21:48:10Z,150,400,12988,Assembly,True,False,True,False,False,False,False,29
+Snowming04/CobaltStrike4.0_related,400,破解的cs4.0、cs4.0官方手册翻译和一些笔记,2020-03-23T08:18:28Z,2025-05-17T04:45:38Z,73,400,18169,,True,True,True,True,False,False,False,2
+Tencent/tdesign-vue-starter,400,A starter-kit for TDesign Vue UI components.,2021-12-14T14:52:05Z,2025-05-19T08:24:38Z,97,400,6403,Vue,True,True,True,True,False,False,False,17
+pcwalton/offset-allocator,400,A port of Sebastian Aaltonen's `OffsetAllocator` to Rust,2024-04-30T07:26:17Z,2025-04-13T20:31:27Z,9,400,27,Rust,True,True,True,True,False,False,False,6
+cocos-creator/cocos-tutorial-hot-update,400,Tutorial project for Cocos Creator hot update,2016-02-07T09:25:45Z,2025-04-15T09:04:52Z,309,400,21852,TypeScript,True,True,True,True,False,False,False,18
+jsa-aerial/hanami,400,Interactive arts and charts plotting with Clojure(Script) and Vega-lite / Vega. Flower viewing 花見 (hanami),2017-09-14T20:53:49Z,2025-04-21T18:58:12Z,12,400,2986,Clojure,True,True,True,True,False,False,False,8
+kevinzakka/torchnca,400,A PyTorch implementation of Neighbourhood Components Analysis.,2020-01-25T21:43:11Z,2024-10-16T17:45:43Z,54,400,2426,Python,True,True,True,True,False,False,True,4
+LightBDD/LightBDD,400,BDD framework allowing to create easy to read and maintain tests.,2013-09-07T10:58:46Z,2025-05-16T03:05:16Z,46,400,17172,C#,True,True,True,True,False,False,False,34
+CodeGuide-dev/codeguide-starter-lite,400,,2025-01-29T06:05:48Z,2025-05-17T22:04:41Z,76,400,218,TypeScript,True,True,True,True,False,False,False,1
+volodymyrprokopyuk/go-blockchain,400,A foundational and practical guide for effectively learning and progressively building a blockchain from scratch in Go with gRPC,2024-08-31T05:29:04Z,2025-05-17T21:02:25Z,36,400,653,Go,True,True,True,True,False,False,False,0
+redhat-cop/agnosticd,400,AgnosticD - Ansible Deployer for multiple Cloud Deployers,2017-01-24T03:12:27Z,2025-05-19T02:48:47Z,507,400,83748,Jinja,True,True,True,True,True,True,False,70
+aelassas/bookcars,400,Car Rental Platform with Mobile App,2022-04-20T21:56:03Z,2025-05-19T18:53:48Z,253,400,44095,TypeScript,True,False,True,True,False,False,False,0
+browserify/factor-bundle,400,factor browser-pack bundles into common shared bundles,2014-01-25T08:39:45Z,2024-10-14T02:34:12Z,27,400,84,JavaScript,True,False,True,False,False,False,False,28
+chrstphrknwtn/grid-clock-screensaver,400,Grid clock macOS screensaver,2016-11-19T16:10:40Z,2025-04-13T06:04:01Z,34,400,48,HTML,True,True,True,True,False,False,False,5
+codewars/codewars-runner-cli,400,Old CodeRunner project. See https://github.com/codewars/runner instead.,2014-05-24T16:37:47Z,2025-05-01T12:33:24Z,141,400,16370,JavaScript,True,True,True,False,False,False,True,0
+guyan0319/go-admin,400,基于go+gin+vue+element admin 后台管理系统，支持用户管理，认证，内容管理等,2019-10-14T12:44:38Z,2025-05-16T08:00:11Z,136,400,217839,Vue,True,True,True,True,False,False,False,35
+microsoft/ntttcp,400,,2021-01-29T23:07:20Z,2025-05-18T19:33:11Z,27,400,44,C,True,False,True,True,False,False,False,12
+datalayer/jupyter-ui,400,🪐 ⚛️ React.js components 💯% compatible with 🪐 Jupyter https://jupyter-ui-storybook.datalayer.tech,2021-10-01T06:38:39Z,2025-05-19T12:27:11Z,54,400,6583,TypeScript,True,False,True,False,False,False,False,89
+dcrec1/inploy,400,Rails and Sinatra deployment made easy,2009-10-05T23:12:42Z,2025-02-26T01:49:40Z,29,400,308,Ruby,True,True,True,True,False,False,False,12
+zesage/flutter_compass,400,A Flutter Create 5K app,2019-05-07T17:04:37Z,2025-01-02T16:07:33Z,104,400,127847,Dart,True,True,True,True,False,False,False,1
+dappuniversity/price-bot,400,,2020-07-07T19:55:21Z,2025-02-20T20:28:12Z,389,400,57,,True,True,True,True,False,False,False,38
+windows-internals-guide/security,400,,2020-03-03T02:39:19Z,2025-04-19T15:46:54Z,26,400,525,C++,True,True,True,True,False,False,False,1
+google/googleapis.dart,400,Repository for building the googleapis packages,2014-08-14T10:55:00Z,2025-04-21T17:08:18Z,124,400,375567,Dart,True,False,True,False,False,True,False,48
+suraj-deshmukh/Keras-Multi-Label-Image-Classification,400,Keras- Multi Label Image Classification,2016-11-17T03:42:03Z,2025-04-24T01:52:45Z,117,400,111018,Jupyter Notebook,True,True,True,True,True,False,False,6
+chaoyi-wu/Finetune_LLAMA,400,简单易懂的LLaMA微调指南。,2023-03-20T08:38:21Z,2025-04-27T03:12:27Z,36,400,21199,Python,True,True,True,True,False,False,False,9
+cklmercer/vue-stash,400,Easily share reactive data between your Vue components.,2016-07-07T16:28:30Z,2025-04-29T09:02:48Z,29,400,2895,JavaScript,True,True,True,True,False,False,True,4
+m5stack/M5StickC-Plus,400,M5StickCPlus Arduino Library,2020-07-16T02:31:53Z,2025-05-03T01:28:39Z,96,400,1756,C,True,True,True,True,False,False,False,6
+sriharshaarangi/BatteryChargeLimit,400,,2017-03-18T04:39:17Z,2025-05-05T20:58:48Z,108,400,6066,Kotlin,True,True,True,True,False,False,False,67
+dictation-toolbox/dragonfly,400,"Speech recognition framework allowing powerful Python-based scripting and extension of Dragon NaturallySpeaking (DNS), Windows Speech Recognition (WSR), Kaldi and CMU Pocket Sphinx",2017-05-26T08:23:01Z,2025-05-07T03:34:33Z,73,400,5826,Python,True,True,True,True,False,False,False,22
+AsyncAlgoTrading/algo-coin,400,Python library for algorithmic trading cryptocurrencies across multiple exchanges,2015-06-28T21:31:49Z,2025-05-07T01:10:23Z,74,400,6938,TypeScript,True,False,True,False,False,False,True,1
+aws-robotics/aws-robomaker-small-warehouse-world,400,This Gazebo world is well suited for organizations who are building and testing robot applications for warehouse and logistics use cases.,2020-05-19T22:23:37Z,2025-05-08T14:53:39Z,110,400,9674,CMake,True,True,True,True,False,False,False,3
+Warren2060/ChillBitmap,400,「寒蝉点阵体」是寒蝉字型又一套像素风格的中文字库。现有7px和16px。,2022-03-30T09:39:59Z,2025-05-10T12:47:11Z,11,400,16981,,True,True,True,True,False,False,False,1
+ifduyue/python-xxhash,400,Python Binding for xxHash,2014-07-30T15:38:47Z,2025-05-19T04:11:36Z,34,400,251,C,True,True,True,True,False,False,False,6
+Azure/connectthedots,400,Connect tiny devices to Microsoft Azure services to build IoT solutions,2014-11-11T19:27:30Z,2024-11-21T01:51:25Z,273,400,89864,C#,True,True,True,True,False,False,True,11
+facebookresearch/GradientEpisodicMemory,400,Continuum Learning with GEM:  Gradient Episodic Memory,2017-11-07T15:53:53Z,2025-03-25T15:37:19Z,75,400,29,Python,True,True,True,False,False,False,True,1
+mkocabas/CoordConv-pytorch,400,Pytorch implementation of CoordConv introduced in 'An intriguing failing of convolutional neural networks and the CoordConv solution' paper. (https://arxiv.org/pdf/1807.03247.pdf),2018-07-11T14:41:22Z,2025-04-25T06:32:41Z,50,400,17,Python,True,True,True,True,False,False,False,5
+frank-lam/lanproxy-nat,400,🌍 手把手教你，搭建内网穿透服务，基于 lanproxy 穿透服务，为你深度定制了开箱即用的服务端和客户端 Docker 镜像。,2019-01-03T02:45:50Z,2025-05-14T12:19:25Z,83,400,993,Dockerfile,True,True,True,True,False,False,False,5
+discourse/mini_sql,400,"a minimal, fast, safe sql executor",2018-06-15T06:15:13Z,2025-05-13T23:56:35Z,17,400,225,Ruby,True,False,True,False,False,False,False,1
+laksa19/mikhmonv3,400,MikroTik Hotspot Monitor V3 [MikroTik API PHP],2018-08-20T11:35:43Z,2025-05-17T21:47:06Z,270,400,3757,PHP,True,True,True,True,True,False,False,26
+xadhrit/terra,400,OSINT Tool on Twitter and Instagram.,2021-05-05T04:25:19Z,2025-05-18T10:18:18Z,65,400,807,Python,True,True,True,True,False,False,False,19
+bcssov/IronyModManager,400,Mod Manager for Paradox Games. Official Discord: https://discord.gg/t9JmY8KFrV,2020-01-10T01:31:54Z,2025-05-18T06:21:57Z,42,400,28986,C#,True,False,True,True,True,True,False,33
+rarible/protocol-contracts,400,Interfaces for smart contracts used by Rarible,2021-02-18T04:34:55Z,2025-05-18T23:25:19Z,237,400,219183,JavaScript,True,True,True,True,False,False,False,4
+aicezam/SmartOnmyoji,400,阴阳师后台代肝脚本，支持所有类似阴阳师的卡牌游戏（点点点游戏）自动找图-点击…（支持后台运行、支持多开、支持模拟器）,2022-01-01T04:23:08Z,2025-05-19T12:45:03Z,95,400,4624,Python,True,True,True,True,False,True,False,21
+chilcote/vfuse,400,Convert bootable DMG images for use in VMware Fusion,2014-11-12T21:33:36Z,2025-02-26T12:13:28Z,48,400,212,Python,True,True,True,True,False,False,False,3
+edmundhung/maildog,400,🐶 Hosting your own email forwarding service on AWS and managing it with Github Actions,2021-06-14T18:52:20Z,2024-11-02T08:07:44Z,18,400,2049,TypeScript,True,False,True,False,False,False,False,0
+LianHaiMiao/pytorch-lesson-zh,400,pytorch 包教不包会,2017-11-10T09:25:53Z,2025-03-11T03:19:33Z,113,400,19554,Jupyter Notebook,True,True,True,True,False,False,False,1
+BloodAxe/OpenCV-Tutorial,400,A sample project demonstrating use of OpenCV library in iOS platform,2012-06-23T09:53:42Z,2024-07-15T09:17:20Z,152,400,114777,C++,True,True,True,True,False,False,False,4
+daviddarnes/mac-cursors,400,"✛ All cursor icons from OS X, in SVG format",2015-11-09T18:21:05Z,2025-05-08T07:14:41Z,34,400,6274,Nunjucks,True,False,True,False,False,False,False,0
+qxinGitHub/Remove-web-limits-,400,"通杀大部分网站,可以解除禁止复制、剪切、选择文本、右键菜单的限制。原作者cat73,因为和搜索跳转脚本冲突,遂进行了改动。",2020-02-19T00:50:11Z,2025-05-15T11:05:05Z,53,400,44,JavaScript,True,True,True,True,False,False,False,68
+ProjectPhysX/OpenCL-Wrapper,400,OpenCL is the most powerful programming language ever created. Yet the OpenCL C++ bindings are cumbersome and the code overhead prevents many people from getting started. I created this lightweight OpenCL-Wrapper to greatly simplify OpenCL software development with C++ while keeping functionality and performance.,2022-01-22T13:30:44Z,2025-05-17T08:34:53Z,40,400,332,C++,True,False,True,False,False,False,False,5
+helich0pper/Karkinos,400,Penetration Testing and Hacking CTF's Swiss Army Knife with: Reverse Shell Handling - Encoding/Decoding - Encryption/Decryption - Cracking Hashes / Hashing,2020-11-08T17:54:29Z,2025-05-18T11:19:24Z,86,400,62975,PHP,True,True,True,True,False,False,False,0
+wwerner/event-storming-cheatsheet,400,Short cheat sheet for preparing and facilitating event storming workshops,2017-09-14T11:53:39Z,2025-05-19T18:33:59Z,52,400,88315,,True,True,True,True,False,False,False,0
+metaskills/minitest-spec-rails,400,:bento: Make Rails Use MiniTest::Spec!,2012-03-27T12:38:36Z,2025-04-04T16:36:48Z,54,400,343,Ruby,True,True,True,True,False,False,False,0
+checkly/theheadless.dev,400,"🪖 Learn Puppeteer and Playwright - Tips, tricks and in-depth guides from the trenches.",2020-06-18T08:57:23Z,2025-02-27T01:12:45Z,28,400,4740,Vue,True,False,True,False,False,False,True,7
+tpitale/legato,400,Google Analytics Reporting API Client for Ruby,2011-12-11T03:37:26Z,2025-03-31T17:38:29Z,47,400,288,Ruby,True,True,True,True,True,False,False,11
+lingonsaft/hacktoberfest,400,Hacktoberfest 2018. Check out the end video for this project ->,2018-09-22T08:29:50Z,2025-03-30T00:45:01Z,1715,400,39183,HTML,True,True,True,True,False,False,True,834
+rafaelaugustos/react-native-popup-ui,400,A simple and fully customizable React Native component that implements a popup UI.,2019-05-08T12:31:26Z,2025-03-28T18:46:28Z,64,400,10005,JavaScript,True,True,True,True,False,False,False,27
+wbhob/nest-middlewares,400,"Common, injectable middlewares for NestJS",2017-11-23T01:54:38Z,2025-05-05T08:31:47Z,33,400,865,TypeScript,True,True,True,True,False,False,False,1
+kcctl/kcctl,400,A modern and intuitive command line client for Kafka Connect,2021-07-11T08:37:45Z,2025-05-09T08:38:00Z,45,400,927,Java,True,True,True,True,False,True,False,37
+nestjs/elasticsearch,400,Elasticsearch module based on the official elasticsearch package 🌿,2018-06-24T10:01:20Z,2025-05-19T08:54:59Z,51,400,5064,TypeScript,True,True,True,True,False,False,False,2
+bahamas10/ysap,400,You Suck at Programming - Dave Eddy,2022-12-22T00:58:20Z,2025-05-19T17:36:58Z,22,400,166,CSS,True,True,True,False,False,False,False,0
+allanino/sci-hub-fy,400,Chrome extension to append sci-hub.org to tab domain.,2014-07-09T23:32:40Z,2024-12-16T15:20:52Z,83,400,56,JavaScript,True,True,True,True,False,False,False,5
+bestcloud/ku8eye,400,,2015-10-22T07:44:51Z,2025-02-11T02:55:08Z,305,400,15250,JavaScript,True,True,True,True,False,False,False,10
+kennyfrc/cami.js,400,Cami.js is a simple yet powerful toolkit for interactive islands in web applications. No build step required.,2023-10-17T15:51:47Z,2025-05-05T09:46:02Z,8,400,6720,HTML,True,False,True,False,True,True,False,1
+matomo-org/matomo-sdk-android,400,"SDK for Android to measure your apps with Matomo. Works on Android phones, tablets, Fire TV sticks, and more!",2014-08-26T07:37:33Z,2025-05-09T03:38:17Z,166,400,6181,Java,True,False,True,True,True,True,False,43
+Torann/laravel-currency,400,This provides Laravel with currency functions such as currency formatting and conversion using up-to-date exchange rates.,2013-11-29T19:49:34Z,2025-05-09T16:29:14Z,136,400,184,PHP,True,True,True,True,False,False,False,49
+anup-a/meshy,400,🧞‍♂️ MESH·Y is a design tool to generate beautiful & colorful mesh gradients.,2022-01-09T09:32:59Z,2025-05-18T08:49:05Z,39,400,9948,JavaScript,True,True,True,True,False,False,False,5
+aldabil21/react-scheduler,400,React scheduler component based on Material-UI & date-fns,2021-05-06T07:32:32Z,2025-05-18T19:00:43Z,144,400,9622,TypeScript,True,True,True,True,False,False,False,11
+rohanrhu/MacsyZones,400,Make your workflow more efficient with MacsyZones. Organize your windows with ease. https://macsyzones.com,2024-10-11T20:08:39Z,2025-05-19T15:31:41Z,10,400,3942,Swift,True,True,True,True,False,True,False,10
+fashare2015/MVVM-JueJin,400,"高仿""掘金Android App"": databinding + kotlin + rx 的优雅实践。(持续打磨中~)",2017-09-05T10:28:41Z,2025-02-26T10:04:29Z,56,400,6152,Java,True,True,True,True,False,False,False,7
+j0ono0/pinout,400,An open source Python package that generates hardware pinout diagrams as SVG images.,2021-03-10T03:20:39Z,2025-04-22T03:09:12Z,21,400,3628,Python,True,True,True,True,False,False,False,10
+Cweili/svelte-fa,400,Tiny FontAwesome component for Svelte,2019-06-07T05:12:11Z,2025-05-02T15:54:07Z,26,400,471,Svelte,True,True,True,True,True,True,False,14
+thetarnav/solid-devtools,600,"Library of developer tools, reactivity debugger & Devtools Chrome extension for visualizing SolidJS reactivity graph",2022-05-02T14:20:17Z,2025-05-12T23:34:46Z,28,600,5787,TypeScript,True,False,True,False,True,True,False,23
+xxfast/KStore,600,"A tiny Kotlin multiplatform library that assists in saving and restoring objects to and from disk using kotlinx.coroutines, kotlinx.serialisation and kotlinx.io",2022-09-06T15:12:57Z,2025-05-17T14:13:25Z,23,600,481,Kotlin,True,False,True,False,True,True,False,20
+jaswdr/faker,600,:rocket: Ultimate fake data generator for Go with zero dependencies,2018-03-21T20:46:48Z,2025-05-19T13:54:31Z,61,600,4392,Go,True,False,True,False,False,True,False,4
+mtivadar/windows10_ntfs_crash_dos,600,"PoC for a NTFS crash that I discovered, in various Windows versions",2018-04-27T19:31:59Z,2025-04-01T14:54:41Z,131,600,926,,True,True,True,True,False,False,False,3
+sindresorhus/component-emitter,600,Simple event emitter,2012-05-02T17:44:57Z,2025-04-18T23:57:47Z,117,600,57,JavaScript,True,False,True,False,False,False,False,0
+iamshaunjp/react-native-tutorial,600,All the course files for the React Tutorial for Beginners playlist on The Ne Ninja Playlist,2019-10-10T11:47:55Z,2025-04-23T11:21:25Z,506,600,594,,True,True,True,True,False,False,False,28
+z0w0/helm,600,"A functionally reactive game engine, with headgear to protect you from the headache of game development provided.",2013-07-07T09:38:09Z,2025-04-24T02:05:00Z,67,600,505,Haskell,True,True,True,True,True,False,True,23
+alexnm/react-ssr,600,A baseline for server side rendering for your React application,2018-03-23T19:19:02Z,2025-04-30T22:00:25Z,268,600,1152,JavaScript,True,True,True,True,False,False,False,18
+perfectline/validates_url,600,URL Validation for Rails,2010-09-08T12:10:17Z,2025-05-12T08:11:00Z,114,600,123,Ruby,True,True,True,True,False,False,False,25
+koulanurag/ma-gym,600,A collection of multi agent environments based on OpenAI gym.,2019-06-10T15:28:41Z,2025-05-14T19:37:49Z,109,600,4060,Python,True,True,True,True,False,True,False,0
+Narsil/rdev,600,"Simple library to listen and send events to keyboard and mouse (MacOS, Windows, Linux)",2020-02-08T15:08:09Z,2025-05-18T14:41:17Z,162,600,210,Rust,True,True,True,True,False,False,False,54
+platzi/git-github,600,Repositorio del Curso de Git y GitHub,2024-08-13T22:41:55Z,2025-05-19T16:57:23Z,767,600,21,HTML,True,True,True,False,False,False,False,3
+6eer/uniswap-sushiswap-arbitrage-bot,600,Two bots written in JS that uses flashswaps and normal swaps to arbitrage Uniswap. Includes an automated demostration.,2021-05-05T15:00:05Z,2025-04-25T09:12:48Z,261,600,564,JavaScript,True,True,True,True,False,False,False,14
+nageoffer/shortlink,600,🔥 热门推荐 🔥 SaaS 短链接系统，承载高并发和海量存储等场景难题。专为实习、校招以及社招而出的最新项目，项目质量不亚于 12306 铁路购票项目。,2023-11-19T16:04:32Z,2025-05-16T05:39:50Z,79,600,1096,Java,True,True,True,True,False,False,False,2
+spotorm/spot2,600,Spot v2.x DataMapper built on top of Doctrine's Database Abstraction Layer,2014-06-18T22:02:22Z,2025-02-11T17:53:38Z,100,600,425,PHP,True,True,True,True,False,False,False,66
+k2kobayashi/sprocket,600,Voice Conversion Tool Kit,2017-06-21T05:50:47Z,2025-04-13T16:49:53Z,115,600,1834,Python,True,True,True,True,False,False,False,31
+DiffSharp/DiffSharp,600,DiffSharp: Differentiable Functional Programming,2014-08-28T16:19:45Z,2025-04-26T08:51:09Z,70,600,169618,F#,True,True,True,True,True,True,False,38
+Pircate/EachNavigationBar,600,A custom navigation bar for each view controller.,2018-04-19T05:27:28Z,2025-04-30T01:52:02Z,73,600,6282,Swift,True,True,True,True,False,False,False,32
+paoloricciuti/sveltekit-search-params,600,The easiest way to read and WRITE from query parameters in sveltekit.,2022-10-11T15:04:28Z,2025-05-15T16:09:28Z,22,600,898,TypeScript,True,True,True,True,False,True,False,26
+bitaxeorg/ESP-Miner,600,A bitcoin ASIC miner for the ESP32,2022-11-17T22:19:03Z,2025-05-19T09:14:57Z,228,600,4307,C,True,True,True,True,False,True,False,126
+btford/angular-express-blog,600,Example AngularJS app using an Express + Node.js backend.,2012-06-19T22:45:26Z,2025-03-21T01:05:02Z,244,600,1210,JavaScript,True,True,True,True,False,False,False,15
+codrops/MinimalForm,600,A simplistic form with inputs shown one at a time. Inspired by the form seen on the end of the [PageLanes website](http://www.pagelanes.com/).,2014-04-01T06:28:55Z,2025-04-21T23:43:32Z,138,600,255,JavaScript,True,True,True,True,False,False,False,5
+tunabrain/incremental-fluids,600,"Simple, single-file fluid solvers for learning purposes",2013-07-02T19:15:25Z,2025-05-04T09:46:18Z,76,600,718,C++,True,True,True,True,False,False,False,3
+driesvints/blade-heroicons,600,A package to easily make use of Heroicons in your Laravel Blade views.,2020-04-25T11:00:43Z,2025-05-11T23:13:03Z,52,600,1020,PHP,True,False,True,False,False,False,False,0
+spatie/ray,600,Debug with Ray to fix problems faster,2020-11-04T10:30:52Z,2025-05-12T11:58:10Z,108,600,17097,PHP,True,False,True,False,True,True,False,21
+catppuccin/kde,600,🌻 Soothing pastel theme for KDE,2022-01-28T07:28:28Z,2025-05-19T10:39:52Z,34,600,34260,Shell,True,True,True,True,False,False,False,26
+Azure/azure-iot-sdk-c,600,A C99 SDK for connecting devices to Microsoft Azure IoT services,2016-10-14T17:54:57Z,2025-05-12T06:20:09Z,741,600,61907,C,True,True,True,True,True,True,False,25
+chrishunt/dot-files,600,"Dot-files for Linux, Mac OS X, Windows",2010-08-27T22:21:25Z,2025-03-01T16:42:01Z,86,600,4441,Vim Script,True,True,True,False,False,False,False,0
+trivialmips/nontrivial-mips,600,"NonTrivial-MIPS is a synthesizable superscalar MIPS processor with branch prediction and FPU support, and it is capable of booting linux.",2019-02-20T12:02:17Z,2025-05-14T15:02:09Z,102,600,21347,SystemVerilog,True,True,True,True,False,False,False,0
+VirtusLab/scala-cli,600,"Scala CLI is a command-line tool to interact with the Scala language. It lets you compile, run, test, and package your Scala code (and more!)",2021-05-10T12:29:24Z,2025-05-19T14:48:17Z,143,600,101062,Scala,True,True,True,False,True,True,False,320
+blurfx/KakaoTalkAdBlock,600,AdBlock for KakaoTalk Desktop Client,2019-03-23T11:19:28Z,2025-05-19T16:05:12Z,56,600,521,Go,True,False,True,False,False,False,False,11
+colinta/teacup,600,This project has been sunset in favor of MotionKit,2012-05-15T17:46:01Z,2024-12-31T15:34:38Z,83,600,912,Ruby,True,True,True,True,False,False,False,8
+stemkoski/AR-Examples,600,Augmented Reality examples for the web.,2018-05-25T12:52:02Z,2025-05-17T00:12:28Z,339,600,33171,JavaScript,True,True,True,True,True,False,False,8
+shelfio/jest-mongodb,600,Jest preset for MongoDB in-memory server,2018-02-15T00:22:42Z,2025-05-19T07:29:46Z,85,600,567,TypeScript,True,False,True,False,False,False,False,38
+oblador/react-native-esbuild,600,Fast bundler and dev server for react-native using esbuild,2022-05-26T09:11:06Z,2025-03-28T19:00:25Z,12,600,727,JavaScript,True,True,True,False,False,False,False,2
+CobreGratis/boletophp,600,Projeto Código-Aberto de Sistema de Boletos bancários em PHP,2011-02-21T03:33:53Z,2025-04-12T21:05:45Z,388,600,895,PHP,True,True,True,True,False,False,False,63
+fymmot/inclusive-dates,600,A human-friendly datepicker – now as a Web Component! Supports natural language input through Chrono.js. Fully accessible with keyboard and screen reader. Contributions welcome!,2019-04-29T10:04:01Z,2025-05-14T09:39:15Z,22,600,2575,TypeScript,True,True,True,True,True,False,False,11
+rage/java-programming,600,,2019-07-11T11:45:42Z,2025-05-17T00:33:50Z,228,600,98964,JavaScript,True,True,True,True,True,False,False,179
+jonniek/mpv-playlistmanager,600,Mpv lua script to create and manage playlists,2016-06-16T10:18:28Z,2025-05-17T13:39:15Z,42,600,5952,Lua,True,True,True,True,False,False,False,7
+jerrybendy/url-search-params-polyfill,600,a simple polyfill for javascript URLSearchParams,2016-09-02T16:29:32Z,2025-05-19T08:41:11Z,89,600,69,JavaScript,True,True,True,True,False,False,False,3
+devitocodes/devito,600,DSL and compiler framework for automated finite-differences and stencil computation,2016-03-23T18:59:49Z,2025-05-19T19:02:53Z,236,600,253912,Python,True,True,True,True,True,True,False,126
+jmolivas/symfony-certification-guide,600,Symfony certification guide,2014-07-10T15:43:13Z,2025-04-24T21:46:43Z,132,600,31,,True,True,True,True,False,False,False,1
+asottile/git-code-debt,600,A dashboard for monitoring code debt in a git repository.,2013-11-14T16:05:41Z,2025-05-10T06:02:20Z,36,600,872,Python,True,False,True,False,False,False,False,3
+Harmoc/CTFTools,600,Personal CTF Toolkit,2018-02-19T12:27:47Z,2025-05-13T21:24:14Z,137,600,361,,True,True,True,True,False,False,False,0
+yuyicai/update-kube-cert,600,K8s 集群证书过期处理，更新 kubeadm 生成的证书有效期为 10 年; 为新集群生成 100 年证书支持全部版本。A tool to update and extend Kubernetes certificate expiration dates to 10 years. Generate 100 years certificates for new Kubernetes cluster,2019-07-27T15:13:07Z,2025-05-15T01:12:59Z,312,600,85,Shell,True,True,True,True,False,False,False,4
+HashLips/solidity_smart_contracts,600,A list of smart contracts coded in solidity ,2021-09-17T16:14:31Z,2025-05-19T07:06:20Z,484,600,94,Solidity,True,True,True,True,False,False,False,36
+nex-mpi/nex-code,600,Code release for NeX: Real-time View Synthesis with Neural Basis Expansion,2021-03-23T16:35:03Z,2025-03-11T04:48:25Z,72,600,52,Python,True,False,True,True,False,False,False,36
+frida/cryptoshark,600,Self-optimizing cross-platform code tracer based on dynamic recompilation,2014-06-03T22:25:45Z,2025-03-25T09:11:05Z,63,600,6577,C++,True,True,True,True,False,False,False,12
+actions-rs/toolchain,600,🛠️ GitHub Action for `rustup` commands,2019-09-12T13:43:05Z,2025-05-03T11:35:38Z,92,600,2565,TypeScript,True,False,True,False,False,True,True,57
+texttron/tevatron,600,"Tevatron - Unified Document Retrieval Toolkit across Scale, Language, and Modality. Demo in SIGIR 2023, SIGIR 2025.",2021-09-09T01:46:10Z,2025-05-18T04:05:53Z,106,600,21369,Python,True,True,True,True,True,False,False,40
+seanmonstar/num_cpus,600,Get the number of CPUs in Rust,2015-03-17T01:09:24Z,2025-04-26T05:11:58Z,93,600,98,Rust,True,False,True,False,False,False,False,33
+brickpop/flutter-rust-ffi,600,Starter project for Flutter plugins willing to access native and synchronous rust code using FFI,2020-03-03T10:34:36Z,2025-05-05T01:58:48Z,51,600,184,Ruby,True,False,True,True,False,True,False,10
+the-programmers-hangout/programming-resources,600,Collection of resources for programmers!,2019-10-07T05:16:42Z,2025-05-13T22:50:10Z,61,600,874,,True,False,True,False,False,False,False,3
+int8/monte-carlo-tree-search,600,Monte carlo tree search in python ,2018-02-11T14:49:28Z,2025-05-14T11:46:12Z,171,600,25,Python,True,True,True,True,False,False,False,3
+imageslr/mweb-themes,600,30+ 款 Markdown 预览主题，Typo.css、Vue、Bear、飞书云文档等风格，适用于 MWeb、Typora。,2019-11-09T08:05:06Z,2025-05-15T11:18:05Z,66,600,3905,JavaScript,True,True,True,True,True,False,False,3
+microsoft/AIOpsLab,600,"A holistic framework to enable the design, development, and evaluation of autonomous AIOps agents.",2024-10-11T00:44:00Z,2025-05-19T08:13:44Z,81,600,29856,Python,True,True,True,True,True,False,False,3
+AlonzoLeeeooo/awesome-text-to-image-studies,600,A collection of awesome text-to-image generation studies.,2024-02-11T16:36:09Z,2025-05-19T08:13:12Z,32,600,2194,TeX,True,True,True,False,False,False,False,0
+huxiaoman7/leetcodebook,600,leetcode 1~400知识点&题型总结&leetcode对应题表,2019-02-20T06:38:21Z,2025-04-30T02:10:18Z,144,600,6066,Python,True,True,True,True,False,False,False,2
+teeotsa/windows-11-debloat,600,Script to optimize your installation of Windows 11.,2021-10-11T17:48:22Z,2025-05-17T16:23:22Z,59,600,3784,PowerShell,True,False,True,False,False,True,False,0
+Aashishkumar123/Python-GUI-Project,600,A Repositry that contains 20+ GUI Projects on python Tkinter,2020-06-23T10:21:50Z,2025-05-19T17:55:11Z,223,600,1928,Python,True,True,True,True,False,True,False,2
+mafintosh/turbo-net,600,Low level TCP library for Node.js,2017-02-09T15:28:35Z,2025-02-11T15:49:07Z,39,600,45,JavaScript,True,True,True,True,False,False,False,14
+allwefantasy/my-life,600,算是简历吧....,2015-04-04T03:21:33Z,2025-03-16T07:04:47Z,114,600,2468,GCC Machine Description,True,True,True,True,False,False,False,4
+bitovi/documentjs,600,The sophisticated documentation engine,2010-02-23T16:16:13Z,2025-03-13T13:30:39Z,381,600,10094,JavaScript,True,True,True,True,True,False,False,110
+rainabba/jquery-table2excel,600,jQuery Plugin to export HTML tabled to Excel Spreadsheet Compatible Files,2014-02-01T01:30:33Z,2025-04-17T14:17:19Z,660,600,411,JavaScript,True,True,True,True,True,False,False,75
+theduke/quickjs-rs,600,Rust wrapper for the quickjs Javascript engine.,2019-07-16T08:03:56Z,2025-04-28T01:40:49Z,48,600,1286,C,True,False,True,False,False,False,False,34
+pcbreflux/espressif,600,all espressif stuff will committed here,2016-11-06T10:46:16Z,2025-05-02T14:15:31Z,441,600,56427,C,True,True,True,True,False,False,False,38
+JKme/cube,600,内网渗透测试工具，弱密码爆破、信息收集和漏洞扫描,2021-04-23T08:38:49Z,2025-05-15T07:49:54Z,66,600,12272,Go,True,True,True,True,False,False,False,0
+Julie-tang00/Point-BERT,600,[CVPR 2022] Pre-Training 3D Point Cloud Transformers with Masked Point Modeling,2021-11-22T06:46:52Z,2025-05-19T05:18:37Z,70,600,2287,Python,True,True,True,True,False,False,False,29
+jsocol/django-adminplus,600,Easily add custom views to the Django admin.,2011-03-04T14:23:48Z,2025-04-18T15:04:17Z,78,600,62,Python,True,True,True,True,False,False,False,14
+daoluan/decode-memcached,600,memcached 源码剖析注释,2013-12-10T10:48:49Z,2025-04-22T07:16:16Z,185,600,490,C,True,True,True,True,False,False,False,2
+hluhovskyi/HoldingButton,600,"Button which is visible while user holds it. Main use case is controlling audio recording state (like in Telegram, Viber, VK). ",2017-03-09T10:03:40Z,2025-05-05T11:51:57Z,68,600,2342,Java,True,True,True,True,False,False,False,9
+giscafer/FinalScheduler,600,:calendar: 终极排班管理、考勤系统,2015-10-28T16:29:05Z,2025-05-09T10:00:10Z,308,600,23139,Java,True,True,True,True,False,False,False,9
+rivafarabi/deckboard,600,Control your PC with your phone in easy way possible. News and updates on @DeckboardApp.,2018-02-25T14:06:10Z,2025-05-16T16:42:35Z,35,600,1311,,True,True,True,True,True,False,False,557
+sunfishcode/wasm-reference-manual,600,WebAssembly Reference Manual,2016-09-04T16:45:47Z,2025-04-08T11:24:19Z,75,600,278,,True,True,True,False,False,False,False,3
+mattlawer/BButton,600,BButton is a subclass of UIButton that looks like the bootstrap buttons.,2012-07-31T10:08:50Z,2025-04-11T02:11:06Z,185,600,761,Objective-C,True,True,True,True,True,False,False,10
+vaquarkhan/microservices-recipes-a-free-gitbook,600,"“If you are working in an organization that places lots of restrictions on how developers can do their work, then microservices may not be for you.”  ― Sam Newman",2019-01-10T18:55:22Z,2025-05-05T21:08:09Z,228,600,294,,True,True,True,False,True,False,False,1
+GPUOpen-Archive/Anvil,600,Anvil is a cross-platform framework for Vulkan,2016-05-17T16:48:39Z,2025-05-06T16:33:20Z,61,600,7201,C++,True,True,True,True,False,False,False,15
+reqnroll/Reqnroll,600,Open-source Cucumber-style BDD test automation framework for .NET.,2024-01-15T14:26:15Z,2025-05-16T16:21:30Z,88,600,105403,C#,True,False,True,False,False,True,False,29
+lingeringsound/10007,600,hosts of block ads,2022-09-23T01:03:42Z,2025-05-19T03:07:16Z,11,600,73682,HTML,True,True,True,True,True,False,False,7
+JimmyCushnie/Noisy-Nodes,600,"Adds various noise generation nodes to Unity Shader Graph, including 3D noise nodes.",2020-04-17T08:47:36Z,2025-05-19T12:25:12Z,37,600,322,HLSL,True,True,True,True,False,False,False,11
+wukongdaily/allinonescript,600,在软路由iStoreOS命令行中一键安装多个插件,2023-08-31T03:05:04Z,2025-05-04T03:55:59Z,126,600,11571,,True,True,True,True,False,False,False,4
+yuhaoliu7456/CVPR2020-HAttMatting,600,Attention-Guided Hierarchical Structure Aggregation for Image Matting(CVPR2020),2020-02-25T04:11:43Z,2025-05-13T15:35:56Z,69,600,7599,Python,True,True,True,True,False,False,False,1
+someu/aigotools,600,"AigoTools can help users quickly create and manage website directory, with built-in site auto-crawling features, and also provides internationalization, SEO, image storage, and other functions. It allows users to quickly deploy their own directory site online.",2024-06-12T10:33:27Z,2025-05-19T01:24:42Z,106,600,21109,TypeScript,True,True,True,False,False,False,False,3
+SawyerHood/tlbrowse,600,Generate imagined websites on an infinite canvas,2024-05-25T21:34:51Z,2025-05-17T23:43:53Z,119,600,461,TypeScript,True,True,True,False,False,False,False,0
+ducafecat/flutter_ducafecat_news_getx,600,flutter2 + dio4 + getx4,2021-05-31T09:57:15Z,2025-05-11T01:39:13Z,158,600,4928,Dart,True,True,True,True,False,False,False,6
+chrisdone/hell,600,Haskell-based shell scripting language,2013-11-22T04:23:56Z,2025-05-12T06:06:55Z,53,600,351,Haskell,False,False,True,False,True,True,False,3
+bitmovin/libdash,600,MPEG-DASH Access Library - Official ISO/IEC MPEG-DASH Reference Implementation,2013-01-15T09:53:58Z,2025-05-15T13:33:41Z,167,600,15208,C,True,True,True,True,False,False,False,28
+lucaong/cubdb,600,Elixir embedded key/value database,2019-06-16T17:32:50Z,2025-05-16T02:07:27Z,28,600,11888,Elixir,True,True,True,True,False,False,False,13
+tilt-dev/ctlptl,600,Making local Kubernetes clusters fun and easy to set up,2020-10-16T18:30:00Z,2025-05-19T02:39:05Z,39,600,1034,Go,True,True,True,True,False,False,False,12
+OpnTec/malaysia.opentech.asia,600,,2019-11-09T01:46:36Z,2025-05-11T07:32:01Z,0,600,0,,True,True,True,False,True,False,False,1
+cwilso/metronome,600,Web Audio metronome example to show scheduling.,2012-12-27T00:58:16Z,2025-05-12T08:32:46Z,197,600,23,JavaScript,True,True,True,True,True,False,False,6
+ktprime/emhash,600,Fast and memory efficient c++ flat hash map/set,2019-09-11T05:16:39Z,2025-05-15T03:33:46Z,57,600,35262,C++,True,True,True,True,False,False,False,2
+BretFisher/awesome-swarm,600,"All the awesome tools, docs, and training on Docker and Mirantis Swarm Mode (SwarmKit)",2023-02-16T02:16:29Z,2025-05-18T20:55:52Z,34,600,212,,True,False,True,False,False,True,False,5
+machinezone/IXWebSocket,600,"websocket and http client and server library, with TLS support and very few dependencies",2018-09-27T21:07:07Z,2025-05-19T03:21:57Z,192,600,16131,C++,True,False,True,False,True,False,False,67
+concept-graphs/concept-graphs,600,Official code release for ConceptGraphs,2023-09-28T23:58:12Z,2025-05-19T15:55:06Z,86,600,3569,Python,True,True,True,True,False,False,False,18
+PolymerElements/app-layout,600,App layout elements,2015-08-06T19:34:10Z,2025-02-24T21:15:51Z,309,600,49427,HTML,True,True,True,True,True,False,False,40
+apache/cordova-plugin-file-transfer,600,Apache Cordova File Transfer Plugin,2013-06-22T07:00:16Z,2025-05-07T03:35:06Z,888,600,1197,JavaScript,True,True,True,False,False,False,False,41
+larryaasen/upgrader,600,A Flutter package for prompting users to upgrade when there is a newer version of the app in the store.,2018-12-03T02:09:27Z,2025-05-17T13:30:26Z,301,600,3011,Dart,True,True,True,True,False,False,False,117
+biati-digital/alfred-calculate-anything,600,Alfred Workflow to calculate anything with natural language,2019-11-12T20:22:54Z,2025-05-17T16:19:55Z,36,600,87506,PHP,True,True,True,True,False,False,False,29
+HelloVision/HelloMeme,600,The official HelloMeme GitHub site,2024-09-19T09:50:01Z,2025-05-15T15:57:21Z,38,600,21664,Python,True,True,True,False,False,False,False,18
+Mawi137/ngx-image-cropper,800,An image cropper for Angular,2017-09-28T19:25:44Z,2025-04-11T09:46:08Z,210,800,13706,TypeScript,True,True,True,True,False,False,False,8
+wkaisertexas/ScreenTimeLapse,800,Take color-accurate timelapses of your screens and cameras on MacOS,2023-03-06T23:32:59Z,2025-05-11T19:36:37Z,26,800,7846,Swift,True,False,True,False,False,False,False,3
+benedekrozemberczki/ClusterGCN,800,"A PyTorch implementation of ""Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks"" (KDD 2019).",2019-06-17T19:22:40Z,2025-05-18T14:22:56Z,136,800,14921,Python,True,True,True,True,False,False,False,4
+strivexjun/AheadLib-x86-x64,800,hijack dll Source Code Generator. support x86/x64 ,2018-02-02T05:48:54Z,2025-05-19T14:17:05Z,232,800,1043,C++,True,True,True,True,False,False,False,6
+Stremio/stremio-addon-sdk,800,🧙 A Node.js SDK for creating and publishing Stremio add-ons,2018-03-30T15:08:45Z,2025-05-15T23:51:03Z,225,800,1063,JavaScript,True,True,True,True,True,False,False,57
+dwyl/hapi-auth-jwt2,800,":lock: Secure Hapi.js authentication plugin using JSON Web Tokens (JWT) in Headers, URL or Cookies",2015-02-24T15:40:11Z,2025-03-24T00:40:36Z,127,800,1225,JavaScript,True,False,True,False,False,False,False,2
+FalconForceTeam/FalconFriday,800,Hunting queries and detections,2020-08-04T10:25:37Z,2025-05-15T07:04:54Z,97,800,307,,True,False,True,False,False,False,False,2
+AndyQ/NFCPassportReader,800,NFCPassportReader for iOS 13,2019-06-11T12:54:25Z,2025-05-19T12:06:28Z,273,800,2507,Swift,True,False,True,True,False,True,False,42
+khanhas/Spicetify,800,Spice up your Spotify client,2018-02-01T11:53:20Z,2025-05-10T11:26:47Z,73,800,2963,JavaScript,True,True,True,True,False,False,True,16
+chengshiwen/influxdb-cluster,800,InfluxDB Cluster - Open Source Alternative to InfluxDB Enterprise,2022-02-18T06:18:38Z,2025-05-15T13:18:48Z,138,800,2685,Go,True,False,True,True,False,False,False,5
+eteran/c-vector,800,A dynamic array implementation in C similar to the one found in standard C++,2015-08-25T01:00:33Z,2025-05-18T02:50:04Z,115,800,132,C,True,True,True,True,False,False,False,2
+google/capirca,800,Multi-platform ACL generation system,2015-08-04T17:25:11Z,2025-04-24T03:21:55Z,210,800,3317,Python,True,False,False,True,False,False,False,53
+Maaack/Godot-Game-Template,800,"Godot template with a main menu, options menus, pause menu, credits, scene loader, extra tools, and an example game scene.",2022-09-05T00:01:34Z,2025-05-19T17:06:25Z,50,800,17561,GDScript,True,True,True,True,False,False,False,9
+thomaspark/pubcss,800,Format academic publications in HTML & CSS,2015-01-20T04:52:16Z,2025-05-18T06:52:06Z,79,800,5412,SCSS,True,True,True,True,False,False,False,22
+MAFINS/MenyooSP,800,[or Menyoo PC] - Trainer/mod menu for Grand Theft Auto V (single-player).,2019-02-20T18:41:20Z,2025-05-19T00:47:26Z,499,800,9620,C++,True,True,True,True,True,True,True,251
+saeidshirazi/Awesome-Smart-Contract-Security,800,A curated list of Smart Contract Security materials and resources For Researchers,2022-05-05T03:51:56Z,2025-05-19T18:03:54Z,137,800,2981,,True,True,True,True,False,False,False,0
+Arthurzhangsheng/CodeFormer_GUI,800,CodeFormer人脸清晰化工具图形界面版，自带环境解压即用,2022-12-06T02:34:51Z,2025-05-12T18:34:39Z,84,800,93,,True,True,True,True,False,False,False,4
+anhttran/extreme_3d_faces,800,Extreme 3D Face Reconstruction: Looking Past Occlusions,2017-11-29T00:31:32Z,2025-05-14T21:59:51Z,181,800,64936,C++,True,True,True,True,False,False,False,14
+easychen/docker2saas,800,An open source tool that lets you create a SaaS website from docker images in 10 minutes.,2021-02-13T06:23:12Z,2025-05-07T23:01:51Z,109,800,8610,PHP,True,True,True,True,False,False,False,5
+SwiftPackageIndex/PackageList,800,The master list of repositories for the Swift Package Index.,2019-05-14T07:20:31Z,2025-05-19T07:29:23Z,611,800,9135,Swift,True,False,True,False,False,False,False,0
+deepsweet/foxr,800,🦊 Node.js API to control Firefox,2018-08-09T08:45:28Z,2025-02-28T03:02:19Z,18,800,1556,TypeScript,True,True,True,True,False,False,True,32
+EasyChart/Beautiful-Visualization-with-R,800,《R语言数据可视化之美》配套代码,2019-06-01T14:14:10Z,2025-05-14T09:16:19Z,551,800,225380,PostScript,True,True,True,True,False,False,False,5
+ternjs/tern_for_sublime,800,Sublime Text package adding Tern support,2013-04-26T13:34:00Z,2025-03-04T11:06:04Z,52,800,99,Python,True,True,True,True,False,False,False,43
+osteslag/Changeset,800,Minimal edits from one collection to another,2015-12-29T16:02:50Z,2025-04-04T13:27:58Z,42,800,550,Swift,True,False,True,False,False,True,False,3
+smellslikeml/ActionAI,800,Real-Time Spatio-Temporally Localized Activity Detection by Tracking Body Keypoints,2019-02-07T06:09:11Z,2025-05-08T15:25:15Z,192,800,209898,Python,True,True,True,True,False,False,False,34
+scottyzen/woonuxt,800,Static e-commerce powered by WooCommerce & Nuxt,2021-06-10T22:08:35Z,2025-05-19T15:42:30Z,244,800,17891,Vue,True,True,True,True,False,True,False,51
+darbyluv2code/spring-and-hibernate-for-beginners,800,Source code for the course: Spring and Hibernate for Beginners,2019-09-04T03:23:43Z,2025-05-02T04:34:36Z,781,800,3944,Java,False,True,True,True,False,False,False,0
+madeye/gaeproxy,800,GAEProxy for Android (Deprecated),2011-02-20T05:09:06Z,2025-05-18T11:37:46Z,274,800,51954,C,False,True,True,True,False,False,False,1
+tpm2-software/tpm2-tss,800,OSS implementation of the TCG TPM2 Software Stack (TSS2),2015-06-30T16:21:57Z,2025-05-18T17:11:01Z,373,800,25303,C,True,False,True,True,False,False,False,134
+mattlewis92/angular-bootstrap-calendar,800,A port of the bootstrap calendar widget to AngularJS (no jQuery required!),2014-09-27T12:21:19Z,2025-02-03T23:52:26Z,370,800,6313,JavaScript,True,False,True,False,True,False,True,0
+NetManAIOps/OmniAnomaly,800,KDD 2019: Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network,2019-02-02T11:58:29Z,2025-05-16T15:38:54Z,211,800,109678,Python,True,True,True,True,False,False,False,30
+gmoral/Books,800,,2023-02-24T14:08:39Z,2025-05-18T13:22:12Z,283,800,348084,,True,True,True,True,False,False,False,0
+gajus/flow-runtime,800,A runtime type system for JavaScript with full Flow compatibility.,2016-10-22T02:25:16Z,2025-03-20T12:51:16Z,57,800,18533,JavaScript,True,False,True,False,True,False,False,83
+stalomeow/StarRailNPRShader,800,Fan-made shaders for Unity URP attempting to replicate the shading of Honkai: Star Rail.,2023-08-06T08:50:58Z,2025-05-19T18:00:47Z,131,800,34721,C#,True,True,True,False,False,True,True,0
+kevinastone/django-api-rest-and-angular,800,An example repository of combining Django Rest Framework with AngularJS,2013-09-24T23:15:01Z,2025-03-17T09:21:21Z,291,800,1185,Python,True,True,True,True,False,False,False,0
+thethoughtemporium/Whose-gene-is-it-anyway,800,,2020-04-07T18:16:15Z,2025-04-28T13:19:37Z,83,800,1992,JavaScript,True,True,True,True,True,False,False,9
+tobiashochguertel/c4-draw.io,800,C4 Modelling little bit easier,2017-08-25T18:47:57Z,2025-05-12T01:47:24Z,106,800,1482,HTML,True,True,True,True,True,False,False,14
+bumaociyuan/ios-ipa-server,800,Create a HTTPS Server to install iOS ipa,2015-07-17T01:36:56Z,2025-04-26T10:00:42Z,184,800,1037,JavaScript,True,True,True,True,False,False,False,11
+PickNikRobotics/rviz_visual_tools,800,C++ API wrapper for displaying shapes and meshes in Rviz,2014-10-21T00:59:11Z,2025-05-11T15:52:13Z,245,800,3932,C++,True,False,True,False,False,False,False,40
+bugen/pypipe,800,Python pipe command line tool,2023-09-20T06:30:07Z,2025-05-17T16:33:06Z,26,800,517,Python,True,True,True,False,False,True,False,6
+pnp/pnpjs,800,Fluent JavaScript API for SharePoint and Microsoft Graph REST APIs,2017-09-01T15:01:39Z,2025-05-19T11:05:42Z,311,800,27083,TypeScript,True,True,True,False,True,False,False,9
+microrealestate/microrealestate,800,This is an Open Source Real estate management system that helps landlords to manage their rentals and properties,2017-11-05T18:43:50Z,2025-05-19T11:39:10Z,290,800,7121,JavaScript,True,True,True,True,False,True,False,15
+gaearon/suspense-experimental-github-demo,800,Sample project built with Suspense to demonstrate render-as-you-fetch,2019-11-05T03:32:27Z,2025-05-05T18:12:55Z,41,800,1480,JavaScript,True,True,True,True,False,False,True,11
+HackSoftware/Django-Styleguide-Example,800,Repository for example styleguide project,2020-06-19T07:34:11Z,2025-05-15T08:59:30Z,136,800,854,Python,True,True,True,True,False,False,False,18
+fabio914/RealityMixer,800,Mixed Reality app for iOS,2020-10-18T17:21:12Z,2025-05-04T01:50:47Z,65,800,142301,Swift,True,True,True,True,False,False,False,53
+AndrewEllis93/Ellis-SuperSlicer-Profiles,800,,2021-10-13T00:56:14Z,2025-05-09T09:09:42Z,167,800,19385,,True,True,True,True,False,False,False,8
+bnoordhuis/node-iconv,800,node.js iconv bindings - text recoding for fun and profit!,2010-07-12T21:44:04Z,2025-02-14T15:49:29Z,118,800,5455,JavaScript,True,True,False,False,False,False,False,6
+node-webot/wechat-oauth,800,Wechat OAuth,2014-11-25T12:19:18Z,2025-05-09T05:33:36Z,137,800,242,JavaScript,True,True,True,True,True,False,False,10
+xolvio/chimp,800,"Tooling that helps you do quality, faster.",2015-03-30T23:43:04Z,2025-05-13T09:16:30Z,139,800,6076,TypeScript,True,False,True,False,False,True,False,9
+titu1994/neural-image-assessment,800,Implementation of NIMA: Neural Image Assessment in Keras,2018-01-02T07:12:38Z,2025-05-16T04:04:26Z,221,800,22022,Python,True,True,True,True,False,False,False,14
+Oxford-PTAM/PTAM-GPL,800,PTAM (Parallel Tracking and Mapping) re-released under GPLv3.,2013-10-24T05:37:42Z,2025-05-16T19:31:08Z,359,800,1233,C++,True,True,True,True,False,False,False,17
+motor-admin/motor-admin-rails,800,"Low-code Admin panel and Business intelligence Rails engine. No DSL - configurable from the UI. Rails Admin, Active Admin, Blazer modern alternative.",2021-03-04T23:54:53Z,2025-05-17T16:22:13Z,79,800,1586,Ruby,True,True,True,True,False,False,False,23
+elbywan/yett,800,🔐A small webpage library to control the execution of (third party) scripts,2018-06-04T10:03:05Z,2025-04-07T14:33:14Z,73,800,567,JavaScript,True,True,True,True,True,False,False,9
+structr/structr,800,Structr is an integrated low-code development and runtime environment that uses a graph database.,2011-02-01T20:55:18Z,2025-05-19T11:46:07Z,158,800,420693,Java,True,True,True,True,True,False,False,23
+bbatsov/solarized-emacs,800,"The Solarized colour theme, ported to Emacs.",2011-12-03T07:07:25Z,2025-05-19T18:48:21Z,178,800,1291,Emacs Lisp,True,True,True,True,False,False,False,29
+FareedKhan-dev/all-rl-algorithms,800,Implementation of all RL algorithms in a simpler way,2025-03-30T13:33:06Z,2025-05-19T13:48:58Z,88,800,4570,Jupyter Notebook,True,True,True,True,False,False,False,1
+mcmatan/ImageOpenTransition,800,Beautiful and precise transitions between ViewControllers images written in Swift.,2016-07-19T11:27:53Z,2025-01-17T15:00:58Z,37,800,490,Swift,True,True,True,True,False,False,False,3
+DNLHC/glance.nvim,800,Peek preview window for LSP locations in Neovim,2022-11-24T13:47:04Z,2025-05-19T15:31:49Z,25,800,109,Lua,True,True,True,True,False,False,False,11
+HackOvert/GhidraSnippets,800,Python snippets for Ghidra's Program and Decompiler APIs,2019-11-27T13:35:09Z,2025-05-19T03:56:20Z,70,800,45,,True,True,True,True,False,True,False,2
+jgmdev/ddos-deflate,800,"Fork of DDoS Deflate with fixes, improvements and new features.",2015-01-08T01:36:10Z,2025-05-16T19:32:54Z,267,800,170,Shell,True,True,True,True,False,False,False,19
+Adlik/Adlik,800,Adlik: Toolkit for Accelerating Deep Learning Inference,2019-09-23T21:06:09Z,2025-05-17T16:05:35Z,82,800,55497,C++,True,True,True,True,False,False,False,30
+Neph0s/awesome-llm-role-playing-with-persona,800,Awesome-llm-role-playing-with-persona: a curated list of resources for large language models for role-playing with assigned personas,2023-10-30T07:58:56Z,2025-05-19T11:50:30Z,36,800,148,,True,True,True,True,False,False,False,3
+precice/precice,800,"A coupling library for partitioned multi-physics simulations, including, but not restricted to fluid-structure interaction and conjugate heat transfer simulations. ",2015-05-22T14:05:22Z,2025-05-19T15:48:59Z,193,800,42418,C++,True,True,True,True,False,False,False,217
+hicetnunc2000/hicetnunc,800,hicetnunc UI/UX,2020-09-05T17:45:17Z,2025-03-26T21:57:54Z,280,800,19583,JavaScript,True,True,True,True,True,False,False,141
+ausi/slug-generator,800,"Slug Generator Library for PHP, based on Unicode’s CLDR data",2017-07-28T08:59:47Z,2025-05-16T19:21:44Z,54,800,62,PHP,True,True,True,True,False,False,False,12
+TonyReet/TYSnapshotScroll,800,"一句代码保存截图，将 UIScrollView UITableView UICollectionView UIWebView WKWebView  网页 保存 为 长图 查看。Save the scroll view page as an image,support UIScrollView,UITableView,UICollectionView,UIWebView,WKWebView.(Support iOS13)",2016-07-12T02:44:44Z,2025-04-11T06:21:31Z,97,800,56772,Objective-C,True,True,True,True,False,False,False,9
+nextcloud/passman,800,🔐 Open source password manager with Nextcloud integration,2016-09-07T11:30:00Z,2025-05-16T01:29:25Z,113,800,14729,JavaScript,True,True,True,True,True,False,False,134
+whitecube/nova-flexible-content,800,Flexible Content & Repeater Fields for Laravel Nova,2019-02-22T09:19:14Z,2025-05-14T13:00:25Z,247,800,5000,PHP,True,True,True,True,True,True,False,166
+streamlit/llm-examples,800,Streamlit LLM app examples for getting started,2023-05-24T21:05:08Z,2025-05-19T08:21:58Z,1635,800,1621,Python,True,True,True,True,False,False,False,26
+PhantomBot/PhantomBot,799,"PhantomBot is an actively developed open source interactive Twitch bot with a vibrant community that provides entertainment and moderation for your channel, allowing you to focus on what matters the most to you - your game and your viewers.",2016-01-20T20:13:31Z,2025-05-17T16:15:17Z,337,799,570270,JavaScript,True,True,True,False,True,False,False,28
+gh-kL/cocoscreator-list,799,这是一个基于CocosCreator的List（列表）组件。支持虚拟列表、循环列表、不定宽/高、选择模式、滑动模式等。,2019-06-05T07:31:04Z,2025-05-18T07:18:15Z,318,799,25592,TypeScript,True,True,True,True,True,False,False,19
+xmake-io/xmake-repo,799,📦 An official xmake package repository ,2017-04-09T13:56:00Z,2025-05-19T13:09:08Z,441,799,11765,Xmake,True,True,True,True,False,True,False,426
+chronaeon/beigepaper,799,Rewrite of the Yellowpaper in non-Yellowpaper syntax.,2017-12-23T22:26:50Z,2025-05-07T12:22:17Z,91,799,10911,TeX,True,True,True,True,False,False,False,10
+TankerHQ/sdk-js,799,Tanker client-side encryption SDK for JavaScript,2018-10-10T14:36:43Z,2025-05-06T23:32:07Z,26,799,10091,TypeScript,False,False,False,False,False,False,False,0
+xcarpentier/rn-tourguide,799,🚩Make an interactive step by step tour guide for your react-native app (a rewrite of react-native-copilot),2020-05-25T22:50:59Z,2025-05-09T13:07:04Z,226,799,3409,TypeScript,True,True,True,True,True,True,False,62
+NordicSemiconductor/Android-DFU-Library,799,Device Firmware Update library and Android app,2015-02-18T15:31:26Z,2025-05-12T14:01:21Z,278,799,6211,Java,True,False,True,False,True,False,False,45
+warpdotdev/themes,799,"Custom themes repository for Warp, a blazingly fast modern terminal built in Rust.",2021-09-23T01:19:51Z,2025-05-13T01:06:25Z,195,799,12351,Python,True,False,True,False,False,False,False,33
+developit/vhtml,799,"Render JSX/Hyperscript to HTML strings, without VDOM 🌈",2016-03-13T01:29:44Z,2025-05-15T09:12:35Z,36,799,20,JavaScript,True,True,True,True,False,False,False,26
+kilograham/rp2040-doom,799,Fully-featured Doom port for the Raspberry Pi RP2040 microcontroller,2022-02-27T17:03:32Z,2025-05-16T20:07:24Z,105,799,18118,C,True,True,True,True,True,False,False,16
+ArchipelProject/Archipel,799,XMPP Based Orchestrator,2010-09-25T15:03:52Z,2025-04-07T17:37:09Z,125,799,45233,Objective-J,True,True,True,True,False,False,False,100
+chrisdickinson/beefy,799,local development server that aims to make using browserify fast and fun,2013-03-25T04:13:25Z,2025-03-04T10:52:42Z,47,799,461,JavaScript,True,True,True,True,True,False,False,47
+ryanve/response.js,799,Responsive design toolkit,2011-09-23T23:55:24Z,2025-01-02T01:13:15Z,121,799,469,JavaScript,True,True,True,True,True,False,False,26
+NetEase/lordofpomelo,799,the online demo of pomelo,2012-11-20T11:45:53Z,2025-04-25T09:20:35Z,462,799,5919,JavaScript,True,True,True,True,False,False,False,23
+sebbo2002/ical-generator,799,ical-generator is a small piece of code which generates ical calendar files,2013-03-09T22:30:46Z,2025-05-19T09:51:57Z,165,799,26078,TypeScript,True,False,True,True,True,False,False,4
+origin-space/ui-experiments,799,Beautifully designed open-source layouts and UI experiments built with Origin UI and shadcn/ui.,2025-01-30T14:42:26Z,2025-05-19T17:02:14Z,107,799,1038,TypeScript,True,True,True,True,False,False,False,1
+apachecn/RecommenderSystems,799,推荐系统,2017-05-31T08:46:42Z,2025-05-17T03:33:03Z,214,799,18586,Python,True,True,True,True,False,False,False,1
+Simp1er/MobileSec,799,记录一些我自己在学习Android逆向过程中的有意思的东西,2020-03-11T15:08:40Z,2025-05-16T07:16:58Z,213,799,8549,JavaScript,True,True,True,False,False,False,False,0
+OpenRobotLab/GRUtopia,799,GRUtopia: Dream General Robots in a City at Scale,2024-07-01T06:09:53Z,2025-05-19T17:29:14Z,45,799,16092,Python,True,True,True,False,False,True,False,13
+beyondgrep/ack1,799,"This repository is for ack 1.x, which is **no longer being maintained**.  DO NOT SUBMIT ISSUES HERE.  ack 2.0 has a new GitHub project at",2009-03-01T05:16:52Z,2025-04-28T03:27:08Z,95,799,2474,Perl,True,True,True,True,False,False,False,0
+sugi-cho/Animation-Texture-Baker,799,頂点の位置と法線を、Texture2Dに保存しておく。ARGBFloatとか、HDR Textureを使用したバージョン,2016-05-06T13:34:50Z,2025-04-27T06:57:10Z,115,799,18080,C#,True,True,True,True,False,True,False,5
+vvanders/wasm_lua,799,Lua VM running in a WASM environment,2017-03-18T03:01:58Z,2025-05-08T07:13:43Z,54,799,1641,C,False,True,True,False,False,False,False,5
+MorvanZhou/easy-scraping-tutorial,799,Simple but useful Python web scraping tutorial code. ,2017-12-29T05:28:17Z,2025-05-13T01:37:26Z,548,799,3419,Jupyter Notebook,True,True,True,True,False,False,False,7
+soynatan/django-easy-audit,799,"Yet another Django audit log app, hopefully the simplest one.",2016-10-23T06:55:16Z,2025-05-18T07:25:02Z,193,799,298,Python,True,True,True,True,False,False,False,107
+GenericMappingTools/pygmt,799,A Python interface for the Generic Mapping Tools.,2017-03-17T20:31:51Z,2025-05-17T17:08:31Z,229,799,288059,Python,True,True,True,False,True,False,False,188
+protomaps/protomaps-leaflet,799,Lightweight vector map rendering + labeling and symbology for Leaflet,2021-03-30T13:19:59Z,2025-05-18T15:26:24Z,50,799,3003,TypeScript,True,False,True,False,True,True,False,8
+bengottlieb/Twitter-OAuth-iPhone,799,An easy way to get Twitter authenticating with OAuth on iPhone,2009-07-27T11:47:29Z,2025-03-15T07:04:36Z,154,799,2304,Objective-C,True,True,True,True,False,False,False,60
+goshacmd/nsa_panel,799,Easily add an NSA backdoor into your Rails app.,2013-06-08T17:26:06Z,2025-02-12T13:33:36Z,44,799,2836,Ruby,True,True,True,False,False,False,False,1
+rauchg/chat-example,799,,2014-05-28T16:30:50Z,2025-04-23T06:28:17Z,2062,799,3,HTML,True,True,True,True,False,False,False,30
+matinlotfali/KDE-Rounded-Corners,799,Rounds the corners of your windows in KDE Plasma 5 and 6,2019-07-16T22:14:05Z,2025-05-19T15:08:06Z,31,799,4421,C++,True,False,True,False,False,True,False,20
+MattVitelli/GRUV,799,GRUV is a Python project for algorithmic music generation. ,2015-07-27T01:16:52Z,2025-04-19T12:05:55Z,162,799,3022,Python,True,True,True,True,False,False,False,28
+SciRuby/sciruby,1000,Tools for scientific computation in Ruby,2011-01-06T20:50:22Z,2025-05-05T14:45:43Z,79,1000,361,Ruby,True,True,True,True,False,False,False,0
+Misaka-Mikoto-Tech/MonoHook,1000,"hook C# method at runtime without modify dll file (such as UnityEditor.dll), works on Windows, Mac, Android il2cpp(armv7a and armv8a)",2018-06-24T10:49:32Z,2025-05-18T18:40:29Z,189,1000,638,C#,True,True,True,True,False,False,False,9
+Kosinkadink/ComfyUI-VideoHelperSuite,1000,Nodes related to video workflows,2023-09-23T23:57:29Z,2025-05-19T14:03:44Z,164,1000,691,Python,True,True,True,True,False,True,False,155
+sheepdog/sheepdog,1000,Distributed Storage System for QEMU,2011-06-06T10:42:34Z,2025-05-19T04:35:28Z,265,1000,24338,C,True,True,True,True,True,False,False,131
+fabienrenaud/java-json-benchmark,1000,Performance testing of serialization and deserialization of Java JSON libraries,2016-06-27T15:46:11Z,2025-05-13T11:23:38Z,134,1000,642,Java,True,False,True,False,False,False,False,11
+eunomia-bpf/bpftime,1000,"Userspace eBPF runtime for Observability, Network & General Extensions Framework",2023-08-10T07:36:11Z,2025-05-17T01:32:39Z,95,1000,19795,C++,True,True,True,True,True,True,False,83
+igordanchenko/yet-another-react-lightbox,1000,Modern React lightbox component,2022-05-18T22:05:16Z,2025-05-19T02:44:06Z,40,1000,2698,TypeScript,True,False,True,False,False,True,False,1
+ruotianluo/self-critical.pytorch,1000,Unofficial pytorch implementation for Self-critical Sequence Training for Image Captioning. and others.,2017-05-05T05:15:04Z,2025-04-17T06:54:51Z,277,1000,614,Python,True,True,True,True,False,False,False,88
+martin-helmich/prometheus-nginxlog-exporter,1000,Export metrics from Nginx access log files to Prometheus,2016-06-23T21:36:43Z,2025-05-13T12:57:19Z,182,1000,6851,Go,True,False,True,True,False,True,False,39
+zhanghang1989/PyTorch-Multi-Style-Transfer,1000,Neural Style and MSG-Net,2017-04-24T22:07:15Z,2025-05-13T09:01:16Z,204,1000,29685,Jupyter Notebook,True,True,True,True,False,False,False,26
+thma/LtuPatternFactory,1000,"Lambda the ultimate Pattern Factory: FP, Haskell, Typeclassopedia vs Software Design Patterns",2018-10-05T19:32:13Z,2025-04-24T17:11:10Z,37,1000,602,Haskell,True,False,True,False,False,False,False,11
+NaturalIntelligence/imglab,1000,To speedup and simplify image labeling/ annotation process with multiple supported formats.,2017-10-25T12:28:24Z,2025-05-18T15:02:19Z,619,1000,211489,HTML,True,True,True,True,True,False,False,43
+OpenWonderLabs/SwitchBotAPI,1000,SwitchBot Open API Documents,2020-12-16T06:39:56Z,2025-05-19T16:34:37Z,77,1000,327,,True,True,True,True,False,False,False,136
+christophercliff/flatmarket,1000,"A free, open source e-commerce platform for static websites.",2015-07-25T18:06:30Z,2025-05-15T00:34:41Z,124,1000,2069,JavaScript,True,True,True,False,False,False,False,11
+BillEliot/GASDocumentation_Chinese,1000,,2021-01-24T11:10:22Z,2025-05-15T17:26:10Z,174,1000,4009,,True,True,True,True,False,False,False,1
+Spuckwaffel/UEDumper,1000,The most powerful Unreal Engine Dumper and Editor for UE 4.19 - 5.3,2023-06-04T00:28:12Z,2025-05-19T08:37:13Z,185,1000,51720,C++,True,True,True,False,False,False,False,2
+simdsoft/yasio,1000,A multi-platform support c++11 library with focus on asio (asynchronous socket I/O) for any client applications.,2015-06-26T15:28:33Z,2025-05-19T18:38:59Z,227,1000,59013,C++,True,False,True,False,True,True,False,2
+browserpass/browserpass-legacy,1000,"Legacy Browserpass repo, development is now happening at:",2016-11-03T22:15:43Z,2025-05-04T00:16:51Z,80,1000,779,JavaScript,True,False,True,False,False,False,True,0
+robbins23/daisyui-admin-dashboard-template,1000,"Free admin dashboard template using Daisy UI, React js and Tailwind CSS",2022-11-27T08:46:44Z,2025-05-17T18:59:34Z,268,1000,701,JavaScript,True,True,True,True,False,False,False,4
+naia-lib/naia,1000,a cross-platform (including Wasm!) networking library built in Rust. Intended to make multiplayer game development dead-simple & lightning-fast ,2020-06-28T03:00:57Z,2025-05-19T00:46:25Z,62,1000,5210,Rust,True,False,True,False,False,False,False,29
+bradp/vv,1000,":globe_with_meridians: Variable VVV - a VVV Site Creation Wizard.‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ :x: This project is no longer maintained. Please update your copy of VVV , which has most of the vv features built in.",2014-12-11T04:43:23Z,2025-03-04T15:05:04Z,88,1000,639,Shell,True,True,True,False,False,False,True,42
+nst/JSONTestSuite,1000,A comprehensive test suite for RFC 8259 compliant JSON parsers,2016-10-23T19:14:09Z,2025-05-18T11:37:20Z,157,1000,86935,C++,True,True,True,True,False,False,False,49
+rethinkdb/rethinkdb_rebirth,1000,The open-source database for the realtime web.,2018-05-16T14:40:12Z,2025-01-29T04:43:00Z,41,1000,124872,C++,True,True,True,False,False,False,True,19
+wasmerio/wasmer-js,1000,Monorepo for Javascript WebAssembly packages by Wasmer,2019-06-17T17:32:00Z,2025-05-18T17:45:46Z,89,1000,48734,Rust,True,True,True,True,True,False,False,44
+hcavarsan/kftray,1000,"🦀 ⚡ kubectl port forward manager, with support for UDP and proxy connections through k8s clusters ",2023-11-26T01:02:19Z,2025-05-19T12:21:53Z,57,1000,17676,Rust,True,True,True,True,False,False,False,5
+downthemall/downthemall,1000,The DownThemAll! WebExtension,2019-08-20T14:39:15Z,2025-05-19T04:53:17Z,113,1000,8337,TypeScript,True,False,True,True,False,False,False,251
+LibCity/Bigscity-LibCity,1000,LibCity: An Open Library for Urban Spatial-temporal Data Mining,2020-12-12T07:18:41Z,2025-05-12T10:42:46Z,175,1000,41261,Python,True,True,True,True,False,True,False,27
+libredesktop/Libredesktop.github.io,1000,,2017-11-24T14:34:46Z,2025-03-15T14:10:43Z,0,1000,148,,False,False,True,False,True,False,False,3
+google-deepmind/neural-processes,1000,"This repository contains notebook implementations of the following Neural Process variants: Conditional Neural Processes (CNPs), Neural Processes (NPs), Attentive Neural Processes (ANPs).",2018-09-18T10:07:17Z,2025-04-30T10:12:30Z,150,1000,1267,Jupyter Notebook,True,True,True,True,False,False,False,8
+secretsquirrel/BDFProxy,1000,Patch Binaries via MITM: BackdoorFactory + mitmProxy.  ,2014-05-14T20:44:55Z,2025-05-08T07:32:03Z,201,1000,182,Python,False,True,True,True,False,False,False,0
+bwasty/learn-opengl-rs,1000,Rust port of JoeyDeVries/LearnOpenGL,2017-06-04T19:41:11Z,2025-05-16T15:55:37Z,71,1000,53492,Rust,True,False,True,False,False,False,False,5
+snap-research/NeROIC,1000,,2022-01-07T21:28:21Z,2025-05-18T15:03:03Z,134,1000,8908,Python,True,True,True,True,False,False,False,14
+OpesanyaAdebayo/systems-design,1000,"All things systems design. Resources, Interview questions, e.t.c",2020-09-06T06:48:50Z,2025-05-19T06:59:37Z,216,1000,61,,True,True,True,True,False,False,False,0
+intel/isa-l,1000,Intelligent Storage Acceleration Library,2016-01-25T23:10:55Z,2025-05-17T10:42:54Z,312,1000,2735,C,True,True,True,True,False,False,False,69
+SkyD666/PodAura,1000,"All-in-one Android podcast app for RSS, media dl & play. MVI arch, Material You style. ⭐️ Star to support!",2024-02-07T16:20:43Z,2025-05-19T17:46:07Z,29,1000,19089,Kotlin,True,False,True,False,False,True,False,21
+lu4p/ToRat,1000,ToRat is a Remote Administation tool written in Go using Tor as a transport mechanism and RPC for communication,2019-01-19T11:44:01Z,2025-05-18T08:56:37Z,198,1000,429,Go,True,True,True,True,True,False,True,14
+catppuccin/discord,1000,🎮 Soothing pastel theme for Discord,2022-01-24T17:11:38Z,2025-05-19T18:09:56Z,179,1000,16465,SCSS,True,False,True,False,True,False,False,14
+flyover/imgui-js,1000,JavaScript bindings for Dear ImGui using Emscripten and TypeScript,2018-02-09T19:42:03Z,2025-05-17T14:26:47Z,105,1000,28684,TypeScript,True,True,True,True,True,False,False,39
+awslabs/aws-cfn-template-flip,1000,Tool for converting AWS CloudFormation templates between JSON and YAML formats.,2016-11-28T23:29:17Z,2025-05-18T20:22:25Z,140,1000,324,Python,True,True,True,False,False,False,False,3
+sirius-ai/LPRNet_Pytorch,1000,"Pytorch Implementation For LPRNet, A High Performance And Lightweight License Plate Recognition Framework. ",2019-05-04T15:05:14Z,2025-05-18T04:51:04Z,253,1000,20549,Python,True,True,True,True,False,False,False,72
+webfansplz/temir,1000,Vue for interactive command-line apps,2022-07-28T13:32:51Z,2025-05-02T17:51:27Z,36,1000,6788,TypeScript,True,True,True,True,False,False,True,3
+wavedrom/wavedrom.github.io,1000,Digital timing diagram editor,2014-05-10T22:53:06Z,2025-05-16T11:48:19Z,166,1000,2134,JavaScript,True,True,True,True,True,False,False,45
+cljfx/cljfx,1000,"Declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame",2018-12-22T22:02:32Z,2025-05-17T23:55:57Z,47,1000,1438,Clojure,True,False,True,False,False,False,False,38
+Universal-Team/Universal-Updater,1000,An easy to use app for installing and updating 3DS homebrew,2019-10-31T02:19:37Z,2025-05-19T17:29:16Z,32,1000,11770,C++,True,True,True,True,False,True,False,33
+timsainb/tensorflow2-generative-models,1000,"Implementations of a number of generative models in Tensorflow 2. GAN, VAE, Seq2Seq, VAEGAN, GAIA, Spectrogram Inversion. Everything is self contained in a jupyter notebook for easy export to colab.",2019-05-13T18:47:06Z,2025-03-26T07:24:09Z,186,1000,11957,Jupyter Notebook,True,True,True,True,False,False,False,10
+rizzatti/dash.vim,1000,Search Dash.app from Vim,2013-03-14T17:12:10Z,2025-03-24T08:59:01Z,60,1000,76,Vim script,True,True,True,True,False,False,False,10
+yrccondor/mdx,1000,MDx - Material Design WordPress Theme,2017-06-18T08:57:07Z,2025-05-15T00:14:58Z,111,1000,9059,PHP,True,False,True,False,False,True,False,49
+signalapp/BitHub,1000,BTC + BitHub = An experiment in funding privacy OSS.,2013-12-15T06:02:40Z,2025-05-05T12:51:34Z,254,1000,549,Java,False,True,True,True,False,False,True,35
+jarun/advcpmv,1000,"A patch for GNU Core Utilities cp, mv to add progress bars",2019-02-25T14:14:18Z,2025-05-19T17:32:19Z,82,1000,110,Shell,True,True,True,True,False,False,False,1
+gitdagray/css_course,999,,2022-01-31T22:35:06Z,2025-05-18T16:26:43Z,781,999,82526,HTML,True,True,True,True,False,False,False,6
+MatiBot/MBCircularProgressBar,999,"A circular, animatable & highly customizable progress bar from the Interface Builder (Objective-C)",2015-07-19T12:29:19Z,2025-05-08T11:47:47Z,180,999,1366,Objective-C,True,True,True,True,True,False,False,54
+shivammehta25/Matcha-TTS,999,[ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching,2023-09-05T22:08:15Z,2025-05-19T02:26:38Z,131,999,60428,Jupyter Notebook,True,True,True,True,True,True,False,19
+adeshpande3/LSTM-Sentiment-Analysis,999,Sentiment Analysis with LSTMs in Tensorflow,2017-06-08T21:51:43Z,2025-05-05T10:48:47Z,426,999,168615,Jupyter Notebook,True,True,True,True,False,False,False,20
+sachinchoolur/lightgallery-desktop,999,"A modern, electron and nodejs based image viewer for Mac, Windows and Linux.",2016-05-25T08:51:14Z,2025-05-19T14:34:40Z,92,999,3492,JavaScript,True,True,True,True,True,False,False,23
+kejilion/sh,999,一款全功能的Linux管理脚本！An all-in-one Linux management script!,2023-05-08T15:19:57Z,2025-05-19T14:06:07Z,491,999,5459,Shell,True,True,True,True,False,False,False,32
+thelgevold/angular-samples,999,Angular sample components,2015-06-06T14:54:01Z,2025-05-07T20:50:24Z,295,999,30709,TypeScript,True,True,True,True,False,False,False,18
+kevinzakka/spatial-transformer-network,999,A Tensorflow implementation of Spatial Transformer Networks.,2017-01-07T10:02:58Z,2025-04-24T01:25:27Z,267,999,4239,Python,True,True,True,True,False,False,False,19
+tlienart/Franklin.jl,999,"(yet another) static site generator. Simple, customisable, fast, maths with KaTeX, code evaluation, optional pre-rendering, in Julia.",2018-05-31T02:25:35Z,2025-05-12T15:24:24Z,117,999,61203,Julia,True,True,True,True,True,True,False,179
+antsmartian/lets-build-express,999,This repo contains chapters which explains how one can build a minimal express library.,2018-06-12T08:42:57Z,2025-05-14T04:21:02Z,57,999,649,JavaScript,True,True,True,True,False,False,False,7
+strongloop/strong-pm,999,deployer for node applications,2014-06-03T21:48:54Z,2025-04-09T14:24:57Z,71,999,1056,JavaScript,True,True,True,True,False,False,False,2
+deepskystacker/DSS,999,DeepSkyStacker,2018-02-24T18:57:15Z,2025-05-19T13:48:48Z,100,999,628726,C,False,True,True,True,False,True,False,12
+GafferHQ/gaffer,999,"Gaffer is a node-based application for lookdev, lighting and automation",2013-03-27T00:04:53Z,2025-05-19T15:51:56Z,211,999,81778,Python,True,True,True,True,False,True,False,352
+alexanderjeurissen/ranger_devicons,999,Ranger plugin that adds file glyphs / icon support to Ranger,2017-03-09T20:01:32Z,2025-05-09T23:40:17Z,75,999,204,Python,True,True,True,True,False,True,False,1
+Darkempire78/OpenCalc,999,A simple and beautiful calculator for Android,2022-07-18T17:42:03Z,2025-05-19T16:31:42Z,123,999,7768,Kotlin,True,True,True,True,False,True,False,41
+IzakMarais/reporter,999,Service that generates a PDF report from a Grafana dashboard,2016-07-08T13:38:16Z,2025-05-14T08:38:08Z,313,999,8685,Go,True,True,True,True,False,False,False,105
+jnmcfly/awesome-startpage,999,This is a carefully compiled list of remarkable projects with the focus on startpages.,2020-09-26T07:05:28Z,2025-05-17T17:27:24Z,48,999,125,,True,False,True,False,False,False,False,0
+msdx/status-bar-compat,999,"A compatible library for setting status bar color. Support MIUI, Flyme, EMUI3.1. 一行代码调用，布局零入侵。兼容小米，魅族，华为……",2016-06-21T02:16:39Z,2025-04-27T07:15:15Z,156,999,212,Java,True,True,True,True,True,False,False,3
+xchacha20-poly1305/husi,999,Husi(虎兕) is a Non-professional and Recreational Proxy Tool Integration.,2023-12-24T06:19:29Z,2025-05-19T09:03:56Z,53,999,7450,Kotlin,True,False,True,True,False,True,False,5
+xapax/security,999,Stuff about it-security that might be good to know,2017-03-04T03:18:28Z,2025-05-19T18:30:11Z,510,999,4758,CSS,True,True,True,True,True,False,False,8
+EFForg/crocodilehunter,999,Taking one back for Steve Irwin 　 　 (๑•̀ㅂ•́)و,2018-09-10T20:44:12Z,2025-05-17T16:43:39Z,143,999,363,Python,True,True,True,True,False,False,False,32
+sigstore/gitsign,999,Keyless Git signing using Sigstore,2022-05-12T15:38:22Z,2025-05-19T13:23:14Z,69,999,1842,Go,True,True,True,False,False,True,False,25
+spurin/diveintoansible-lab,999,Dive Into Ansible Lab,2020-11-04T19:53:08Z,2025-05-18T09:17:33Z,614,999,23501,,True,True,True,True,False,False,False,8
+google/schema-dts,999,JSON-LD TypeScript types for Schema.org vocabulary,2018-11-29T21:45:45Z,2025-05-19T16:02:30Z,34,999,2429,TypeScript,True,True,True,True,False,False,False,15
+d35ha/CallObfuscator,999,Obfuscate specific windows apis with different apis,2019-06-30T19:50:01Z,2025-05-08T12:01:24Z,178,999,541,C++,True,True,True,True,False,False,False,3
+heiseonline/embetty,999,🐙 Embetty displays remote content like tweets or YouTube videos without compromising your privacy.,2017-11-20T12:53:20Z,2025-05-16T17:25:31Z,33,999,11737,TypeScript,True,False,True,False,True,False,False,11
+eliotfowler/EFCircularSlider,999,An extensible circular slider for iOS applications,2013-12-04T15:53:21Z,2025-01-09T03:56:51Z,158,999,450,Objective-C,True,True,True,True,True,False,False,21
+bevacqua/react-dragula,999,:ok_hand: Drag and drop so simple it hurts,2015-08-04T18:40:21Z,2025-05-10T23:14:10Z,77,999,1209,JavaScript,True,True,True,True,True,False,False,27
+KonghaYao/chinese-free-web-font-storage,999,中文网字计划 (Chinese Webfont Project) 是一个免费的中文 web 字体库，支持在线加载及查看字体信息。Explore our free CJK web font library that enables online loading and font information viewing.,2021-10-25T08:27:12Z,2025-05-17T00:49:28Z,38,999,935356,JavaScript,True,True,True,True,False,True,False,12
+fox-it/dissect,999,"Dissect is a digital forensics & incident response framework and toolset that allows you to quickly access and analyse forensic artefacts from various disk and file formats, developed by Fox-IT (part of NCC Group).",2022-07-21T08:26:05Z,2025-05-17T12:58:23Z,71,999,65,,True,True,True,False,False,True,False,4
+licensee/licensed,999,A Ruby gem to cache and verify the licenses of dependencies,2018-02-02T22:46:45Z,2025-05-19T15:26:45Z,126,999,19358,Ruby,True,False,True,False,False,True,False,3
+seven456/MultiChannelPackageTool,999,Android Multi channel package tool （安卓多渠道打包工具）,2014-12-23T10:01:16Z,2025-02-27T22:11:03Z,227,999,363,Java,True,True,True,True,False,False,False,5
+Shopify/remote-dom,999,,2020-06-17T18:31:40Z,2025-05-19T17:03:03Z,63,999,5371,TypeScript,True,True,True,True,False,True,False,26
+kuangliu/pytorch-retinanet,999,RetinaNet in PyTorch,2017-08-18T11:48:50Z,2025-05-14T11:46:02Z,248,999,12185,Python,True,True,True,True,False,False,False,51
+movsim/traffic-simulation-de,999,Source code for javascript simulation of website,2016-09-27T19:48:27Z,2025-05-15T02:34:44Z,148,999,31465,JavaScript,True,True,True,True,False,False,False,6
+paulcollett/react-masonry-css,999,"React Masonry layout component powered by CSS, dependancy free",2017-07-20T05:24:36Z,2025-05-14T01:21:20Z,67,999,638,JavaScript,True,True,True,True,True,False,False,29
+mity/md4c,999,C Markdown parser. Fast. SAX-like interface. Compliant to CommonMark specification.,2016-10-03T18:23:22Z,2025-05-19T11:05:44Z,167,999,1362,C,True,True,True,True,False,True,False,46
+TomHarte/CLK,998,"A latency-hating emulator of: the Acorn Electron and Archimedes, Amstrad CPC, Apple II/II+/IIe and early Macintosh, Atari 2600 and ST, ColecoVision, Enterprise 64/128, Commodore Vic-20 and Amiga, MSX 1/2, Oric 1/Atmos, early PC compatibles, Sega Master System, Sinclair ZX80/81 and ZX Spectrum.",2015-07-16T23:46:52Z,2025-05-19T02:39:29Z,54,998,388573,C++,True,False,True,True,True,False,False,98
+HamburgChimps/apple-notes-liberator,998,Free your Apple Notes data from Notes.app,2023-03-26T00:54:17Z,2025-05-19T10:52:04Z,23,998,176,Java,True,False,True,False,False,False,False,16
+adactio/Pattern-Primer,998,Generating styled markup from a folder of markup snippets.,2011-11-18T12:03:32Z,2025-05-05T03:48:25Z,155,998,191,CSS,True,True,True,True,False,False,False,2
+szymanowiczs/splatter-image,998,Official implementation of `Splatter Image: Ultra-Fast Single-View 3D Reconstruction' CVPR 2024,2023-12-18T21:24:24Z,2025-05-18T05:51:58Z,72,998,3087,Python,True,True,True,False,False,False,False,18
+alirezanet/Gridify,998,"Easy and optimized way to apply Filtering, Sorting, and Pagination using text-based data.",2020-07-01T18:02:59Z,2025-05-19T01:37:32Z,77,998,2465,C#,True,False,True,True,True,True,False,23
+cujojs/rest,998,RESTful HTTP client for JavaScript,2012-05-23T23:11:04Z,2025-05-16T21:31:56Z,146,998,1088,JavaScript,True,True,True,False,False,False,True,0
+steipete/InterposeKit,998,A modern library to swizzle elegantly in Swift.,2020-05-11T07:47:40Z,2025-05-19T09:39:46Z,48,998,5724,Swift,True,False,True,False,True,False,False,13
+evansm7/vftool,998,A simple macOS Virtualisation.framework wrapper,2020-11-25T17:55:01Z,2025-05-01T19:17:54Z,69,998,15,Objective-C,True,True,True,True,False,True,False,21
+zahidkhawaja/langchain-chat-nextjs,998,Next.js frontend for LangChain Chat.,2023-01-27T21:45:27Z,2025-05-17T17:34:36Z,269,998,125,JavaScript,True,True,True,True,False,False,False,5
+NVIDIA-AI-IOT/trt_pose,998,Real-time pose estimation accelerated with NVIDIA TensorRT,2019-07-29T19:42:14Z,2025-05-19T02:32:10Z,296,998,2065,Python,True,True,True,True,False,False,False,141
+andev-software/graphql-ide,998,⚡️ GraphQL IDE - An extensive IDE for exploring GraphQL API's,2016-11-21T11:57:27Z,2025-04-29T16:33:08Z,69,998,5122,CSS,True,True,True,True,False,False,False,22
+rossumur/espflix,998,A free video streaming service that runs on a ESP32,2020-06-06T15:24:30Z,2025-05-09T02:18:40Z,71,998,3653,C,True,True,True,True,True,False,False,11
+Bush2021/chrome_plus,998,A DLL hijack implements Chrome full portability as well as tab enhancements.,2022-04-04T05:07:40Z,2025-05-19T00:47:21Z,103,998,24836,C++,True,False,True,False,False,False,False,4
+wannabeOG/Mask-RCNN,998,A PyTorch implementation of the architecture of Mask RCNN,2018-06-22T09:19:05Z,2025-03-29T15:58:04Z,178,998,70,Python,True,True,True,True,False,False,False,16
+R3nzTheCodeGOD/R3nzSkin,5000,Skin changer for League of Legends (LOL),2021-09-24T23:25:32Z,2025-05-18T16:20:51Z,794,5000,632,C++,False,False,True,False,False,False,True,57
+xuexiangjys/XUI,5000,"💍A simple and elegant Android native UI framework, free your hands! (一个简洁而优雅的Android原生UI框架，解放你的双手！)",2019-01-07T07:59:02Z,2025-05-19T05:56:27Z,850,5000,279853,Java,True,True,True,True,True,True,False,9
+rrrene/credo,4999,A static code analysis tool for the Elixir language with a focus on code consistency and teaching.,2015-09-27T13:16:15Z,2025-05-19T18:32:21Z,427,4999,5410,Elixir,True,True,True,False,False,False,False,26
+fpillet/NSLogger,4999,"A modern, flexible logging tool",2010-09-30T18:03:41Z,2025-05-19T13:02:01Z,569,4999,32232,Objective-C,True,True,True,True,True,False,False,49
+dreammis/social-auto-upload,4999,自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili,2023-12-04T07:49:16Z,2025-05-19T15:46:47Z,833,4999,9962,Python,True,True,True,True,False,False,False,19
+jacobeisenstein/gt-nlp-class,4999,"Course materials for Georgia Tech CS 4650 and 7650, ""Natural Language""",2013-02-28T18:27:27Z,2025-05-16T06:27:41Z,1091,4999,331077,TeX,True,True,True,True,False,False,False,2
+tboox/tbox,4999,🎁 A glib-like multi-platform c library,2011-04-10T15:01:20Z,2025-05-19T18:30:55Z,744,4999,32393,C,True,True,True,True,False,True,False,37
+VeNoMouS/cloudscraper,4999,A Python module to bypass Cloudflare's anti-bot page.,2019-04-16T02:18:50Z,2025-05-19T14:54:55Z,514,4999,30606,Python,False,True,True,True,False,False,False,8
+PaulJuliusMartinez/jless,4998,"jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.",2021-04-24T05:35:41Z,2025-05-19T07:38:57Z,99,4998,2192,Rust,True,True,True,False,False,False,False,91
+lllyasviel/ControlNet-v1-1-nightly,4998,Nightly release of ControlNet 1.1,2023-03-14T16:02:22Z,2025-05-19T17:24:10Z,396,4998,66765,Python,True,True,True,False,False,True,False,67
+subzeroid/instagrapi,4998,🔥 The fastest and powerful Python library for Instagram Private API 2025 with HikerAPI SaaS,2020-07-30T20:14:10Z,2025-05-19T18:31:59Z,742,4998,6040,Python,True,True,True,False,True,True,False,411
+yfeng95/PRNet,4998,Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network (ECCV 2018),2018-03-20T11:44:06Z,2025-05-17T20:55:01Z,944,4998,7700,Python,True,True,True,True,False,False,False,168
+mmp/pbrt-v3,4997,"Source code for pbrt, the renderer described in the third edition of ""Physically Based Rendering: From Theory To Implementation"", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.",2015-06-15T18:13:08Z,2025-05-15T05:22:37Z,1209,4997,5729,C++,True,True,True,True,False,False,False,57
+grassmunk/Chicago95,4997,A rendition of everyone's favorite 1995 Microsoft operating system for Linux. ,2016-04-15T19:53:03Z,2025-05-19T17:47:39Z,165,4997,31301,HTML,True,True,True,True,False,False,False,106
+preservim/nerdcommenter,4997,Vim plugin for intensely nerdy commenting powers,2008-03-10T08:19:15Z,2025-05-15T12:16:42Z,447,4997,1000,Vim Script,True,False,True,False,False,False,False,100
+qtile/qtile,4997,":cookie: A full-featured, hackable tiling window manager written and configured in Python (X11 + Wayland)",2008-08-30T00:16:40Z,2025-05-19T12:44:24Z,713,4997,12887,Python,True,True,True,True,False,True,False,167
+fleetdm/fleet,4997,"Open-source platform for IT, security, and infrastructure teams. (Linux, macOS, Chrome, Windows, cloud, data center)",2020-11-03T22:17:18Z,2025-05-19T18:29:51Z,569,4997,1003375,Go,True,False,True,False,True,False,False,2457
+alibaba/UltraViewPager,4996,UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.,2017-03-29T13:31:53Z,2025-05-15T07:44:16Z,680,4996,8873,Java,True,True,True,True,False,False,True,57
+deepfence/ThreatMapper,4996,Open Source Cloud Native Application Protection Platform (CNAPP),2020-02-06T10:30:09Z,2025-05-19T07:19:41Z,609,4996,225829,TypeScript,True,False,True,False,True,True,False,144
+sintaxi/harp,4996,Static Web Server/Generator/Bundler,2012-12-03T02:49:07Z,2025-05-12T03:45:59Z,341,4996,1603,JavaScript,True,True,True,False,False,False,False,45
+libp2p/rust-libp2p,4996,The Rust Implementation of the libp2p networking stack. ,2017-03-24T20:05:11Z,2025-05-19T15:28:52Z,1071,4996,20293,Rust,True,True,True,False,True,True,False,205
+folke/snacks.nvim,4996,🍿 A collection of QoL plugins for Neovim,2024-11-02T22:24:00Z,2025-05-19T18:43:09Z,246,4996,13918,Lua,True,True,True,True,False,True,False,177
+vuejs/vue-loader,4995,📦 Webpack loader for Vue.js components,2014-10-02T00:05:07Z,2025-04-30T08:54:34Z,918,4995,6336,TypeScript,True,True,True,False,True,False,False,231
+leoafarias/fvm,4995,Flutter Version Management: A simple CLI to manage Flutter SDK versions.,2019-02-22T06:57:07Z,2025-05-19T13:02:14Z,254,4995,11514,Dart,True,True,True,True,True,True,False,94
+levey/AwesomeMenu,4994,Path 2.0 menu using CoreAnimation :),2011-12-01T06:12:49Z,2025-05-19T08:38:46Z,789,4994,885,Objective-C,True,True,True,False,False,False,False,21
+dariusk/corpora,4994,A collection of small corpuses of interesting data for the creation of bots and similar stuff.,2014-02-23T00:52:11Z,2025-05-18T13:32:59Z,1301,4994,3079,JavaScript,True,True,True,True,False,False,False,15
+Tribler/tribler,4994,Privacy enhanced BitTorrent client with P2P content discovery,2013-02-25T14:51:58Z,2025-05-19T17:16:46Z,460,4994,140825,Python,True,False,True,True,False,True,False,129
+go-pay/gopay,4993,微信、支付宝、通联支付、拉卡拉、PayPal、Apple 的Go版本SDK。【极简、易用的聚合支付SDK】,2019-01-08T10:14:40Z,2025-05-19T07:24:52Z,823,4993,11381,Go,True,True,True,True,False,True,False,30
+WebKit/WebKit-http,4993,Deprecated unofficial http mirror of the WebKit SVN repository,2011-01-11T13:50:19Z,2025-05-15T21:47:11Z,1981,4993,7847572,,False,False,True,False,False,False,True,0
+spring-projects/spring-authorization-server,4993,Spring Authorization Server,2020-03-17T17:28:57Z,2025-05-16T15:55:56Z,1330,4993,6186,Java,True,True,True,True,False,False,False,60
+Ylianst/MeshCentral,4993,A complete web-based remote monitoring and management web site. Once setup you can install agents and perform remote desktop session to devices on the local network or over the Internet.,2017-08-28T16:21:11Z,2025-05-19T10:08:16Z,654,4993,1600858,HTML,True,False,True,True,True,True,False,861
+Jackpopc/CS-Books-Store,4992,你想要的计算机经典书籍，这里都有！,2021-03-25T15:38:42Z,2025-05-19T09:11:02Z,850,4992,89,,True,True,True,True,False,False,False,7
+intel/hyperscan,4991,High-performance regular expression matching library,2015-09-21T21:58:00Z,2025-05-19T16:06:31Z,739,4991,5731,C++,True,False,True,False,True,False,False,192
+rack/rack,4991,A modular Ruby web server interface.,2008-12-24T03:03:12Z,2025-05-18T22:05:27Z,1641,4991,10282,Ruby,True,True,True,True,True,True,False,20
+inventree/InvenTree,4991,Open Source Inventory Management System,2017-03-23T01:44:10Z,2025-05-19T17:50:38Z,931,4991,229562,Python,True,False,True,False,False,True,False,241
+jschr/bootstrap-modal,4991,"Extends the default Bootstrap Modal class. Responsive, stackable, ajax and more.",2012-09-26T20:06:00Z,2025-04-27T16:39:19Z,1086,4991,172,JavaScript,True,True,True,True,True,False,False,110
+silenceper/wechat,4990,WeChat SDK for Go （微信SDK：简单、易用）,2016-09-06T07:25:01Z,2025-05-19T01:50:13Z,1103,4990,5889,Go,True,True,True,True,False,True,False,107
+xataio/pgroll,4990,PostgreSQL zero-downtime migrations made easy,2023-06-22T15:29:36Z,2025-05-19T15:05:28Z,93,4990,3087,Go,True,True,True,False,True,True,False,71
+sachaos/viddy,4990,👀 A modern watch command. Time machine and pager etc.,2021-08-14T06:40:12Z,2025-05-19T16:20:11Z,92,4990,21934,Rust,True,False,True,True,False,True,False,19
+995icu/996ICU,4990,996ICU 995ICU 工作996 生病ICU 加班不规范 亲人两行泪,2019-03-28T04:39:02Z,2025-05-19T15:32:52Z,297,4990,7,,True,True,True,True,False,False,False,149
+orhanobut/dialogplus,4990,Advanced dialog solution for android,2014-12-12T09:24:44Z,2025-05-06T22:27:58Z,791,4990,6790,Java,True,False,True,False,False,False,False,54
+gregmalcolm/python_koans,4989,Python Koans - Learn Python through TDD,2010-03-01T17:04:31Z,2025-05-19T02:12:57Z,2847,4989,576,Python,True,True,True,True,False,False,False,21
+Lyken17/pytorch-OpCounter,4989,Count the MACs / FLOPs of your PyTorch model.,2018-01-26T06:20:22Z,2025-05-19T02:18:17Z,531,4989,177,Python,True,True,True,True,False,False,False,84
+cloudcommunity/Cloud-Free-Tier-Comparison,4988,"Comparing the free tier offers of the major cloud providers like AWS, Azure, GCP, Oracle etc.",2020-08-13T08:46:57Z,2025-05-19T13:48:49Z,307,4988,134,,True,True,True,True,False,False,False,15
+get-alex/alex,4988,"Catch insensitive, inconsiderate writing",2015-08-15T19:53:54Z,2025-05-19T10:58:34Z,209,4988,5913,JavaScript,True,False,True,False,True,False,False,24
+openexchangerates/accounting.js,4988,"A lightweight JavaScript library for number, money and currency formatting - fully localisable, zero dependencies.",2011-08-21T04:18:02Z,2025-05-14T19:33:17Z,530,4988,248,JavaScript,True,True,True,True,True,False,False,139
+steven-tey/precedent,4988,"An opinionated collection of components, hooks, and utilities for your Next.js project.",2023-01-13T14:27:05Z,2025-05-19T17:26:39Z,450,4988,450,TypeScript,True,True,True,True,False,True,False,31
+DingMouRen/LayoutManagerGroup,4988,:point_right: Customize the LayoutManager of RecyclerView(自定义LayoutManager),2018-04-28T11:47:38Z,2025-05-06T22:28:45Z,678,4988,45688,Java,True,True,True,True,False,False,False,41
+mbleigh/acts-as-taggable-on,4987,A tagging plugin for Rails applications that allows for custom tagging along dynamic contexts.,2008-03-21T19:07:26Z,2025-05-16T10:39:12Z,1200,4987,1307,Ruby,True,True,True,True,False,False,False,311
+mpociot/chatgpt-vscode,4986,A VSCode extension that allows you to use ChatGPT,2022-12-03T23:04:39Z,2025-05-17T16:26:47Z,364,4986,1009,TypeScript,True,True,True,True,False,False,False,51
+antiwork/shortest,4986,QA via natural language AI tests,2024-09-18T20:44:05Z,2025-05-19T13:21:13Z,283,4986,2074,TypeScript,True,True,True,False,False,True,False,0
+josephg/ShareJS,4985,Collaborative editing in any app,2011-04-18T15:02:15Z,2025-05-14T13:11:08Z,453,4985,6186,JavaScript,True,True,True,True,False,False,False,107
+runelite/runelite,4985,Open source Old School RuneScape client,2016-04-30T20:48:02Z,2025-05-19T12:57:55Z,5368,4985,88102,Java,True,False,True,True,False,True,False,2136
+rime/squirrel,4985,【鼠鬚管】Rime for macOS,2012-03-20T16:17:18Z,2025-05-19T14:23:35Z,418,4985,4477,Swift,True,True,True,True,False,False,False,176
+2dust/clashN,4984,"A clash client for Windows, support Mihomo",2022-04-01T11:11:32Z,2025-05-19T11:54:50Z,611,4984,12754,C#,True,False,True,False,False,False,False,4
+OpenGVLab/DragGAN,4984,"Unofficial Implementation of DragGAN - ""Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）",2023-05-20T08:53:41Z,2025-05-17T16:30:36Z,491,4984,8225,Python,True,True,True,False,False,False,False,64
+Unity-Technologies/FPSSample,4984,A first person multiplayer shooter example project in Unity,2018-10-17T09:03:54Z,2025-05-19T09:19:51Z,1854,4984,218876,C#,True,True,True,True,False,False,False,106
+warmcat/libwebsockets,4984,canonical libwebsockets.org networking library,2013-02-06T07:00:44Z,2025-05-19T13:56:57Z,1533,4984,45407,C,True,False,True,False,False,False,False,168
+vavkamil/awesome-bugbounty-tools,4983,A curated list of various bug bounty tools,2021-01-11T19:31:28Z,2025-05-19T14:54:21Z,797,4983,103,,True,True,True,True,False,False,False,0
+spring-attic/spring-mvc-showcase,4983,Demonstrates the features of the Spring MVC web framework,2011-06-03T15:36:55Z,2025-05-07T01:55:04Z,3690,4983,765,Java,True,False,True,True,False,False,True,14
+didi/booster,4983,🚀Optimizer for mobile applications,2019-04-23T08:23:13Z,2025-05-19T06:17:42Z,590,4983,11911,Kotlin,True,True,True,True,False,True,False,51
+clibs/clib,4983,Package manager for the C programming language.,2012-10-28T07:50:09Z,2025-05-19T05:11:36Z,254,4983,807,C,True,True,True,True,False,True,False,25
+rainyear/python3-in-one-pic,4982,Learn python3 in one picture.,2015-06-28T12:19:54Z,2025-05-11T15:26:38Z,981,4982,38342,Jupyter Notebook,True,True,True,True,True,False,False,15
+asciidoctor/asciidoctor,4982,":gem: A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",2012-06-01T19:09:20Z,2025-05-18T20:38:24Z,810,4982,18845,Ruby,True,True,True,True,False,False,False,746
+tummychow/git-absorb,4982,"git commit --fixup, but automatic",2018-02-15T03:24:09Z,2025-05-19T17:43:02Z,82,4982,321,Rust,True,True,True,True,False,False,False,24
+cinit/QAuxiliary,4982,QNotified phoenix - To make OICQ great again,2022-01-29T06:12:36Z,2025-05-19T14:23:12Z,367,4982,8362,Java,True,True,True,False,False,True,False,240
+drk1wi/Modlishka,4981,Modlishka. Reverse Proxy.  ,2018-12-19T15:59:54Z,2025-05-19T06:51:14Z,895,4981,3540,Go,True,True,True,True,False,False,False,11
+JodaOrg/joda-time,4981,Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8.,2011-05-16T16:49:57Z,2025-05-18T12:37:32Z,995,4981,12937,Java,True,False,True,False,False,False,False,40
+wallix/awless,4980,A Mighty CLI for AWS,2016-06-03T13:46:18Z,2025-05-14T00:56:14Z,261,4980,19305,Go,True,True,True,True,True,False,False,119
+travisjeffery/jocko,4979,"Kafka implemented in Golang with built-in coordination (No ZK dep, single binary install, Cloud Native)",2016-10-11T00:09:47Z,2025-05-18T00:09:26Z,362,4979,11269,Go,True,True,True,True,False,True,False,60
+syedhali/EZAudio,4978,"An iOS and macOS audio visualization framework built upon Core Audio useful for anyone doing real-time, low-latency audio processing and visualizations.",2013-11-30T00:47:11Z,2025-05-19T06:19:03Z,821,4978,9414,Objective-C,True,True,True,True,False,False,False,196
+multimodal-art-projection/YuE,4978,"YuE: Open Full-song Music Generation Foundation Model, something similar to Suno.ai but open",2025-01-23T06:21:58Z,2025-05-19T08:56:32Z,546,4978,34494,Python,True,True,True,False,False,False,False,65
+toeverything/blocksuite,4978,🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.,2022-09-10T19:51:14Z,2025-05-19T10:37:08Z,465,4978,50835,TypeScript,True,True,True,True,False,True,False,175
+pablof7z/chardin.js,4978,Simple overlay instructions for your apps.,2013-04-01T02:58:47Z,2025-05-05T22:16:11Z,499,4978,789,JavaScript,True,True,True,True,True,False,False,22
+frogermcs/InstaMaterial,4977,Implementation of Instagram with Material Design (originally based on Emmanuel Pacamalan's concept),2014-11-10T18:56:49Z,2025-05-02T16:46:08Z,1437,4977,4531,Java,True,True,True,True,False,False,False,31
+youlookwhat/CloudReader,4977,🗡️  云阅：一款基于网易云音乐UI，使用玩Android Api，Retrofit2 + RxJava2 + Room + MVVM-databinding架构开发的Android客户端,2016-11-20T11:59:25Z,2025-05-19T01:44:09Z,1334,4977,95431,Java,True,True,True,True,True,True,False,5
+jankotek/mapdb,4977,"MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.",2012-08-17T15:28:54Z,2025-05-18T18:08:12Z,882,4977,10247,Java,True,True,True,True,False,False,False,194
+supabase-community/postgres-language-server,4977,A Language Server for Postgres,2023-05-17T19:23:15Z,2025-05-19T18:07:19Z,101,4977,10552,Rust,True,False,True,False,True,True,False,37
+P-H-C/phc-winner-argon2,4977,"The password hash Argon2, winner of PHC ",2015-10-04T08:25:27Z,2025-05-18T12:50:57Z,421,4977,5907,C,True,True,True,True,False,False,False,93
+jtroo/kanata,4976,Improve keyboard comfort and usability with advanced customization,2022-04-18T04:43:42Z,2025-05-19T16:26:01Z,180,4976,4361,Rust,True,False,True,True,False,True,False,107
+facebookresearch/moco,4976,PyTorch implementation of MoCo: https://arxiv.org/abs/1911.05722,2020-03-17T22:42:11Z,2025-05-19T11:55:48Z,802,4976,45,Python,True,True,True,False,False,False,False,62
+hashicorp/terraform-cdk,4975,Define infrastructure resources using programming constructs and provision them using HashiCorp Terraform,2020-01-08T16:13:45Z,2025-05-19T16:33:57Z,469,4975,130111,TypeScript,True,True,True,False,False,False,False,366
+KubeOperator/KubeOperator,4975,KubeOperator 是一个开源的轻量级 Kubernetes 发行版，专注于帮助企业规划、部署和运营生产级别的 K8s 集群。,2018-11-19T06:13:32Z,2025-05-17T16:50:36Z,893,4975,178654,Go,True,False,True,False,False,False,True,47
+simular-ai/Agent-S,4975,Agent S: an open agentic framework that uses computers like a human,2024-10-09T15:43:12Z,2025-05-19T17:49:30Z,481,4975,41264,Python,True,True,True,True,False,True,False,13
+kuaifan/dootask,4974,DooTask是一款开源在线项目任务管理工具，提供各类文档协作工具、在线思维导图、在线流程图、项目管理、任务分发、即时IM，文件管理等工具；同时消息功能使用非对称加密技术让你的沟通更安全。,2021-08-29T07:59:27Z,2025-05-19T09:47:46Z,978,4974,322352,PHP,True,True,True,True,False,False,False,140
+tianshiyeben/wgcloud,4974,Host management and monitoring tools,2019-01-15T02:02:21Z,2025-05-19T15:05:18Z,883,4974,48558,Java,True,True,True,True,False,False,False,45
+dushixiang/next-terminal,4974,"Next Terminal is a simple, secure, and user-friendly interactive auditing system that supports multiple remote access protocols including RDP, SSH, VNC, Telnet, and HTTP",2020-12-20T13:18:29Z,2025-05-19T11:43:16Z,738,4974,21959,TypeScript,True,True,True,True,False,False,False,1
+sipeed/NanoKVM,4972,"Affordable, Multifunctional, Nano RISC-V IP-KVM",2024-07-03T06:00:36Z,2025-05-19T15:59:26Z,159,4972,7641,C++,True,True,True,True,False,False,False,263
+2227324689/gpmall,4971,【咕泡学院实战项目】-基于SpringBoot+Dubbo构建的电商平台-微服务架构、商城、电商、微服务、高并发、kafka、Elasticsearch,2019-07-18T14:09:22Z,2025-05-19T16:07:30Z,1883,4971,56925,Java,True,True,True,True,False,False,False,49
+deployd/deployd,4970,a toolkit for building realtime APIs,2011-09-11T21:58:04Z,2025-05-13T01:35:20Z,659,4970,10281,JavaScript,True,True,True,False,False,False,False,135
+Ocramius/ProxyManager,4970,🎩✨🌈 OOP Proxy wrappers/utilities - generates and manages proxies of your objects,2013-03-19T09:43:22Z,2025-05-18T19:25:09Z,192,4970,4676,PHP,True,False,True,False,True,False,False,51
+moudey/Shell,4970,Powerful context menu manager for Windows File Explorer,2021-08-29T00:51:19Z,2025-05-19T15:35:45Z,159,4970,4678,C++,True,False,True,False,False,True,False,176
+mosra/magnum,4969,Lightweight and modular C++11 graphics middleware for games and data visualization,2010-12-19T22:19:59Z,2025-05-19T01:50:18Z,451,4969,64168,C++,True,True,True,False,False,True,False,77
+Exrick/xpay,4969,XPay个人免签收款支付系统 完全免费 资金直接到达本人账号 支持 支付宝 微信 QQ 云闪付 无需备案 无需签约 无需挂机监控APP 无需插件 无需第三方支付SDK 无需营业执照身份证 只需收款码 搞定支付流程 现已支持移动端支付 ,2017-12-12T16:11:19Z,2025-05-19T15:27:52Z,1116,4969,12147,Java,True,True,True,True,False,False,False,34
+tholman/github-corners,4969,"A fresher ""Fork me on GitHub"" callout.",2015-10-28T15:53:36Z,2025-05-16T05:26:49Z,197,4969,49,HTML,True,True,True,True,False,False,False,13
+firebase/firebase-js-sdk,4968,Firebase Javascript SDK,2017-04-24T21:52:11Z,2025-05-16T11:04:44Z,929,4968,142164,TypeScript,True,True,True,True,True,True,False,704
+readysettech/readyset,4968,"Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes.",2022-05-24T14:39:20Z,2025-05-19T18:44:21Z,142,4968,239299,Rust,True,True,True,True,False,True,False,264
+elbywan/wretch,4968,A tiny wrapper built around fetch with an intuitive syntax. :candy:,2017-09-13T18:27:25Z,2025-05-19T06:11:20Z,100,4968,4639,TypeScript,True,False,True,False,True,False,False,2
+mgechev/angularjs-style-guide,4967,📚 Community-driven set of best practices for AngularJS application development,2013-10-06T13:06:44Z,2025-05-15T00:25:49Z,648,4967,1028,,True,True,True,True,True,False,False,4
+xiaolin3303/wx-charts,4967,微信小程序图表库，Charts for WeChat Mini Program,2016-11-28T09:56:12Z,2025-05-19T08:35:14Z,1668,4967,2363,JavaScript,True,True,True,True,False,False,False,285
+php-fig/container,9999,,2016-08-15T18:35:30Z,2025-05-19T08:15:27Z,52,9999,337,PHP,True,True,True,False,False,False,False,6
+awsdocs/aws-doc-sdk-examples,9997,"Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below.",2016-08-18T19:06:57Z,2025-05-19T17:50:56Z,5762,9997,252003,Java,True,True,True,True,False,False,False,158
+jemalloc/jemalloc,9994,,2013-10-03T21:37:32Z,2025-05-19T09:10:38Z,1487,9994,12695,C,True,False,True,True,False,False,False,376
+typicode/hotel,9991,🏩 A simple process manager for developers. Start apps from your browser and access them using local domains,2015-05-27T08:24:07Z,2025-05-18T18:44:41Z,427,9991,3143,JavaScript,True,True,True,True,False,False,False,124
+tweenjs/tween.js,9990,JavaScript/TypeScript animation engine,2010-05-28T14:24:20Z,2025-05-19T07:00:58Z,1419,9990,16853,TypeScript,True,True,True,True,True,True,False,20
+TarsCloud/Tars,9989,"Tars is a high-performance RPC framework based on name service and Tars protocol, also integrated administration platform, and implemented hosting-service via flexible schedule.",2017-01-18T07:51:52Z,2025-05-18T01:36:19Z,2080,9989,15965,C++,True,True,True,True,False,False,False,48
+doccano/doccano,9989,Open source annotation tool for machine learning practitioners.,2018-05-09T06:10:05Z,2025-05-19T18:39:43Z,1778,9989,57474,Python,True,True,True,True,True,True,False,362
+libgit2/libgit2,9982,"A cross-platform, linkable library implementation of Git that you can use in your application.",2010-09-10T16:17:48Z,2025-05-19T14:12:03Z,2477,9982,72222,C,True,True,True,False,True,True,False,473
+TrinityCore/TrinityCore,9982,"TrinityCore Open Source MMO Framework (master = 11.1.5.60822, 3.3.5 = 3.3.5a.12340, cata classic =  4.4.2.60192)",2010-12-28T23:40:07Z,2025-05-19T16:35:40Z,6133,9982,1338339,C++,True,False,True,True,False,True,False,1605
+lyhue1991/eat_tensorflow2_in_30_days,9980,"Tensorflow2.0 🍎🍊 is delicious, just eat it! 😋😋",2020-02-15T09:00:37Z,2025-05-18T07:22:18Z,2474,9980,61324,Python,True,True,True,True,True,False,False,28
+Immediate-Mode-UI/Nuklear,9979,A single-header ANSI C immediate mode cross-platform GUI library,2019-11-26T09:21:47Z,2025-05-19T16:42:29Z,613,9979,16343,C,True,False,True,True,True,False,False,297
+sashabaranov/go-openai,9978,"OpenAI ChatGPT, GPT-3, GPT-4, DALL·E, Whisper API wrapper for Go",2020-08-18T14:42:54Z,2025-05-19T13:47:46Z,1599,9978,724,Go,True,True,True,True,False,True,False,202
+timzhang642/3D-Machine-Learning,9975,A resource repository for 3D machine learning,2017-08-12T15:20:54Z,2025-05-19T06:01:59Z,1803,9975,24851,,True,True,True,True,False,False,False,21
+cstack/db_tutorial,9969,Writing a sqlite clone from scratch in C,2017-08-31T17:56:02Z,2025-05-19T13:22:42Z,993,9969,1145,C,True,True,True,True,True,False,False,48
+VirgilClyne/iRingo,9962,解锁完整的 Apple功能和集成服务,2021-10-16T01:53:16Z,2025-05-19T14:14:27Z,368,9962,14619,,False,False,True,False,False,False,False,49
+ssssssss-team/spider-flow,9961,新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。,2020-03-27T11:07:15Z,2025-05-18T15:04:31Z,1916,9961,3382,Java,True,True,True,True,False,False,False,20
+ymcui/Chinese-BERT-wwm,9959,Pre-Training with Whole Word Masking for Chinese BERT（中文BERT-wwm系列模型）,2019-06-19T22:55:01Z,2025-05-19T14:41:47Z,1394,9959,16233,Python,True,True,True,False,False,False,False,0
+MustardChef/WSABuilds,9959,Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in. ,2022-12-30T21:43:34Z,2025-05-19T17:22:38Z,1646,9959,31379,Python,True,True,True,True,False,True,False,83
+pennersr/django-allauth,9951,"Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.",2010-10-10T20:10:52Z,2025-05-18T23:18:26Z,3091,9951,18657,Python,True,False,True,False,False,False,False,1
+matthieua/WOW,9950,Reveal CSS animation as you scroll down a page,2013-12-29T07:53:44Z,2025-05-14T02:27:47Z,4091,9950,1058,JavaScript,True,True,True,True,True,False,False,189
+flame-engine/flame,9948,A Flutter based game engine.,2017-10-22T03:01:50Z,2025-05-19T16:06:35Z,967,9948,61480,Dart,True,True,True,False,True,True,False,110
+dodyg/practical-aspnetcore,9947,"Practical samples of ASP.NET Core 10 Preview 4, 9, 8.0, 7.0, 6.0, 5.0, 3.1, 2.2, and 2.1,projects you can use. Readme contains explanations on all projects.",2016-07-27T08:23:40Z,2025-05-19T17:35:26Z,1354,9947,45056,C#,True,True,True,True,False,True,False,173
+rafaballerini/GitTutorial,9945,Tutorial de como usar o Git e Github na prática,2021-04-15T13:45:15Z,2025-05-19T18:41:54Z,3107,9945,37,,True,True,True,True,False,False,False,99
+golang/protobuf,9944,Go support for Google's protocol buffers,2014-11-23T23:07:23Z,2025-05-19T16:17:37Z,1575,9944,8435,Go,True,True,True,False,False,False,False,113
+Theano/Theano,9944,"Theano was a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It is being continued as PyTensor: www.github.com/pymc-devs/pytensor",2011-08-10T03:48:06Z,2025-05-14T22:10:27Z,2485,9944,68115,Python,True,True,True,True,False,False,False,700
+material-components/material-web,9941,Material Design Web Components,2018-03-27T21:46:51Z,2025-05-19T04:28:21Z,950,9941,51438,TypeScript,True,False,True,False,False,True,False,153
+ruby-grape/grape,9937,An opinionated framework for creating REST-like APIs in Ruby.,2010-08-02T14:25:08Z,2025-05-17T16:42:27Z,1231,9937,6483,Ruby,True,True,True,False,False,False,False,254
+easydiffusion/easydiffusion,9934,"An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",2022-08-23T20:27:59Z,2025-05-19T18:32:04Z,817,9934,59980,JavaScript,True,True,True,True,False,False,False,351
+github/copilot.vim,9931,Neovim plugin for GitHub Copilot,2021-10-20T18:29:13Z,2025-05-19T18:16:01Z,440,9931,50457,Vim Script,True,False,True,False,False,False,False,12
+bitcoin/bips,9931,Bitcoin Improvement Proposals,2013-11-19T17:18:41Z,2025-05-19T16:03:52Z,5602,9931,16212,Wikitext,False,False,True,True,False,False,False,36
+stephencelis/SQLite.swift,9930,"A type-safe, Swift-language layer over SQLite3.",2014-10-04T18:23:46Z,2025-05-19T18:42:59Z,1600,9930,3967,Swift,True,True,True,True,False,False,False,143
+gwuhaolin/livego,9930,live video streaming server in golang,2017-05-28T08:11:36Z,2025-05-19T03:59:49Z,2020,9930,2643,Go,True,True,True,True,False,False,False,139
+TencentARC/PhotoMaker,9929,PhotoMaker [CVPR 2024],2023-12-06T07:46:14Z,2025-05-19T10:17:49Z,792,9929,10468,Jupyter Notebook,True,True,True,False,False,True,False,152
+wasabeef/glide-transformations,9923,An Android transformation library providing a variety of image transformations for Glide.,2015-01-09T10:33:29Z,2025-05-18T12:37:01Z,1406,9923,26509,Java,True,True,True,True,False,False,False,56
+purifycss/purifycss,9922,Remove unused CSS. Also works with single-page apps.,2015-05-26T02:42:17Z,2025-05-09T14:09:08Z,380,9922,349,JavaScript,True,True,True,True,False,False,False,83
+forkingdog/UITableView-FDTemplateLayoutCell,9920,Template auto layout cell for automatically UITableViewCell height calculating,2015-04-16T13:14:19Z,2025-05-15T21:47:33Z,2006,9920,4257,Objective-C,True,True,True,True,False,False,False,129
+FormidableLabs/spectacle,9917,A React-based library for creating sleek presentations using JSX syntax that gives you the ability to live demo your code.,2015-06-30T20:36:07Z,2025-05-18T18:52:16Z,692,9917,146160,TypeScript,True,True,True,False,False,True,False,74
+oblador/react-native-animatable,9917,Standard set of easy to use animations and declarative transitions for React Native,2015-10-18T02:04:35Z,2025-05-16T10:17:18Z,701,9917,1755,JavaScript,True,True,True,False,False,False,False,171
+swiftlang/swift-package-manager,9917,The Package Manager for the Swift Programming Language,2015-10-23T21:41:12Z,2025-05-18T22:23:28Z,1388,9917,34527,Swift,True,False,True,False,False,False,False,985
+mozilla/readability,9916,A standalone version of the readability lib,2015-02-03T08:01:54Z,2025-05-19T17:35:16Z,644,9916,7390,JavaScript,True,True,True,False,False,False,False,282
+gcc-mirror/gcc,9915,,2014-08-07T06:50:37Z,2025-05-19T18:41:36Z,4532,9915,3817490,C++,False,True,True,True,False,False,False,48
+vanilla-extract-css/vanilla-extract,9914,Zero-runtime Stylesheets-in-TypeScript,2021-03-26T05:10:54Z,2025-05-19T17:01:32Z,313,9914,8700,TypeScript,True,False,True,False,False,True,False,88
+wix/react-native-calendars,9912,React Native Calendar Components 🗓️ 📆 ,2016-11-11T12:17:27Z,2025-05-19T08:37:23Z,3016,9912,19187,TypeScript,True,True,True,False,True,False,False,214
+lucasg/Dependencies,9910,"A rewrite of the old legacy software ""depends.exe"" in C# for Windows devs to troubleshoot dll load dependencies issues.",2017-06-25T15:00:10Z,2025-05-19T17:27:05Z,802,9910,15341,C#,True,True,True,True,True,False,False,132
+microg/GmsCore,9909,Free implementation of Play Services,2014-04-23T19:28:47Z,2025-05-19T15:54:33Z,1920,9909,13353,Java,True,False,True,True,False,False,False,1096
+autowarefoundation/autoware,9907,Autoware - the world's leading open-source software project for autonomous driving,2015-08-24T23:17:57Z,2025-05-19T09:18:02Z,3240,9907,1473,Dockerfile,True,False,True,False,False,True,False,70
+square/moshi,9906,A modern JSON library for Kotlin and Java.,2014-08-09T15:58:42Z,2025-05-19T11:24:39Z,767,9906,4955,Kotlin,True,False,True,False,True,True,False,114
+i3/i3,9902,A tiling window manager for X11,2015-02-04T09:23:51Z,2025-05-19T18:42:02Z,782,9902,13654,C,True,False,True,False,False,True,False,367
+EpistasisLab/tpot,9902,A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.,2015-11-03T21:08:40Z,2025-05-17T16:15:07Z,1579,9902,91462,Jupyter Notebook,True,True,True,True,True,True,False,307
+dexidp/dex,9898,OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors,2015-08-17T17:57:06Z,2025-05-19T17:30:06Z,1782,9898,26650,Go,True,True,True,True,False,True,False,448
+sourcegraph/conc,9897,Better structured concurrency for go,2023-01-02T22:52:07Z,2025-05-19T17:12:11Z,335,9897,280,Go,True,False,True,False,False,True,False,24
+alexjc/neural-doodle,9896,"Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... there's more! (An implementation of Semantic Style Transfer.)",2016-03-05T23:35:18Z,2025-05-19T16:03:27Z,905,9896,5380,Python,False,True,True,False,False,False,True,50
+rust-bakery/nom,9896,Rust parser combinator framework,2014-11-23T11:16:23Z,2025-05-19T16:55:59Z,833,9896,10821,Rust,True,True,True,True,False,False,False,269
+bufbuild/buf,9892,The best way of working with Protocol Buffers.,2019-10-03T00:09:57Z,2025-05-19T02:35:27Z,306,9892,27585,Go,True,False,True,False,False,True,False,53
+googlesamples/easypermissions,9892,Simplify Android M system permissions,2015-12-22T18:05:53Z,2025-05-16T23:45:01Z,1455,9892,635,Java,True,True,True,True,False,False,True,40
+stanfordnlp/CoreNLP,9888,"CoreNLP: A Java suite of core NLP tools for tokenization, sentence segmentation, NER, parsing, coreference, sentiment analysis, etc.",2013-06-27T21:13:49Z,2025-05-19T03:20:08Z,2715,9888,397070,Java,True,True,True,True,True,True,False,183
+vuematerial/vue-material,9888,"Vue.js Framework - ready-to-use Vue components with Material Design, free forever.",2016-06-17T22:41:53Z,2025-05-18T10:02:05Z,1145,9888,20168,Vue,True,True,True,False,False,False,False,247
+audreyfeldroy/favicon-cheat-sheet,9887,Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.),2013-08-05T12:54:19Z,2025-05-16T09:31:46Z,409,9887,329,,True,True,True,True,False,False,False,44
+Mooler0410/LLMsPracticalGuide,9886,"A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)",2023-04-23T04:22:20Z,2025-05-19T14:04:56Z,764,9886,27890,,True,True,True,False,False,False,False,15
+devhubapp/devhub,9885,"TweetDeck for GitHub - Filter Issues, Activities & Notifications - Web, Mobile & Desktop with 99% code sharing between them",2016-11-30T23:24:21Z,2025-05-17T13:29:32Z,822,9885,121540,TypeScript,True,True,True,False,False,False,False,59
+paascloud/paascloud-master,9884,spring cloud + vue + oAuth2.0全家桶实战，前后端分离模拟商城，完整的购物流程、后端运营平台，可以实现快速搭建企业级微服务项目。支持微信登录等三方登录。,2018-03-17T05:40:43Z,2025-05-18T13:19:05Z,4295,9884,16083,Java,True,True,True,True,False,False,False,105
+timarney/react-app-rewired,9881,Override create-react-app webpack configs without ejecting,2016-08-08T19:14:34Z,2025-05-19T06:38:38Z,428,9881,876,JavaScript,True,True,True,True,False,False,False,18
+wandb/wandb,9875,"The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",2017-03-24T05:46:23Z,2025-05-19T18:38:44Z,741,9875,179384,Python,True,True,True,True,True,False,False,777
+junegunn/fzf.vim,9873,fzf :heart: vim,2015-08-14T16:26:26Z,2025-05-19T16:20:20Z,595,9873,841,Vim Script,True,True,True,False,False,False,False,343
+snapappointments/bootstrap-select,9872,":rocket: The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.",2012-09-26T20:56:59Z,2025-05-17T03:06:21Z,2716,9872,8982,JavaScript,True,True,True,True,True,True,False,316
+senchalabs/connect,9871,Connect is a middleware layer for Node.js,2010-05-26T18:55:41Z,2025-05-15T15:15:03Z,1092,9871,5321,JavaScript,True,False,True,True,True,False,False,8
+goofychris/art-template,9870,High performance JavaScript templating engine,2012-06-03T03:37:57Z,2025-05-17T04:50:34Z,2672,9870,3189,JavaScript,True,True,True,True,True,False,False,91
+scottjehl/picturefill,9864,"A responsive image polyfill for <picture>, srcset, sizes, and more",2012-02-21T08:35:14Z,2025-05-18T11:28:41Z,1065,9864,17463,JavaScript,True,True,True,True,True,False,True,1
+aFarkas/html5shiv,9864,This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.,2011-02-12T12:21:10Z,2025-05-15T15:01:46Z,2546,9864,5145,JavaScript,True,True,True,True,True,False,False,73
+qdm12/gluetun,9863,"VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.",2018-02-06T22:16:29Z,2025-05-19T18:55:53Z,439,9863,12967,Go,True,True,True,True,False,True,False,320
+seanmonstar/warp,9863,"A super-easy, composable, web server framework for warp speeds.",2018-07-11T17:43:50Z,2025-05-18T14:12:26Z,733,9863,927,Rust,True,False,True,False,False,False,False,232
+webtorrent/webtorrent-desktop,9859,"❤️ Streaming torrent app for Mac, Windows, and Linux",2015-05-04T05:21:35Z,2025-05-19T14:26:41Z,1019,9859,176843,JavaScript,True,False,True,False,False,True,False,79
+DevExpress/testcafe,9859,A Node.js tool to automate end-to-end web testing.,2015-04-20T13:43:28Z,2025-05-18T18:44:41Z,676,9859,137524,JavaScript,True,True,True,True,True,False,False,24
+coder/coder,9859,Provision remote development environments via Terraform,2021-12-22T06:08:52Z,2025-05-19T18:46:08Z,887,9859,213736,Go,True,True,True,False,False,True,False,558
+OdysseusYuan/LKY_OfficeTools,9856,一键自动化 下载、安装、激活 Office 的利器。,2022-10-27T14:58:30Z,2025-05-19T10:28:55Z,917,9856,49445,C#,True,True,True,True,False,True,False,2
+instaloader/instaloader,9856,Download pictures (or videos) along with their captions and other metadata from Instagram.,2016-06-15T10:40:37Z,2025-05-19T13:22:01Z,1301,9856,1959,Python,True,False,True,False,False,False,False,72
+alcatraz/Alcatraz,9854,Package manager for Xcode,2013-04-22T16:40:10Z,2025-05-14T20:07:26Z,1143,9854,9153,Objective-C,True,True,True,False,True,False,True,39
+max-mapper/art-of-node,9852,:snowflake: a short introduction to node.js,2013-03-21T19:17:16Z,2025-05-17T00:52:41Z,853,9852,1748,JavaScript,True,True,True,True,False,False,False,15
+HackTricks-wiki/hacktricks,9851,"Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.",2020-07-15T15:40:37Z,2025-05-19T16:34:14Z,2854,9851,3507716,JavaScript,True,True,True,True,False,False,False,4
+anchore/grype,9851,A vulnerability scanner for container images and filesystems,2020-05-26T13:44:38Z,2025-05-19T16:08:52Z,632,9851,6711,Go,True,True,True,True,False,False,False,294
+google-deepmind/sonnet,9847,TensorFlow-based neural network library,2017-04-03T11:34:35Z,2025-05-17T16:16:35Z,1300,9847,16859,Python,True,True,True,True,True,False,False,38
+Flow-Launcher/Flow.Launcher,9846,:mag: Quick file search & app launcher for Windows with community-made plugins,2020-04-21T08:12:15Z,2025-05-19T17:55:26Z,368,9846,92057,C#,True,True,True,False,False,True,False,229
+super-linter/super-linter,9840,Combination of multiple linters to run as a GitHub Action or standalone,2019-10-21T13:56:50Z,2025-05-19T16:08:12Z,1009,9840,35669,Shell,True,False,True,False,False,True,False,41
+darknessomi/musicbox,9840,网易云音乐命令行版本,2014-08-05T03:28:24Z,2025-05-18T03:04:14Z,1573,9840,1858,Python,True,True,True,True,False,True,False,236
+uknownothingsnow/JsBridge,9839,"android java and javascript bridge, inspired by wechat webview jsbridge",2015-02-26T12:10:58Z,2025-05-19T14:20:10Z,2020,9839,649,Java,True,True,True,True,False,False,False,146
+Cyan4973/xxHash,9836,Extremely fast non-cryptographic hash algorithm,2014-04-30T23:32:49Z,2025-05-19T00:26:10Z,831,9836,4792,C,True,False,True,True,True,False,False,20
+astrit/css.gg,9836,"700+ Pure CSS, SVG & Figma UI Icons, 6000+ glyphs, patterns, colors and layouts.",2019-10-01T21:35:58Z,2025-05-19T16:50:50Z,486,9836,6750,JavaScript,True,False,True,False,False,False,False,42
+StartBootstrap/startbootstrap-sb-admin-2,9836,"A free, open source, Bootstrap admin theme created by Start Bootstrap",2014-10-25T00:36:48Z,2025-05-19T10:19:13Z,5721,9836,29395,HTML,True,True,True,True,True,False,False,110
+speechbrain/speechbrain,9834,A PyTorch-based Speech Toolkit,2020-04-28T17:48:45Z,2025-05-19T18:40:18Z,1490,9834,102648,Python,True,True,True,False,False,True,False,179
+Megvii-BaseDetection/YOLOX,9833,"YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/",2021-07-17T02:01:45Z,2025-05-19T16:33:13Z,2310,9833,7716,Python,True,True,True,True,False,True,False,761
+mozilla/TTS,9830,:robot: :speech_balloon: Deep learning for Text to Speech  (Discussion forum: https://discourse.mozilla.org/c/tts),2018-01-23T14:22:06Z,2025-05-19T14:47:59Z,1296,9830,125774,Jupyter Notebook,True,True,True,True,False,False,False,34
+dunovank/jupyter-themes,9829,Custom Jupyter Notebook Themes,2014-12-10T23:22:23Z,2025-05-19T16:50:32Z,1052,9829,46325,CSS,True,True,True,True,False,False,False,206
+jetify-com/devbox,9828,"Instant, easy, and predictable development environments",2022-08-18T20:27:16Z,2025-05-19T18:04:09Z,244,9828,42369,Go,True,False,False,False,False,False,False,370
+Integerous/goQuality-dev-contents,9826,{ 고퀄리티 :zap: 개발 컨텐츠 모음 },2018-10-04T06:39:55Z,2025-05-19T17:32:51Z,1416,9826,1557,,True,True,True,True,False,False,False,3
+Quick/Quick,9825,The Swift (and Objective-C) testing framework.,2014-06-05T00:29:53Z,2025-05-19T16:24:51Z,912,9825,3593,Swift,True,False,True,True,True,True,False,40
+ReactNativeNews/React-Native-Apps,9822,Curated List of Open Source React Native Apps.  Curation curtesy of,2016-11-04T18:24:16Z,2025-05-19T16:48:56Z,1370,9822,317,,True,False,True,False,False,False,False,0
+aksakalli/gtop,9818,System monitoring dashboard for terminal,2017-08-09T15:12:28Z,2025-05-18T15:07:55Z,326,9818,444,JavaScript,True,True,True,True,False,False,False,41
+GitoxideLabs/gitoxide,9818,"An idiomatic, lean, fast & safe pure Rust implementation of Git",2018-06-07T17:33:00Z,2025-05-19T16:45:09Z,346,9818,78025,Rust,True,True,True,False,False,True,False,133
+xdissent/ievms,9817,Automated installation of the Microsoft IE App Compat virtual machines,2011-08-05T21:34:06Z,2025-05-07T01:30:28Z,493,9817,149,Shell,True,True,True,True,True,False,False,85
+gomodule/redigo,9815,Go client for Redis,2012-04-14T04:31:58Z,2025-05-17T16:12:58Z,1247,9815,588,Go,True,True,True,True,False,False,False,23
