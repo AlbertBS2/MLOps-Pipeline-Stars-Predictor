@@ -13,10 +13,10 @@
       when: hostvars[item].ansible_default_ipv4.address is defined
       with_items: "{{ groups['all'] }}"
 
-    - name: apt update & upgrade
-      apt:
-        update_cache: yes
-        upgrade: dist
+#    - name: apt update & upgrade
+#      apt:
+#        update_cache: yes
+#        upgrade: dist
 
     - name: Copy SSH deploy key
       copy:
@@ -101,12 +101,13 @@
         state: present
         update_cache: yes
 
+# TODO: fix docker files for running the app in /DE2_proj/Production
     - name: Start Docker Compose services
       command: docker-compose up -d
       args:
-        chdir: /DE2_proj
+        chdir: /DE2_proj/Production
 
-# PLAY 4: Dev – install Python & ML packages (defer as needed)
+# PLAY 4: Dev – install Python & ML packages
 - hosts: dev_server
   become: true
 
