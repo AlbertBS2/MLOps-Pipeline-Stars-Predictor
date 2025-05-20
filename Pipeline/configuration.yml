@@ -1,9 +1,9 @@
-#PLAY1 
 - hosts: all
   become: true
   vars:
     ssh_user: appuser
     ssh_key_src: /home/ubuntu/.ssh/id_ed25519
+    
   tasks:
     - name: Ensure {{ ssh_user }}.ssh directory exists
       file:
@@ -11,7 +11,7 @@
         state: directory
         owner: "{{ ssh_user }}"
         group: "{{ ssh_user }}"
-        mode: "0700"
+        mode: '0700'
 
     - name: Install deploy key for GitHub
       copy:
@@ -19,19 +19,23 @@
         dest: /home/{{ ssh_user }}/.ssh/id_ed25519
         owner: "{{ ssh_user }}"
         group: "{{ ssh_user }}"
-        mode: "0600"
+        mode: '0600'
+
+    - name: Touch known_hosts file with correct permissions
+      file:
+        path: /home/{{ ssh_user }}/.ssh/known_hosts
+        state: touch
+        owner: "{{ ssh_user }}"
+        group: "{{ ssh_user }}"
+        mode: '0644'
 
     - name: Add GitHub to {{ ssh_user }} known_hosts
       known_hosts:
         path: /home/{{ ssh_user }}/.ssh/known_hosts
         name: github.com
         key: "{{ lookup('pipe','ssh-keyscan -t rsa github.com') }}"
-        owner: "{{ ssh_user }}"
-        group: "{{ ssh_user }}"
-        mode: "0644"
 
     - name: Clone private GitHub repo as {{ ssh_user }}
-      become: true
       become_user: "{{ ssh_user }}"
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
