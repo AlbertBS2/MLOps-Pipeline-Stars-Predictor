@@ -15,13 +15,50 @@
       apt: update_cache=yes upgrade=dist
       become: true
 
-# TODO update to work with private repo!
-    - name: Download git repository
-      become: true
-      git:
-        repo: 'https://github.com/vfe01/DE2-group-13-project.git'
-        dest: /project
-    
+   - name: Copy git .ssh key from host to target
+     copy:
+       src: ~/.ssh/id_ed25519
+       dest: ~/.ssh/git_key
+       mode: 0600
+     become: true
+
+   - name: Add host to known hosts
+     known_hosts:
+       path: ~/.ssh/known_hosts
+       name: github.com
+       key: "{{ lookup('pipe', 'ssh-keyscan github.com') }}"
+     become: true
+
+   - name: Download git repository
+     become: true
+     git:
+      repo: 'git@github.com:vfe01/DE2-group-13-project.git'
+      dest: /DE2_proj
+      key_file: ~/.ssh/git_key
+      update: yes
+      force: yes
+      
+   - name: Change ownership of a directory
+     become: true
+     file:
+      path: /DE2_proj
+      state: directory
+      recurse: yes
+      owner: appuser
+      group: appuser
+
+  hosts: devserver,prodserver  
+  tasks:
+   - name: Ensure the repository is up-to-date
+     become: true 
+     git:
+       repo: 'git@github.com:vfe01/DE2-group-13-project.git'
+       dest: /DE2_proj
+       update: yes
+       key_file: ~/.ssh/git_key
+     tags:
+       - git
+
 - hosts: prodserver
 # TODO fix setup_var.yml if we need it
   vars_files:
