@@ -1,4 +1,7 @@
-Flask==
-python-dotenv==
-pandas==
-requests==
+Flask
+python-dotenv
+pandas
+requests
+celery
+numpy
+joblib

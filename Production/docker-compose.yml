@@ -30,6 +30,6 @@ services:
     volumes:
       - .:/app
     entrypoint: celery
-    command: -A worker worker --loglevel=debug
+    command: -A celery_worker worker --loglevel=debug
     depends_on:
       - rabbit
