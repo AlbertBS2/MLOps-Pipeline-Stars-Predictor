@@ -113,7 +113,7 @@
 #      args:
 #        chdir: home/appuser/DE2_proj/Production
 
-# PLAY 4: Dev – install Python & ML packages
+# PLAY 4: Dev – install Python & ML packages & set up ssh keys for githooks
 - hosts: dev_server
   become: true
 
@@ -131,3 +131,154 @@
           - keras==2.10.0
           - 'numpy<2.0'
           - future
+    
+    - name: Make sure appuser’s ~/.ssh exists
+      file:
+        path: /home/appuser/.ssh
+        state: directory
+        owner: appuser
+        group: appuser
+        mode: '0700'
+    
+    - name: Generate ssh 
+      command: ssh-keygen -t rsa -b 4096 -f /home/appuser/.ssh/dev_git_hooks_key -N ""
+      args:
+       creates: /home/appuser/.ssh/dev_git_hooks_key
+      become: yes
+      become_user: appuser 
+
+    - name: Fetch public SSH key from devserver to client
+      fetch:
+        src: /home/appuser/.ssh/dev_git_hooks_key.pub
+        dest: /tmp/ssh_keys/
+        flat: yes
+
+# PLAY 5: Set up GitHooks on prod_server
+- hosts: prod_server
+  become: true
+  tasks:
+
+    - name: Ensure /home/appuser/.ssh exists
+      file:
+        path: /home/appuser/.ssh
+        state: directory
+        owner: appuser
+        group: appuser
+        mode: '0700'
+
+    - name: Copy SSH key from control node to prodserver
+      copy:
+        src: /tmp/ssh_keys/dev_git_hooks_key.pub
+        dest: /home/appuser/.ssh/
+        mode: '0644'
+
+    - name: Authorize the key for appuser
+      authorized_key:
+        user: appuser
+        state: present
+        key: "{{ lookup('file', '/tmp/ssh_keys/dev_git_hooks_key.pub') }}"
+   
+    - name: create directory
+      become: true
+      file:
+       path: "/home/appuser/my_project"
+       state: directory
+
+    - name: init git
+      become: true
+      command: git init --bare /home/appuser/my_project
+      args:
+       creates: /home/appuser/my_project/HEAD
+   
+    - name: Change ownership of directory
+      become: true
+      file:
+       path: /home/appuser/my_project
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
+
+    - name: Move post-receive
+      become: true
+      shell: cp /DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
+ 
+    - name: Make post-receive exc
+      become: true
+      shell: chmod +x /home/appuser/my_project/hooks/post-receive
+
+# PLAY 6: Set up Git hooks on dev_server
+- hosts: dev_server
+  become: true
+
+  tasks:
+    - name: Ensure working directory exists
+      file:
+        path: /home/appuser/my_project
+        state: directory
+        owner: appuser
+        group: appuser
+
+    - name: Set global Git identity for appuser
+      shell: |
+        git config --global --get user.name  || git config --global user.name  "mishamessouu"
+        git config --global --get user.email || git config --global user.email "michel.messo.9067@student.uu.se"
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Initialise local repo (branch main)
+      command: git init -b main /home/appuser/my_project
+      args:
+        creates: /home/appuser/my_project/.git
+      become_user: appuser
+
+    - name: Add production remote once
+      shell: |
+        git -C /home/appuser/my_project remote get-url production >/dev/null 2>&1 || \
+        git -C /home/appuser/my_project remote add production appuser@prod_server:/home/appuser/my_project
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Create & commit test file if repo empty
+      shell: |
+        cd /home/appuser/my_project
+        if [ "$(git rev-list --count main || echo 0)" -eq 0 ]; then
+          echo "test" > test.txt
+          git add test.txt
+          git commit -m "Test commit"
+        fi
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Push to production (main) when needed
+      shell: |
+        cd /home/appuser/my_project
+        if ! git ls-remote --exit-code --heads production main >/dev/null 2>&1; then
+          git push production main
+        fi
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+# PLAY 7: Verify test.txt on production server     
+- name: Verify test.txt on production server
+  hosts: prod_server
+
+  tasks:
+  -  name: Verify test.txt
+     become: true
+     stat:
+      path: /DE2_proj/Production/test.txt
+     register: test_verify_prod
+      
+  - name: Fail if test.txt is not present
+    fail:
+      msg: "test.txt is not present on production server"
+    when: test_verify.stat.exists == False
+
+  - name: Remove test.txt
+    become: true
+    command: rm /DE2_proj/Production/test.txt
