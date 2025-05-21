@@ -61,9 +61,6 @@
       become: true
       become_user: appuser
 
-
-
-
 # PLAY 3: Prod – install Docker & run containers
 - hosts: prod_server
   become: true
@@ -116,6 +113,8 @@
 # PLAY 4: Dev – install Python & ML packages & set up ssh keys for githooks
 - hosts: dev_server
   become: true
+  tags:
+  - githooks
 
   tasks:
     - name: Install python3-pip
@@ -156,6 +155,8 @@
 # PLAY 5: Set up GitHooks on prod_server
 - hosts: prod_server
   become: true
+  tags:
+  - githooks
   tasks:
 
     - name: Ensure /home/appuser/.ssh exists
@@ -210,6 +211,8 @@
 # PLAY 6: Set up Git hooks on dev_server
 - hosts: dev_server
   become: true
+  tags:
+  - githooks
 
   tasks:
     - name: Ensure working directory exists
@@ -266,6 +269,9 @@
 # PLAY 7: Verify test.txt on production server     
 - name: Verify test.txt on production server
   hosts: prod_server
+  tags:
+  - githooks
+  tasks:
 
   tasks:
   -  name: Verify test.txt
