@@ -10,7 +10,7 @@ import os
 # Set paths
 base_dir = os.path.dirname(__file__)
 data_path = os.path.join(base_dir, '..', 'scraping', 'repo_data.csv')
-model_path = os.path.join(base_dir, 'random_forest.pkl')
+model_path = os.path.join(base_dir, 'new_model.pkl')
 
 # Load the data
 df = pd.read_csv(data_path)
