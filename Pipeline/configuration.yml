@@ -35,7 +35,7 @@
 
     - name: Ensure project directory exists and is owned by appuser
       file:
-        path: /DE2_proj
+        path: home/appuser/DE2_proj
         state: directory
         owner: "appuser"
         group: "appuser"
@@ -45,7 +45,7 @@
       become_user: "appuser"
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
-        dest: /DE2_proj
+        dest: home/appuser/DE2_proj
         version: main
         force: yes
         key_file: /home/appuser/.ssh/id_ed25519
@@ -59,12 +59,10 @@
     - name: Ensure the repository is up-to-date
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
-        dest: /DE2_proj
+        dest: /home/appuser/DE2_proj
         version: main
         update: yes
         key_file: /home/appuser/.ssh/id_ed25519
-      tags:
-        - git
 
 # PLAY 3: Prod – install Docker & run containers
 - hosts: prod_server
