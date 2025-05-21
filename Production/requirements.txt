@@ -1,0 +1,5 @@
+Flask
+celery
+numpy
+joblib
+requests
