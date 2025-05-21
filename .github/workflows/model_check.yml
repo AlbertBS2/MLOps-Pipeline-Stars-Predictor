@@ -1,0 +1,29 @@
+name: Compare and Deploy Model
+
+on:
+  push:
+    paths:
+      - 'Development/new_model.pkl'
+      - 'Pipeline/compare_and_deploy.py'
+      - 'Development/repo_data.csv'
+
+jobs:
+  compare_model:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r Production/requirements.txt
+
+      - name: Compare and deploy if better
+        run: python Pipeline/compare_and_deploy.py
