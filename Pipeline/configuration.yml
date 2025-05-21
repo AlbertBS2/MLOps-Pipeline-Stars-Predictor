@@ -2,13 +2,15 @@
   become: true
 
   tasks:
-    - name: Ensure appuser.ssh directory exists
-      file:
-        path: /home/appuser/.ssh
-        state: directory
-        owner: "appuser"
-        group: "appuser"
-        mode: '0700'
+
+    - name: Generate hosts file
+      lineinfile: dest=/etc/hosts
+                  regexp='.*{{ item }}$'
+                  line="{{ hostvars[item].ansible_default_ipv4.address }} {{item}}"
+                  state=present            
+      when: hostvars[item].ansible_default_ipv4.address is defined
+      with_items: "{{groups['all']}}"
+      become: true
 
     - name: Install deploy key for GitHub
       copy:
@@ -17,29 +19,13 @@
         owner: "appuser"
         group: "appuser"
         mode: '0600'
-
-    - name: Touch known_hosts file with correct permissions
-      file:
-        path: /home/appuser/.ssh/known_hosts
-        state: touch
-        owner: "appuser"
-        group: "appuser"
-        mode: '0644'
+      become: true
 
     - name: Add GitHub to appuser known_hosts
       known_hosts:
         path: /home/appuser/.ssh/known_hosts
         name: github.com
         key: "{{ lookup('pipe','ssh-keyscan -t rsa github.com') }}"
-
-
-    - name: Ensure project directory exists and is owned by appuser
-      file:
-        path: home/appuser/DE2_proj
-        state: directory
-        owner: "appuser"
-        group: "appuser"
-        mode: '0755'
 
     - name: Clone private GitHub repo as appuser
       become_user: "appuser"
