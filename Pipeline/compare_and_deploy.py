@@ -6,10 +6,13 @@ import shutil
 import joblib
 import pandas as pd
 from sklearn.metrics import r2_score
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
 
 
 # Paths
 base_dir = os.path.dirname(__file__)
+data_path = os.path.join(base_dir, '..', 'Development', 'scraping', 'repo_data.csv')
 challenger_model_path = os.path.join(base_dir, '..', 'Development', 'new_model.pkl')
 champion_model_path = os.path.join(base_dir, '..', 'Production', 'best_model.pkl')
 
