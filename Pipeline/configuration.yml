@@ -40,11 +40,11 @@
     - name: Change ownership of a directory
       become: true
       file:
-      path: home/appuser/DE2_proj
-      state: directory
-      recurse: yes
-      owner: appuser
-      group: appuser
+       path: home/appuser/DE2_proj
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
 
 # PLAY 2: Update code on both servers
 - hosts: dev_server,prod_server
