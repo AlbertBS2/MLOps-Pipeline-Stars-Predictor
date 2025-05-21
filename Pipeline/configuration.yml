@@ -1,53 +1,50 @@
-# PLAY 1: Bootstrap all servers
 - hosts: all
   become: true
-  gather_facts: true
 
   tasks:
+
     - name: Generate hosts file
-      lineinfile:
-        dest: /etc/hosts
-        regexp: '.*{{ item }}$'
-        line: "{{ hostvars[item].ansible_default_ipv4.address }} {{ item }}"
-        state: present
+      lineinfile: dest=/etc/hosts
+                  regexp='.*{{ item }}$'
+                  line="{{ hostvars[item].ansible_default_ipv4.address }} {{item}}"
+                  state=present            
       when: hostvars[item].ansible_default_ipv4.address is defined
-      with_items: "{{ groups['all'] }}"
+      with_items: "{{groups['all']}}"
+      become: true
 
-#    - name: apt update & upgrade
-#      apt:
-#        update_cache: yes
-#        upgrade: dist
-
-    - name: Copy SSH deploy key
+    - name: Install deploy key for GitHub
       copy:
-        src: /home/ubuntu/.ssh/id_ed25519
-        dest: /home/appuser/.ssh/git_key
-        owner: appuser
-        group: appuser
+        src: "/home/ubuntu/.ssh/id_ed25519"
+        dest: /home/appuser/.ssh/id_ed25519
+        owner: "appuser"
+        group: "appuser"
         mode: '0600'
+      become: true
 
-    - name: Add GitHub to known_hosts
+    - name: Add GitHub to appuser known_hosts
       known_hosts:
         path: /home/appuser/.ssh/known_hosts
         name: github.com
-        key: "{{ lookup('pipe', 'ssh-keyscan github.com') }}"
+        key: "{{ lookup('pipe','ssh-keyscan -t rsa github.com') }}"
 
-    - name: Clone private GitHub repo
+    - name: Clone private GitHub repo as appuser
+      become_user: "appuser"
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
-        dest: /DE2_proj
+        dest: home/appuser/DE2_proj
         version: main
         force: yes
-        key_file: /home/appuser/.ssh/git_key
-      become: true
+        key_file: /home/appuser/.ssh/id_ed25519
+        accept_hostkey: yes
 
-    - name: Ensure appuser owns the repo directory
+    - name: Change ownership of a directory
+      become: true
       file:
-        path: /DE2_proj
-        state: directory
-        recurse: yes
-        owner: appuser
-        group: appuser
+       path: home/appuser/DE2_proj
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
 
 # PLAY 2: Update code on both servers
 - hosts: dev_server,prod_server
@@ -57,12 +54,15 @@
     - name: Ensure the repository is up-to-date
       git:
         repo: 'git@github.com:vfe01/DE2-group-13-project.git'
-        dest: /DE2_proj
+        dest: /home/appuser/DE2_proj
         version: main
         update: yes
-        key_file: /home/appuser/.ssh/git_key
-      tags:
-        - git
+        key_file: /home/appuser/.ssh/id_ed25519
+      become: true
+      become_user: appuser
+
+
+
 
 # PLAY 3: Prod – install Docker & run containers
 - hosts: prod_server
@@ -87,6 +87,12 @@
         repo: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable'
         state: present
 
+    - name: Create Ansible docker config directory.
+      become: true
+      file:
+        path: "/etc/docker"
+        state: directory
+
     - name: Configure Docker daemon MTU
       copy:
         dest: /etc/docker/daemon.json
@@ -102,10 +108,10 @@
         update_cache: yes
 
 # TODO: fix docker files for running the app in /DE2_proj/Production
-    - name: Start Docker Compose services
-      command: docker-compose up -d
-      args:
-        chdir: /DE2_proj/Production
+#    - name: Start Docker Compose services / Run containers
+#      command: docker-compose up -d
+#      args:
+#        chdir: home/appuser/DE2_proj/Production
 
 # PLAY 4: Dev – install Python & ML packages
 - hosts: dev_server
