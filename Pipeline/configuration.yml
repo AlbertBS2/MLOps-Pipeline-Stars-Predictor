@@ -113,7 +113,7 @@
 #      args:
 #        chdir: home/appuser/DE2_proj/Production
 
-# PLAY 4: Dev – install Python & ML packages
+# PLAY 4: Dev – install Python & ML packages & set up ssh keys for githooks
 - hosts: dev_server
   become: true
 
@@ -131,3 +131,134 @@
           - keras==2.10.0
           - 'numpy<2.0'
           - future
+
+    - name: Generate ssh 
+      command: ssh-keygen -t rsa -b 4096 -f home/appuser/.ssh/dev_git_hooks_key -N ""
+      args:
+       creates: home/appuser/.ssh/dev_git_hooks_key
+
+    - name: Fetch public SSH key from devserver to client
+      fetch:
+        src: home/appuser/.ssh/dev_git_hooks_key.pub
+        dest: /tmp/ssh_keys/
+        flat: yes
+
+# PLAY 5: Set up GitHooks on prod_server
+- hosts: prod_server
+  become: true
+  tasks:
+
+    - name: Copy SSH key from control node to prodserver
+      copy:
+        src: /tmp/ssh_keys/dev_git_hooks_key.pub
+        dest: home/appuser/.ssh
+        mode: '0644'
+
+    - name: Add id_rsa.pub to authorized_keys
+      authorized_key:
+        user: appuser
+        state: present
+        key: "{{ lookup('file', '/tmp/ssh_keys/id_rsa.pub') }}"
+      become: true
+   
+    - name: create directory
+      become: true
+      file:
+       path: "home/appuser/my_project"
+       state: directory
+
+    - name: init git
+      become: true
+      command: git init --bare /home/appuser/my_project
+      args:
+       creates: /home/appuser/my_project/HEAD
+   
+    - name: Change ownership of directory
+      become: true
+      file:
+       path: /home/appuser/my_project
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
+
+    - name: Move post-receive
+      become: true
+      shell: sudo cp /DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
+ 
+    - name: Make post-receive exc
+      become: true
+      shell: chmod +x /home/appuser/my_project/hooks/post-receive
+
+# PLAY 6: Set up GitHooks on dev_server
+- hosts: dev_server
+  become: true
+
+  tasks:
+   - name: create directory
+     file:
+      path: "/home/appuser/my_project"
+      state: directory
+
+   - name: init git dev server
+     become: true
+     command: git init /home/appuser/my_project
+    
+   - name: Change ownership of a directory
+     become: true
+     file:
+      path: /home/appuser/my_project
+      state: directory
+      recurse: yes
+      owner: appuser
+      group: appuser
+
+   - name: Add remote repository
+     command: git remote add production appuser@prod_server:/home/appuser/my_project
+     args:
+      chdir: /home/appuser/my_project
+
+   - name: Create testfile
+     become: true
+     shell: echo "test" > /home/appuser/my_project/test.txt
+  
+   - name: Add test.txt
+     command: git add test.txt
+     args:
+      chdir: /home/appuser/my_project     
+
+   - name: Commit test.txt
+     command: git commit -m "Test commit"
+     args:
+      chdir: /home/appuser/my_project
+
+   - name: Push test.txt
+     command: git push production master
+     args:
+       chdir: /home/appuser/my_project
+          
+   - name: Remove local test.txt
+     become: true
+     command: rm test.txt
+     args:
+      chdir: /home/appuser/my_project
+
+# PLAY 7: Verify test.txt on production server     
+- name: Verify test.txt on production server
+  hosts: prodserver
+
+  tasks:
+  -  name: Verify test.txt
+     become: true
+     stat:
+      path: /DE2_proj/Production/test.txt
+     register: test_verify_prod
+      
+  - name: Fail if test.txt is not present
+    fail:
+      msg: "test.txt is not present on production server"
+    when: test_verify.stat.exists == False
+
+  - name: Remove test.txt
+    become: true
+    command: rm /DE2_proj/Production/test.txt
