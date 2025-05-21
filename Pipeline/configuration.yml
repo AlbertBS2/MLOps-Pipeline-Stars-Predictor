@@ -58,6 +58,11 @@
         version: main
         update: yes
         key_file: /home/appuser/.ssh/id_ed25519
+      become: true
+      become_user: appuser
+
+
+
 
 # PLAY 3: Prod – install Docker & run containers
 - hosts: prod_server
