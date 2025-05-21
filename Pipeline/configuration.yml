@@ -87,6 +87,12 @@
         repo: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable'
         state: present
 
+    - name: Create Ansible docker config directory.
+      become: true
+      file:
+        path: "/etc/docker"
+        state: directory
+
     - name: Configure Docker daemon MTU
       copy:
         dest: /etc/docker/daemon.json
@@ -102,10 +108,10 @@
         update_cache: yes
 
 # TODO: fix docker files for running the app in /DE2_proj/Production
-    - name: Start Docker Compose services
-      command: docker-compose up -d
-      args:
-        chdir: /DE2_proj/Production
+#    - name: Start Docker Compose services / Run containers
+#      command: docker-compose up -d
+#      args:
+#        chdir: home/appuser/DE2_proj/Production
 
 # PLAY 4: Dev – install Python & ML packages
 - hosts: dev_server
