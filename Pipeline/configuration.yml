@@ -202,7 +202,7 @@
 
     - name: Move post-receive
       become: true
-      shell: cp /DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
+      shell: cp /home/appuser/DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
  
     - name: Make post-receive exc
       become: true
@@ -277,7 +277,7 @@
   -  name: Verify test.txt
      become: true
      stat:
-      path: /DE2_proj/Production/test.txt
+      path: home/appuser/DE2_proj/Production/test.txt
      register: test_verify_prod
       
   - name: Fail if test.txt is not present
