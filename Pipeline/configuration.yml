@@ -106,7 +106,7 @@
 
 # TODO: fix docker files for running the app in /DE2_proj/Production
     - name: Start Docker Compose services / Run containers
-      command: docker-compose up -d
+      command: docker compose up -d
       args:
         chdir: /home/appuser/DE2_proj/Production
 
