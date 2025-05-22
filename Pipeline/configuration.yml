@@ -105,10 +105,10 @@
         update_cache: yes
 
 # TODO: fix docker files for running the app in /DE2_proj/Production
-#    - name: Start Docker Compose services / Run containers
-#      command: docker-compose up -d
-#      args:
-#        chdir: home/appuser/DE2_proj/Production
+    - name: Start Docker Compose services / Run containers
+      command: docker-compose up -d
+      args:
+        chdir: /home/appuser/DE2_proj/Production
 
 # PLAY 4: Dev – install Python & ML packages & set up ssh keys for githooks
 - hosts: dev_server
