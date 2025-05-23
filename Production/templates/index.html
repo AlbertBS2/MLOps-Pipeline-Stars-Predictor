@@ -8,7 +8,7 @@
     <!-- Bootstrap & Poppins -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="{{ url_for('static', filename='js/fill_random.js') }}"></script>
+<script src="{{ url_for('static', filename='js/fill_random.js') }}"></script>
 
     <style>
         body {
@@ -17,30 +17,30 @@
             margin: 0;
         }
 
-        .container-main {
-            padding-top: 1.25rem;
-        }
-
         .title-header {
             font-weight: 700;
             font-size: 2.3rem;
+        }
+
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        .card-header {
+            background-color: #072c6a;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
         }
 
         .form-label {
             font-weight: 500;
         }
 
-        .repo-input {
-            height: 100%;
-            padding: 1.2rem;
-            border-radius: 12px;
-            border: 1px solid #e0e0e0;
-            background-color: white;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-        }
-
         .btn-primary {
-            background-color: #0b3d91;
+            background-color: #072c6a;
             border-color: #0b3d91;
             font-weight: 600;
             padding: 10px 36px;
@@ -48,90 +48,75 @@
             border-radius: 8px;
         }
 
-        .btn-primary:hover {
-            background-color: #082f73;
-        }
-
-        .btn-outline-secondary {
-            font-weight: 500;
-        }
-
-        .results {
-            background-color: white;
-            border-radius: 14px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            padding: 1.8rem;
-            margin-top: 2.2rem;
-        }
-
-        .results h5 {
-            font-size: 1.3rem;
+        .section-title {
             font-weight: 600;
-            margin-bottom: 1.4rem;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 0.5rem;
+            margin-top: 1rem;
         }
 
-        .prediction-item {
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .badge {
-            font-size: 0.95rem;
-            padding: 0.45em 1em;
-            font-weight: 500;
-        }
-
-        .rank-number {
-            font-weight: 600;
-            margin-right: 0.4rem;
-            color: #333;
+        .checkbox-group label {
+            margin-right: 1rem;
         }
     </style>
 </head>
 <body>
-<div class="container container-main">
-    <div class="text-center mb-4">
-        <h1 class="title-header mb-2">GitHub Star Predictor</h1>
-        <button class="btn btn-outline-secondary" onclick="fillRandomRepos()">Fill with Random Repositories</button>
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="title-header mb-0">GitHub Repository Star Predictor</h1>
+        <button class="btn btn-primary" onclick="fillRandomRepos()">Fill with Existing Values</button>
     </div>
 
-    <!-- Form -->
     <form method="POST">
-        <div class="row g-3 justify-content-center">
+        <div class="row">
             {% for i in range(1, 6) %}
-            <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="repo-input">
-                    <label for="repo_{{ i }}" class="form-label">GitHub Repo {{ i }}</label>
-                    <input type="text" name="repo_{{ i }}" id="repo_{{ i }}" class="form-control" placeholder="e.g. pandas-dev/pandas" required>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Repository {{ i }}</div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="full_name_{{ i }}" class="form-label">Full Name</label>
+                            <input type="text" id="full_name_{{ i }}" name="full_name_{{ i }}" class="form-control" placeholder="org/repo">
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="forks_count_{{ i }}" class="form-label">Forks Count</label>
+                                <input type="number" id="forks_count_{{ i }}" name="forks_count_{{ i }}" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="size_{{ i }}" class="form-label">Size</label>
+                                <input type="number" id="size_{{ i }}" name="size_{{ i }}" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="open_issues_count_{{ i }}" class="form-label">Open Issues Count</label>
+                                <input type="number" id="open_issues_count_{{ i }}" name="open_issues_count_{{ i }}" class="form-control">
+                            </div>
+                        </div>
+
+
+  <div class="mt-4 checkbox-group row">
+    {% for option in ['has_issues', 'has_projects', 'has_downloads', 'has_wiki', 'has_pages', 'has_discussions', 'archived'] %}
+        <div class="col-6 col-sm-4 mb-2">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="{{ option }}_{{ i }}" name="{{ option }}_{{ i }}">
+                <label class="form-check-label" for="{{ option }}_{{ i }}">
+                    {{ option.replace('_', ' ').title() }}
+                </label>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+                    </div>
                 </div>
             </div>
             {% endfor %}
-            <div class="col-sm-6 col-md-4 col-lg-4 d-none d-md-block"></div>
         </div>
 
         <div class="text-center mt-4">
             <button type="submit" class="btn btn-primary">Predict Stars</button>
         </div>
     </form>
-
-    <!-- Results -->
-    {% if predictions %}
-    <div class="row justify-content-center">
-        <div class="col-md-8 results">
-            <h5 class="text-center">⭐ Star Rankings</h5>
-            <ul class="list-group">
-                {% for item in predictions %}
-                <li class="list-group-item d-flex justify-content-between align-items-center prediction-item">
-                    <span><span class="rank-number">{{ loop.index }}.</span> {{ item.repo }}</span>
-                    <span class="badge bg-success">{{ item.stars }}</span>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-    {% endif %}
 </div>
+
+
 </body>
 </html>
