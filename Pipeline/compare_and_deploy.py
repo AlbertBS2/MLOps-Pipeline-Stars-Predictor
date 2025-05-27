@@ -5,6 +5,7 @@ import os
 import shutil
 import joblib
 import pandas as pd
+import numpy as np
 from sklearn.metrics import r2_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
@@ -14,23 +15,22 @@ from sklearn.model_selection import train_test_split
 base_dir = os.path.dirname(__file__)
 data_path = os.path.join(base_dir, '..', 'Development', 'scraping', 'repo_data.csv')
 challenger_model_path = os.path.join(base_dir, '..', 'Development', 'new_model.pkl')
-champion_model_path = os.path.join(base_dir, '..', 'Production', 'best_model.pkl')
+champion_model_path = os.path.join(base_dir, '..', 'Production', 'new_model.pkl')
 
 # Load models
 challenger_model = joblib.load(challenger_model_path)
 champion_model = joblib.load(champion_model_path)
 
 # Load data
-df = pd.read_csv(data_path)
+def fetch_and_clean_data():
+    df = pd.read_csv(data_path)
+    drop_cols = ["full_name", "description", "created_at", "updated_at", "watchers_count", "language"]
+    df_cleaned = df.drop(columns=drop_cols)
+    return df_cleaned
 
-X = df.copy()
-y = X.pop("stargazers_count")
-
-# Label encoding
-label_encoder = LabelEncoder()
-X_categorical = df.select_dtypes(include=['object']).apply(label_encoder.fit_transform)
-X_numerical = df.select_dtypes(exclude=['object']).values
-X = pd.concat([pd.DataFrame(X_numerical), X_categorical], axis=1).values
+data = fetch_and_clean_data()
+X = data.drop(columns=["stargazers_count"])
+y = data["stargazers_count"]
 
 # Extract test data
 _, X_test, _, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
