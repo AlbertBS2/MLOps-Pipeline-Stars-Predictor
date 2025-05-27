@@ -125,9 +125,15 @@
     python3 start_instances.py
     ```
 
-    In the output you will see the internal IP addresses of the Development and Production machines.
+    In the output you will see the internal IP addresses of the Development and Production machines. They will be saved to the file `ip_addresses.json`.
 
-    Add these IPs to the Ansible hosts file `/etc/ansible/hosts`. You need to be as a *root* user to edit this file.
+    Add these IPs to the Ansible hosts file `/etc/ansible/hosts`.
+
+    ```bash
+    sudo vi /etc/ansible/hosts
+    ```
+
+    Modify or add these lines in the file.
 
     ```
     [servers]
