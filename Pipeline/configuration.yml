@@ -208,6 +208,30 @@
       become: true
       shell: chmod +x /home/appuser/my_project/hooks/post-receive
 
+- name: Start ray head on dev
+  hosts: devserver
+  
+  tasks:
+  - name: Install ray on dev
+    pip:
+      name: ray[default, tune, data, train]
+      state: latest
+    tags:
+        - ray
+
+  - name: Start ray head
+    shell: nohup ray start --head --port=6379 && tail -f /dev/null &
+    register: ray_status
+    tags:
+        - ray
+
+  - name: Output Ray head node status
+    debug:
+      msg: "{{ ray_status.stdout }}"
+    tags:
+        - ray
+  
+
 # PLAY 6: Set up Git hooks on dev_server
 - hosts: dev_server
   become: true

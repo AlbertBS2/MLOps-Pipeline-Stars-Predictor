@@ -1,0 +1,33 @@
+- hosts: rayworkers
+  
+  tasks:
+
+    - name: apt update
+      apt: update_cache=yes upgrade=dist
+      become: true
+
+    - name: Extra packages
+      apt: pkg=python3-pip state=latest update_cache=true  
+      become: true
+
+    - name: Install Python packages
+      become: true
+      pip: 
+       name: tensorflow==2.10.0, keras==2.10.0, numpy, future, scikit-learn
+
+    - name: Install ray on dev
+      pip:
+       name: ray[default, tune, data, train]
+       state: latest
+
+    - name: get dev server
+      set_fact:
+        dev_ip: "{{ hostvars['devserver'].ansible_host }}"
+
+    - name: Output Ray head node status
+      debug:
+        msg: "{{ dev_ip }}"
+
+    - name: Start Ray worker node
+      become: true
+      shell: ray start --address="{{ dev_ip }}:6379" &
