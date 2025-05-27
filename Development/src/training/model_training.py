@@ -5,6 +5,7 @@ import ray
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from utils import fetch_and_clean_data
 
 from ray import tune
 from ray.tune import CLIReporter, with_parameters
@@ -20,15 +21,7 @@ base_dir = os.path.dirname(__file__)
 data_path = os.path.abspath(os.path.join(base_dir, "..", "..", "data", "repo_data.csv"))
 model_path = os.path.abspath(os.path.join(base_dir, "..", "..", "models", "new_model.pkl"))
 
-def fetch_and_clean_data():
-    df = pd.read_csv(data_path)
-    drop_cols = ["full_name", "description", "created_at", "updated_at", "watchers_count", "language"]
-    df_cleaned = df.drop(columns=drop_cols)
-    for col in df_cleaned.select_dtypes(include=[np.number]).columns:
-        df_cleaned[col].fillna(df_cleaned[col].median(), inplace=True)
-    return df_cleaned
-
-data = fetch_and_clean_data()
+data = fetch_and_clean_data(data_path)
 X = data.drop(columns=["stargazers_count"])
 y = data["stargazers_count"]
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)

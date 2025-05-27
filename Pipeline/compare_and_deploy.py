@@ -5,9 +5,8 @@ import os
 import shutil
 import joblib
 import pandas as pd
-import numpy as np
+from Development.src.training.utils import fetch_and_clean_data
 from sklearn.metrics import r2_score
-from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
 
@@ -21,14 +20,8 @@ champion_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Production',
 challenger_model = joblib.load(challenger_model_path)
 champion_model = joblib.load(champion_model_path)
 
-# Load data
-def fetch_and_clean_data():
-    df = pd.read_csv(data_path)
-    drop_cols = ["full_name", "description", "created_at", "updated_at", "watchers_count", "language"]
-    df_cleaned = df.drop(columns=drop_cols)
-    return df_cleaned
-
-data = fetch_and_clean_data()
+# Load and clean data
+data = fetch_and_clean_data(data_path)
 X = data.drop(columns=["stargazers_count"])
 y = data["stargazers_count"]
 

@@ -1,8 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
-from sklearn.preprocessing import LabelEncoder
-import joblib
 import numpy as np
 
 
@@ -56,3 +54,21 @@ def evaluate(model, X_test, y_test):
     score = r2_score(y_test, y_pred)
 
     return score
+
+
+def fetch_and_clean_data(data):
+    """
+    Preprocesses the dataset.
+
+    Args:
+        data (csv)
+
+    Returns:
+        df_cleaned (DataFrame): Preprocessed DataFrame
+    """
+    df = pd.read_csv(data)
+    drop_cols = ["full_name", "description", "created_at", "updated_at", "watchers_count", "language"]
+    df_cleaned = df.drop(columns=drop_cols)
+    for col in df_cleaned.select_dtypes(include=[np.number]).columns:
+        df_cleaned[col].fillna(df_cleaned[col].median(), inplace=True)
+    return df_cleaned
