@@ -193,7 +193,7 @@
 
     - name: Move post-receive
       become: true
-      shell: cp /home/appuser/DE2_proj/pipeline/post-receive /home/appuser/my_project/hooks/
+      shell: cp /home/appuser/DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
 
     - name: Make post-receive exc
       become: true
@@ -293,7 +293,7 @@
   -  name: Verify test.txt
      become: true
      stat:
-      path: /home/appuser/DE2_proj/production/test.txt
+      path: /home/appuser/DE2_proj/Production/test.txt
      register: test_verify_prod
 
   - name: Fail if test.txt is not present
@@ -303,4 +303,4 @@
 
   - name: Remove test.txt
     become: true
-    command: rm /home/appuser/DE2_proj/production/test.txt
+    command: rm /home/appuser/DE2_proj/Production/test.txt

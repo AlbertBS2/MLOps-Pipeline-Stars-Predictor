@@ -3,14 +3,14 @@
 
 ## Project Structure
 
-- `development/` # Development environment: data, scraping and training scripts, models
+- `Development/` # Development environment: data, scraping and training scripts, models
     - `data/` # Sample training data
     - `models/` # Trained model files
     - `src/` # Source code for scraping and training
 
-- `pipeline/` # Scripts and configs for deployment orchestration (Ansible and Cloud-init setup)
+- `Pipeline/` # Scripts and configs for deployment orchestration (Ansible and Cloud-init setup)
 
-- `production/` # Web app and production-serving logic (Flask app, Docker setup)
+- `Production/` # Web app and production-serving logic (Flask app, Docker setup)
     - `static/` # JS static frontend assets
     - `templates/` # HTML templates for the web interface
 
@@ -66,7 +66,7 @@
 
     - Public key: `/home/ubuntu/cluster-keys/cluster-key.pub`
 
-    Copy the complete contents of your generated Public key (`cluster-key.pub`) to `ssh_authorized_keys:` section in both `pipeline/dev-cloud-cfg.txt` and `pipeline/prod-cloud-cfg.txt`.
+    Copy the complete contents of your generated Public key (`cluster-key.pub`) to `ssh_authorized_keys:` section in both `Pipeline/dev-cloud-cfg.txt` and `Pipeline/prod-cloud-cfg.txt`.
 
 5. **Setup OpenStack API environment**
 
@@ -164,7 +164,7 @@
     ```
 
     ```bash
-    ansible-playbook pipeline/configuration.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
+    ansible-playbook Pipeline/configuration.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
     ```
 
     The process will take around 10 to 15 minutes to complete. The progress can be seen on the cloud dashboard.
@@ -177,4 +177,4 @@
 
 ## Development Configuration
 
-For setting up the development environment, see [`development/README.md`](development/README.md).
+For setting up the development environment, see [`Development/README.md`](Development/README.md).
