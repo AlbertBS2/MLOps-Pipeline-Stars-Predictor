@@ -4,15 +4,15 @@ from datetime import datetime
 from celery_worker import celery
 
 # Load the model once at module level to avoid reloading it on every prediction
-model = joblib.load("best_model.pkl")
+model = joblib.load("new_model.pkl")
 
 @celery.task
 def predict_star_count(features):
     """
     Predict star count from a single list of features.
     """
-    # return int(model.predict(np.array([features]))[0])
-    return 6
+    return int(model.predict(np.array([features]))[0])
+
 
 
 @celery.task
