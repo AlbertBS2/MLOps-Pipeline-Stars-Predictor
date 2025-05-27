@@ -1,0 +1,306 @@
+- hosts: all
+  become: true
+
+  vars:
+   github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
+   github_user: "{{ lookup('env', 'GITHUB_USER') | default('AlbertBS2') }}"
+   repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
+
+  tasks:
+
+    - name: Generate hosts file
+      lineinfile: dest=/etc/hosts
+                  regexp='.*{{ item }}$'
+                  line="{{ hostvars[item].ansible_default_ipv4.address }} {{item}}"
+                  state=present
+      when: hostvars[item].ansible_default_ipv4.address is defined
+      with_items: "{{groups['all']}}"
+      become: true
+
+    - name: Clone private GitHub repo using token
+      become_user: "appuser"
+      git:
+        repo: "{{ repo_url }}"
+        dest: home/appuser/DE2_proj
+        version: main
+        force: yes
+
+    - name: Change ownership of a directory
+      become: true
+      file:
+       path: home/appuser/DE2_proj
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
+
+# PLAY 2: Update code on both servers
+- hosts: dev_server,prod_server
+  become: true
+  vars:
+   github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
+   github_user: "{{ lookup('env', 'GITHUB_USER') | default('AlbertBS2') }}"
+   repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
+
+  tasks:
+    - name: Ensure the repository is up-to-date
+      git:
+        repo: "{{ repo_url }}"
+        dest: /home/appuser/DE2_proj
+        version: main
+        update: yes
+      become: true
+      become_user: appuser
+
+# PLAY 3: Prod – install Docker & run containers
+- hosts: prod_server
+  become: true
+
+  tasks:
+    - name: Install prerequisites
+      apt:
+        name:
+          - ca-certificates
+          - software-properties-common
+        state: latest
+        update_cache: yes
+
+    - name: Add Docker GPG key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
+
+    - name: Add Docker repository
+      apt_repository:
+        repo: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable'
+        state: present
+
+    - name: Create Ansible docker config directory.
+      become: true
+      file:
+        path: "/etc/docker"
+        state: directory
+
+    - name: Configure Docker daemon MTU
+      copy:
+        dest: /etc/docker/daemon.json
+        content: |
+          {
+            "mtu": 1450
+          }
+
+    - name: Install Docker CE
+      apt:
+        name: docker-ce
+        state: present
+        update_cache: yes
+
+# TODO: fix docker files for running the app in /DE2_proj/Production
+#    - name: Start Docker Compose services / Run containers
+#      command: docker-compose up -d
+#      args:
+#        chdir: home/appuser/DE2_proj/Production
+
+# PLAY 4: Dev – install Python & ML packages & set up ssh keys for githooks
+- hosts: dev_server
+  become: true
+  tags:
+  - githooks
+
+  tasks:
+    - name: Install python3-pip
+      apt:
+        name: python3-pip
+        state: latest
+        update_cache: yes
+
+    - name: Install ML Python packages
+      pip:
+        name:
+          - tensorflow==2.10.0
+          - keras==2.10.0
+          - 'numpy<2.0'
+          - future
+
+    - name: Make sure appuser’s ~/.ssh exists
+      file:
+        path: /home/appuser/.ssh
+        state: directory
+        owner: appuser
+        group: appuser
+        mode: '0700'
+
+    - name: Generate ssh
+      command: ssh-keygen -t rsa -b 4096 -f /home/appuser/.ssh/dev_git_hooks_key -N ""
+      args:
+       creates: /home/appuser/.ssh/dev_git_hooks_key
+      become: yes
+      become_user: appuser
+
+    - name: Fetch public SSH key from devserver to client
+      fetch:
+        src: /home/appuser/.ssh/dev_git_hooks_key.pub
+        dest: /tmp/ssh_keys/
+        flat: yes
+
+# PLAY 5: Set up GitHooks on prod_server
+- hosts: prod_server
+  become: true
+  tags:
+  - githooks
+  tasks:
+
+    - name: Ensure /home/appuser/.ssh exists
+      file:
+        path: /home/appuser/.ssh
+        state: directory
+        owner: appuser
+        group: appuser
+        mode: '0700'
+
+    - name: Copy SSH key from control node to prodserver
+      copy:
+        src: /tmp/ssh_keys/dev_git_hooks_key.pub
+        dest: /home/appuser/.ssh/
+        mode: '0644'
+
+    - name: Authorize the key for appuser
+      authorized_key:
+        user: appuser
+        state: present
+        key: "{{ lookup('file', '/tmp/ssh_keys/dev_git_hooks_key.pub') }}"
+
+    - name: create directory
+      become: true
+      file:
+       path: "/home/appuser/my_project"
+       state: directory
+
+    - name: init git
+      become: true
+      command: git init --bare /home/appuser/my_project
+      args:
+       creates: /home/appuser/my_project/HEAD
+
+    - name: Change ownership of directory
+      become: true
+      file:
+       path: /home/appuser/my_project
+       state: directory
+       recurse: yes
+       owner: appuser
+       group: appuser
+
+    - name: Move post-receive
+      become: true
+      shell: cp /home/appuser/DE2_proj/pipeline/post-receive /home/appuser/my_project/hooks/
+
+    - name: Make post-receive exc
+      become: true
+      shell: chmod +x /home/appuser/my_project/hooks/post-receive
+
+# PLAY 6: Set up Git hooks on dev_server
+- hosts: dev_server
+  become: true
+  tags:
+  - githooks
+
+  tasks:
+    - name: Ensure working directory exists
+      file:
+        path: /home/appuser/my_project
+        state: directory
+        owner: appuser
+        group: appuser
+
+    - name: Copy private key to ~/.ssh/id_rsa for appuser
+      copy:
+        src: /home/appuser/.ssh/dev_git_hooks_key
+        dest: /home/appuser/.ssh/id_rsa
+        owner: appuser
+        group: appuser
+        mode: '0600'
+        remote_src: yes
+      become_user: appuser
+
+    - name: Add prod_server to known_hosts for appuser
+      become: true
+      become_user: appuser
+      shell: |
+        ssh-keyscan -H prod_server >> /home/appuser/.ssh/known_hosts
+      args:
+        executable: /bin/bash
+
+    - name: Set global Git identity for appuser
+      shell: |
+        git config --global --get user.name  || git config --global user.name  "AlbertBS2"
+        git config --global --get user.email || git config --global user.email "<EMAIL>@gmail.com"
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Initialise local repo (branch main)
+      command: git init /home/appuser/my_project
+      args:
+        creates: /home/appuser/my_project/.git
+      become_user: appuser
+
+    - name: Set initial branch to main
+      shell: |
+        cd /home/appuser/my_project
+        git checkout -b main 2>/dev/null || git checkout main 2>/dev/null || true
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Add production remote once
+      shell: |
+        git -C /home/appuser/my_project remote get-url production >/dev/null 2>&1 || \
+        git -C /home/appuser/my_project remote add production appuser@prod_server:/home/appuser/my_project
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Create & commit test file if repo empty
+      shell: |
+        cd /home/appuser/my_project
+        if [ "$(git rev-list --count main || echo 0)" -eq 0 ]; then
+          echo "test" > test.txt
+          git add test.txt
+          git commit -m "Test commit"
+        fi
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Push to production (main) when needed
+      shell: |
+        cd /home/appuser/my_project
+        if ! git ls-remote --exit-code --heads production main >/dev/null 2>&1; then
+          git push production main
+        fi
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+# PLAY 7: Verify test.txt on production server
+- name: Verify test.txt on production server
+  hosts: prod_server
+  tags:
+  - githooks
+
+  tasks:
+  -  name: Verify test.txt
+     become: true
+     stat:
+      path: /home/appuser/DE2_proj/production/test.txt
+     register: test_verify_prod
+
+  - name: Fail if test.txt is not present
+    fail:
+      msg: "test.txt is not present on production server"
+    when: test_verify_prod.stat.exists == False
+
+  - name: Remove test.txt
+    become: true
+    command: rm /home/appuser/DE2_proj/production/test.txt
