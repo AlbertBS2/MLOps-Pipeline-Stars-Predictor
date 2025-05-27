@@ -246,6 +246,24 @@
         owner: appuser
         group: appuser
 
+    - name: Copy private key to ~/.ssh/id_rsa for appuser
+      copy:
+        src: /home/appuser/.ssh/dev_git_hooks_key
+        dest: /home/appuser/.ssh/id_rsa
+        owner: appuser
+        group: appuser
+        mode: '0600'
+        remote_src: yes
+      become_user: appuser
+
+    - name: Add prod_server to known_hosts for appuser
+      become: true
+      become_user: appuser
+      shell: |
+        ssh-keyscan -H prod_server >> /home/appuser/.ssh/known_hosts
+      args:
+        executable: /bin/bash
+
     - name: Set global Git identity for appuser
       shell: |
         git config --global --get user.name  || git config --global user.name  "mishamessouu"
@@ -295,20 +313,19 @@
   hosts: prod_server
   tags:
   - githooks
-  tasks:
 
   tasks:
   -  name: Verify test.txt
      become: true
      stat:
-      path: home/appuser/DE2_proj/Production/test.txt
+      path: /home/appuser/DE2_proj/Production/test.txt
      register: test_verify_prod
       
   - name: Fail if test.txt is not present
     fail:
       msg: "test.txt is not present on production server"
-    when: test_verify.stat.exists == False
+    when: test_verify_prod.stat.exists == False
 
   - name: Remove test.txt
     become: true
-    command: rm /DE2_proj/Production/test.txt
+    command: rm /home/appuser/DE2_proj/Production/test.txt
