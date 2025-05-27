@@ -2,16 +2,18 @@
 # If the challenger model obtains an increase in the R2-Score, it is deployed into production
 
 import os
+import sys
 import shutil
 import joblib
-import pandas as pd
-from Development.src.training.utils import fetch_and_clean_data
 from sklearn.metrics import r2_score
-from sklearn.model_selection import train_test_split
+
+base_dir = os.path.dirname(__file__)
+sys.path.append(os.path.dirname(base_dir))
+
+from Development.src.training.utils import preprocess
 
 
 # Paths
-base_dir = os.path.dirname(__file__)
 data_path = os.path.abspath(os.path.join(base_dir, '..', 'Development', 'data', 'repo_data.csv'))
 challenger_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Development', 'models', 'new_model.pkl'))
 champion_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Production', 'best_model.pkl'))
@@ -20,13 +22,8 @@ champion_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Production',
 challenger_model = joblib.load(challenger_model_path)
 champion_model = joblib.load(champion_model_path)
 
-# Load and clean data
-data = fetch_and_clean_data(data_path)
-X = data.drop(columns=["stargazers_count"])
-y = data["stargazers_count"]
-
-# Extract test data
-_, X_test, _, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+# Load and split the dataset
+_, X_test, _, y_test = preprocess(data_path, test_size=0.2, random_state=42)
 
 # Evaluate the models
 new_r2 = r2_score(y_test, challenger_model.predict(X_test))

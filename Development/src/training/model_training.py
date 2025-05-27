@@ -1,15 +1,13 @@
 import os
-import sys
 import joblib
 import ray
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from utils import fetch_and_clean_data
+from utils import preprocess, train_model
 
 from ray import tune
 from ray.tune import CLIReporter, with_parameters
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
@@ -21,22 +19,7 @@ base_dir = os.path.dirname(__file__)
 data_path = os.path.abspath(os.path.join(base_dir, "..", "..", "data", "repo_data.csv"))
 model_path = os.path.abspath(os.path.join(base_dir, "..", "..", "models", "new_model.pkl"))
 
-data = fetch_and_clean_data(data_path)
-X = data.drop(columns=["stargazers_count"])
-y = data["stargazers_count"]
-X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# ========== Trainable Function ==========
-def train_model(config, model_cls, X_train, X_val, y_train, y_val):
-    try:
-        model = model_cls(**config)
-        model.fit(X_train, y_train)
-        preds = model.predict(X_val)
-        r2 = r2_score(y_val, preds)
-        tune.report({"r2_score": r2})
-    except Exception as e:
-        tune.report({"r2_score": -1.0})
-        print(f"Error: {e}", file=sys.stderr)
+X_train, X_val, y_train, y_val = preprocess(data_path, test_size=0.2, random_state=42)
 
 # ========== Ray Tune Setup ==========
 ray.init(ignore_reinit_error=True)
