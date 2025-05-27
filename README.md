@@ -1,6 +1,9 @@
 ## Abstract
 '''''''''''''''**ADD ABSTRACT**'''''''''''''''
 
+##
+![GIF](demo.gif)
+
 ## Project Structure
 
 - `Development/` # Development environment: data, scraping and training scripts, models
