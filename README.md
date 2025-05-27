@@ -159,9 +159,19 @@
 
 7. **Run Ansible Playbook**
 
-    As this is a private repo, only collaborators can work with it. Therefore, some configuration needs to be done before running the Ansible Playbook.
+    Since this is a private repository, only collaborators have access to work with it. Therefore, some configuration is required before running the Ansible Playbook.
 
-    You can configure the connection through SSH or with a Personal Access Token (PAT).
+    First, set up your GitHub username and email to properly configure commit settings on the development server.
+
+    ```bash
+    export GITHUB_USER="<YOUR_GITHUB_USER>"
+    ```
+
+    ```bash
+    export GITHUB_EMAIL="<YOUR_GITHUB_EMAIL>"
+    ```
+
+    You can configure the GitHub connection through SSH or with a Personal Access Token (PAT).
 
     **Option 1: Using a GitHub Personal Access Token**
 
