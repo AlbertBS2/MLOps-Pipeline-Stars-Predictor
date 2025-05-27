@@ -159,12 +159,55 @@
 
 7. **Run Ansible Playbook**
 
+    As this is a private repo, only collaborators can work with it. Therefore, some configuration needs to be done before running the Ansible Playbook.
+
+    You can configure the connection through SSH or with a Personal Access Token (PAT).
+
+    **Option 1: Using a GitHub Personal Access Token**
+
+    To create a Personal Access Token:
+
+    1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+
+    2. Click "Generate new token"
+
+    3. Select scopes: repo (for private repositories)
+
+    4. Copy the token (you won't see it again!)
+
+    *Note: The token should look like: ghp_xxxxxxxxxxxxxxxxxxxx*
+
+    Once the token has been created, we have to set it up as an environment variable in the Client machine.
+
+    ```bash
+    export GITHUB_TOKEN="<YOUR_GITHUB_PAT>"
+    ```
+
+    ```bash
+    export ANSIBLE_HOST_KEY_CHECKING=False
+    ```
+
+    When using a Personal Access Token the playbook `configuration_w_token.yml` should be run.
+
+    ```bash
+    ansible-playbook Pipeline/configuration_w_token.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
+    ```
+
+    The process will take around 10 to 15 minutes to complete. The progress can be seen on the cloud dashboard.
+
+    **Option 2: Using SSH**
+
+    '''''''''''''''**ADD STEPS**'''''''''''''''
+
+
+    When using the SSH the playbook `configuration_w_ssh.yml` should be run.
+
     ```bash
     export ANSIBLE_HOST_KEY_CHECKING=False
     ```
 
     ```bash
-    ansible-playbook Pipeline/configuration.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
+    ansible-playbook Pipeline/configuration_w_ssh.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
     ```
 
     The process will take around 10 to 15 minutes to complete. The progress can be seen on the cloud dashboard.
