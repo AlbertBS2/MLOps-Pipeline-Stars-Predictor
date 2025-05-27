@@ -13,9 +13,9 @@ from sklearn.model_selection import train_test_split
 
 # Paths
 base_dir = os.path.dirname(__file__)
-data_path = os.path.join(base_dir, '..', 'Development', 'scraping', 'repo_data.csv')
-challenger_model_path = os.path.join(base_dir, '..', 'Development', 'new_model.pkl')
-champion_model_path = os.path.join(base_dir, '..', 'Production', 'new_model.pkl')
+data_path = os.path.abspath(os.path.join(base_dir, '..', 'Development', 'data', 'repo_data.csv'))
+challenger_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Development', 'models', 'new_model.pkl'))
+champion_model_path = os.path.abspath(os.path.join(base_dir, '..', 'Production', 'new_model.pkl'))
 
 # Load models
 challenger_model = joblib.load(challenger_model_path)

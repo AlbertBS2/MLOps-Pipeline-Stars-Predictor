@@ -17,8 +17,8 @@ from xgboost import XGBRegressor
 
 # ========== Load and Clean Data ==========
 base_dir = os.path.dirname(__file__)
-data_path = os.path.join(base_dir, '..', 'scraping', 'repo_data.csv')
-model_path = os.path.join(base_dir, '..', 'new_model.pkl')
+data_path = os.path.abspath(os.path.join(base_dir, "..", "..", "data", "repo_data.csv"))
+model_path = os.path.abspath(os.path.join(base_dir, "..", "..", "models", "new_model.pkl"))
 
 def fetch_and_clean_data():
     df = pd.read_csv(data_path)
@@ -147,6 +147,6 @@ plt.ylim(0, 1)
 plt.grid(axis='y')
 plt.tight_layout()
 plt.show()
-plt.savefig("model_comparison_plot.png", dpi=300)
+plt.savefig(os.path.abspath(os.path.join(base_dir, "model_comparison_plot.png")), dpi=300)
 
 ray.shutdown()
