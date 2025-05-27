@@ -3,8 +3,9 @@
 
   vars:
    github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
-   github_user: "{{ lookup('env', 'GITHUB_USER') | default('vfe01') }}"
-   repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
+   repo_url: "https://{{ github_token }}@github.com/vfe01/DE2-group-13-project.git"
+   github_user: "{{ lookup('env', 'GITHUB_USER') }}"
+   github_email: "{{ lookup('env', 'GITHUB_EMAIL') }}"
 
   tasks:
 
@@ -39,8 +40,7 @@
   become: true
   vars:
    github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
-   github_user: "{{ lookup('env', 'GITHUB_USER') | default('vfe01') }}"
-   repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
+   repo_url: "https://{{ github_token }}@github.com/vfe01/DE2-group-13-project.git"
 
   tasks:
     - name: Ensure the repository is up-to-date
@@ -202,6 +202,9 @@
 # PLAY 6: Set up Git hooks on dev_server
 - hosts: dev_server
   become: true
+  vars:
+   github_user: "{{ lookup('env', 'GITHUB_USER') }}"
+   github_email: "{{ lookup('env', 'GITHUB_EMAIL') }}"
   tags:
   - githooks
 
@@ -233,8 +236,8 @@
 
     - name: Set global Git identity for appuser
       shell: |
-        git config --global --get user.name  || git config --global user.name  "<USER_NAME>"
-        git config --global --get user.email || git config --global user.email "<USER_EMAIL>"
+        git config --global --get user.name  || git config --global user.name  "{{ github_user }}"
+        git config --global --get user.email || git config --global user.email "{{ github_email }}"
       args:
         executable: /bin/bash
       become_user: appuser
