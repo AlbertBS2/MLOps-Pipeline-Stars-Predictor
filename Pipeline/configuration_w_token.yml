@@ -3,7 +3,7 @@
 
   vars:
    github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
-   github_user: "{{ lookup('env', 'GITHUB_USER') | default('AlbertBS2') }}"
+   github_user: "{{ lookup('env', 'GITHUB_USER') | default('vfe01') }}"
    repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
 
   tasks:
@@ -39,7 +39,7 @@
   become: true
   vars:
    github_token: "{{ lookup('env', 'GITHUB_TOKEN') }}"
-   github_user: "{{ lookup('env', 'GITHUB_USER') | default('AlbertBS2') }}"
+   github_user: "{{ lookup('env', 'GITHUB_USER') | default('vfe01') }}"
    repo_url: "https://{{ github_token }}@github.com/{{ github_user }}/DE2-group-13-project.git"
 
   tasks:
@@ -233,8 +233,8 @@
 
     - name: Set global Git identity for appuser
       shell: |
-        git config --global --get user.name  || git config --global user.name  "AlbertBS2"
-        git config --global --get user.email || git config --global user.email "<EMAIL>@gmail.com"
+        git config --global --get user.name  || git config --global user.name  "<USER_NAME>"
+        git config --global --get user.email || git config --global user.email "<USER_EMAIL>"
       args:
         executable: /bin/bash
       become_user: appuser
