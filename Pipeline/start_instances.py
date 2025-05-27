@@ -1,6 +1,7 @@
 # http://docs.openstack.org/developer/python-novaclient/ref/v2/servers.html
 import time, os, sys, random, re
-import inspect
+import json
+import os
 from os import environ as env
 
 from  novaclient import client
@@ -58,8 +59,8 @@ else:
 secgroups = ['default']
 
 print ("Creating instances ... ")
-instance_prod = nova.servers.create(name="g13_prod_server", image=image, flavor=flavor, key_name='PRJ_Group13', userdata=userdata_prod, nics=nics, security_groups=secgroups)
-instance_dev = nova.servers.create(name="g13_dev_server", image=image, flavor=flavor, key_name='PRJ_Group13', userdata=userdata_dev, nics=nics, security_groups=secgroups)
+instance_prod = nova.servers.create(name="g13_prod_server_a", image=image, flavor=flavor, key_name='PRJ_Group13', userdata=userdata_prod, nics=nics, security_groups=secgroups)
+instance_dev = nova.servers.create(name="g13_dev_server_a", image=image, flavor=flavor, key_name='PRJ_Group13', userdata=userdata_dev, nics=nics, security_groups=secgroups)
 inst_status_prod = instance_prod.status
 inst_status_dev = instance_dev.status
 
@@ -93,3 +94,19 @@ if ip_address_dev is None:
 
 print ("Instance: " + instance_prod.name + " is in " + inst_status_prod + " state" + " ip address: " + ip_address_prod)
 print ("Instance: " + instance_dev.name + " is in " + inst_status_dev + " state" + " ip address: " + ip_address_dev)
+
+# Saving ip addresses in a json file
+ips = {
+    instance_prod.name: ip_address_prod,
+    instance_dev.name: ip_address_dev
+}
+
+json_ips = json.dumps(ips, indent=2)
+
+base_dir = os.path.dirname(__file__)
+json_path = os.path.join(base_dir, 'ip_addresses.json')
+
+with open(json_path, "w") as f:
+    f.write(json_ips)
+
+print(f"IP addresses saved in {json_path}")
