@@ -1,11 +1,10 @@
 #!/bin/bash
 while read oldrev newrev ref
 do
-	if [[ $ref =~ .*/main$ ]];
-	then
-		echo "Main ref received. Deploying main branch to production..."
-		git --work-tree=/home/appuser/DE2_proj/Production --git-dir=/home/appuser/my_project checkout -f
-	else
-		echo "Ref $ref successfully received. Doing nothing: only the main branch may be deployed on this server."
-	fi
+  if [[ $ref =~ .*/main$ ]]; then
+    echo "Main ref received. Deploying main branch to production..."
+    git --work-tree=/home/appuser/DE2_proj/Production --git-dir=/home/appuser/my_project checkout -f
+  else
+    echo "Ref $ref successfully received. Doing nothing: only the main branch may be deployed on this server."
+  fi
 done

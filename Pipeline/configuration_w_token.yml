@@ -300,10 +300,12 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Push to production (main) when needed
+    - name: Push main branch to production safely
       shell: |
         cd /home/appuser/my_project
         if ! git ls-remote --exit-code --heads production main >/dev/null 2>&1; then
+          git push -u production main --force
+        else
           git push production main
         fi
       args:
