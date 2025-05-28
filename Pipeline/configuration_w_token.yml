@@ -266,18 +266,10 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Initialise local repo (branch main)
+    - name: Initialise local repo (default branch is master)
       command: git init /home/appuser/my_project
       args:
         creates: /home/appuser/my_project/.git
-      become_user: appuser
-
-    - name: Set initial branch to main
-      shell: |
-        cd /home/appuser/my_project
-        git checkout -b main 2>/dev/null || git checkout main 2>/dev/null || true
-      args:
-        executable: /bin/bash
       become_user: appuser
 
     - name: Add production remote once
@@ -291,7 +283,7 @@
     - name: Create & commit test file if repo empty
       shell: |
         cd /home/appuser/my_project
-        if [ "$(git rev-list --count main || echo 0)" -eq 0 ]; then
+        if [ "$(git rev-list --count HEAD || echo 0)" -eq 0 ]; then
           echo "test" > test.txt
           git add test.txt
           git commit -m "Test commit"
@@ -300,13 +292,13 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Push main branch to production safely
+    - name: Push master branch to production safely
       shell: |
         cd /home/appuser/my_project
-        if ! git ls-remote --exit-code --heads production main >/dev/null 2>&1; then
-          git push -u production main --force
+        if ! git ls-remote --exit-code --heads production master >/dev/null 2>&1; then
+          git push -u production master --force
         else
-          git push production main
+          git push production master
         fi
       args:
         executable: /bin/bash
