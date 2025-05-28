@@ -180,6 +180,10 @@
     export GITHUB_EMAIL="<YOUR_GITHUB_EMAIL>"
     ```
 
+    ```bash
+    export ANSIBLE_HOST_KEY_CHECKING=False
+    ```
+
     You can configure the GitHub connection through SSH or with a Personal Access Token (PAT).
 
     **Option 1: Using a GitHub Personal Access Token**
@@ -202,10 +206,6 @@
     export GITHUB_TOKEN="<YOUR_GITHUB_PAT>"
     ```
 
-    ```bash
-    export ANSIBLE_HOST_KEY_CHECKING=False
-    ```
-
     When using a Personal Access Token the playbook `configuration_w_token.yml` should be run.
 
     ```bash
@@ -220,10 +220,6 @@
 
 
     When using the SSH the playbook `configuration_w_ssh.yml` should be run.
-
-    ```bash
-    export ANSIBLE_HOST_KEY_CHECKING=False
-    ```
 
     ```bash
     ansible-playbook Pipeline/configuration_w_ssh.yml --private-key=/home/ubuntu/cluster-keys/cluster-key
