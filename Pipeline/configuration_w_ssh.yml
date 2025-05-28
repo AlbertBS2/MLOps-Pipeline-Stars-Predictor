@@ -1,13 +1,17 @@
 - hosts: all
   become: true
 
+  vars:
+   github_user: "{{ lookup('env', 'GITHUB_USER') }}"
+   github_email: "{{ lookup('env', 'GITHUB_EMAIL') }}"
+
   tasks:
 
     - name: Generate hosts file
       lineinfile: dest=/etc/hosts
                   regexp='.*{{ item }}$'
                   line="{{ hostvars[item].ansible_default_ipv4.address }} {{item}}"
-                  state=present            
+                  state=present
       when: hostvars[item].ansible_default_ipv4.address is defined
       with_items: "{{groups['all']}}"
       become: true
@@ -104,7 +108,24 @@
         state: present
         update_cache: yes
 
-# TODO: fix docker files for running the app in /DE2_proj/Production
+    - name: Start and enable Docker service
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Add user to docker group
+      user:
+        name: appuser
+        groups: docker
+        append: yes
+
+    - name: Install Docker Compose Plugin
+      apt:
+        name: docker-compose-plugin
+        state: present
+        update_cache: yes
+
     - name: Start Docker Compose services / Run containers
       command: docker compose up -d
       args:
@@ -130,7 +151,7 @@
           - keras==2.10.0
           - 'numpy<2.0'
           - future
-    
+
     - name: Make sure appuser’s ~/.ssh exists
       file:
         path: /home/appuser/.ssh
@@ -138,13 +159,13 @@
         owner: appuser
         group: appuser
         mode: '0700'
-    
-    - name: Generate ssh 
+
+    - name: Generate ssh
       command: ssh-keygen -t rsa -b 4096 -f /home/appuser/.ssh/dev_git_hooks_key -N ""
       args:
        creates: /home/appuser/.ssh/dev_git_hooks_key
       become: yes
-      become_user: appuser 
+      become_user: appuser
 
     - name: Fetch public SSH key from devserver to client
       fetch:
@@ -178,63 +199,42 @@
         user: appuser
         state: present
         key: "{{ lookup('file', '/tmp/ssh_keys/dev_git_hooks_key.pub') }}"
-   
+
     - name: create directory
-      become: true
       file:
        path: "/home/appuser/my_project"
        state: directory
+      become_user: appuser
 
-    - name: init git
-      become: true
-      command: git init --bare /home/appuser/my_project
+    - name: Initialise bare repo
+      shell: |
+        cd /home/appuser/my_project
+        git init --bare
       args:
-       creates: /home/appuser/my_project/HEAD
-   
-    - name: Change ownership of directory
-      become: true
-      file:
-       path: /home/appuser/my_project
-       state: directory
-       recurse: yes
-       owner: appuser
-       group: appuser
+        executable: /bin/bash
+      become_user: appuser
 
     - name: Move post-receive
       become: true
       shell: cp /home/appuser/DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
- 
+
+    - name: Ensure post-receive hook is owned by appuser
+      file:
+        path: /home/appuser/my_project/hooks/post-receive
+        owner: appuser
+        group: appuser
+        mode: '0755'
+
     - name: Make post-receive exc
       become: true
       shell: chmod +x /home/appuser/my_project/hooks/post-receive
 
-- name: Start ray head on dev
-  hosts: devserver
-  
-  tasks:
-  - name: Install ray on dev
-    pip:
-      name: ray[default, tune, data, train]
-      state: latest
-    tags:
-        - ray
-
-  - name: Start ray head
-    shell: nohup ray start --head --port=6379 && tail -f /dev/null &
-    register: ray_status
-    tags:
-        - ray
-
-  - name: Output Ray head node status
-    debug:
-      msg: "{{ ray_status.stdout }}"
-    tags:
-        - ray
-  
-
 # PLAY 6: Set up Git hooks on dev_server
 - hosts: dev_server
   become: true
+  vars:
+   github_user: "{{ lookup('env', 'GITHUB_USER') }}"
+   github_email: "{{ lookup('env', 'GITHUB_EMAIL') }}"
   tags:
   - githooks
 
@@ -266,14 +266,16 @@
 
     - name: Set global Git identity for appuser
       shell: |
-        git config --global --get user.name  || git config --global user.name  "mishamessouu"
-        git config --global --get user.email || git config --global user.email "michel.messo.9067@student.uu.se"
+        git config --global --get user.name  || git config --global user.name  "{{ github_user }}"
+        git config --global --get user.email || git config --global user.email "{{ github_email }}"
       args:
         executable: /bin/bash
       become_user: appuser
 
-    - name: Initialise local repo (branch main)
-      command: git init -b main /home/appuser/my_project
+    - name: Initialise local repo (default branch is master)
+      shell: |
+        cd /home/appuser/my_project
+        git init
       args:
         creates: /home/appuser/my_project/.git
       become_user: appuser
@@ -286,29 +288,36 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Create & commit test file if repo empty
+    - name: Create a test file
       shell: |
         cd /home/appuser/my_project
-        if [ "$(git rev-list --count main || echo 0)" -eq 0 ]; then
-          echo "test" > test.txt
-          git add test.txt
-          git commit -m "Test commit"
+        echo "test" >> test.txt
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Commit test file
+      shell: |
+        cd /home/appuser/my_project
+        git add test.txt
+        git commit -m "Test commit"
+      args:
+        executable: /bin/bash
+      become_user: appuser
+
+    - name: Push master branch to production safely
+      shell: |
+        cd /home/appuser/my_project
+        if ! git ls-remote --exit-code --heads production master >/dev/null 2>&1; then
+          git push -u production master --force
+        else
+          git push production master
         fi
       args:
         executable: /bin/bash
       become_user: appuser
 
-    - name: Push to production (main) when needed
-      shell: |
-        cd /home/appuser/my_project
-        if ! git ls-remote --exit-code --heads production main >/dev/null 2>&1; then
-          git push production main
-        fi
-      args:
-        executable: /bin/bash
-      become_user: appuser
-
-# PLAY 7: Verify test.txt on production server     
+# PLAY 7: Verify test.txt on production server
 - name: Verify test.txt on production server
   hosts: prod_server
   tags:
@@ -320,7 +329,7 @@
      stat:
       path: /home/appuser/DE2_proj/Production/test.txt
      register: test_verify_prod
-      
+
   - name: Fail if test.txt is not present
     fail:
       msg: "test.txt is not present on production server"
@@ -329,3 +338,27 @@
   - name: Remove test.txt
     become: true
     command: rm /home/appuser/DE2_proj/Production/test.txt
+
+# PLAY 8: Start ray on dev_server
+- name: Start ray head on development server
+  hosts: dev_server
+  
+  tasks:
+  - name: Install ray on dev
+    pip:
+      name: ray[default, tune, data, train]
+      state: latest
+    tags:
+        - ray
+
+  - name: Start ray head
+    shell: nohup ray start --head --port=6379 && tail -f /dev/null &
+    register: ray_status
+    tags:
+        - ray
+
+  - name: Output Ray head node status
+    debug:
+      msg: "{{ ray_status.stdout }}"
+    tags:
+        - ray

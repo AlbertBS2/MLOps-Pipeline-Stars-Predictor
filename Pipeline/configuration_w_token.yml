@@ -276,9 +276,11 @@
       become_user: appuser
 
     - name: Create a test file
-      copy:
-        content: "test\n"
-        dest: /home/appuser/my_project/test.txt
+      shell: |
+        cd /home/appuser/my_project
+        echo "test" >> test.txt
+      args:
+        executable: /bin/bash
       become_user: appuser
 
     - name: Commit test file
@@ -302,10 +304,6 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Remove test.txt
-      become: true
-      command: rm /home/appuser/my_project/test.txt
-
 # PLAY 7: Verify test.txt on production server
 - name: Verify test.txt on production server
   hosts: prod_server
@@ -327,3 +325,27 @@
   - name: Remove test.txt
     become: true
     command: rm /home/appuser/DE2_proj/Production/test.txt
+
+# PLAY 8: Start ray on dev_server
+- name: Start ray head on development server
+  hosts: dev_server
+  
+  tasks:
+  - name: Install ray on dev
+    pip:
+      name: ray[default, tune, data, train]
+      state: latest
+    tags:
+        - ray
+
+  - name: Start ray head
+    shell: nohup ray start --head --port=6379 && tail -f /dev/null &
+    register: ray_status
+    tags:
+        - ray
+
+  - name: Output Ray head node status
+    debug:
+      msg: "{{ ray_status.stdout }}"
+    tags:
+        - ray
