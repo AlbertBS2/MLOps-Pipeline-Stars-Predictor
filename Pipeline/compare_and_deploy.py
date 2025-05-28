@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 base_dir = os.path.dirname(__file__)
 sys.path.append(os.path.dirname(base_dir))
 
-from Development.src.training.utils import preprocess
+from Development.src.training.utils_training import preprocess
 
 
 # Paths

@@ -1,9 +1,9 @@
-import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
-from utils import preprocess
+from utils_training import preprocess
 import joblib
 import os
 from sklearn.metrics import r2_score
+
 
 # Set paths
 base_dir = os.path.dirname(__file__)
