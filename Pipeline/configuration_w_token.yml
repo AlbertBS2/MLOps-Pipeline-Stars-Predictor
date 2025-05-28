@@ -212,6 +212,13 @@
       become: true
       shell: cp /home/appuser/DE2_proj/Pipeline/post-receive /home/appuser/my_project/hooks/
 
+    - name: Ensure post-receive hook is owned by appuser
+      file:
+        path: /home/appuser/my_project/hooks/post-receive
+        owner: appuser
+        group: appuser
+        mode: '0755'
+
     - name: Make post-receive exc
       become: true
       shell: chmod +x /home/appuser/my_project/hooks/post-receive
