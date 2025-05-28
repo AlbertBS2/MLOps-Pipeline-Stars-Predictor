@@ -237,6 +237,58 @@
 
     `http://<PRODUCTION-SERVER-FLOATING-IP>:5100`
 
+9. **Use the CI/CD Development to Production Pipeline to deploy ML models**
+
+    After executing the Ansible playbook, both the Development and Production servers are prepared for a streamlined CI/CD workflow using Git Hooks. You can deploy new ML models directly from the Development to the Production server.
+
+    From the Client VM, SSH into de Development server.
+
+    ```bash
+    ssh -i /home/ubuntu/cluster-keys/cluster-key appuser@<DEVELOPMENT-SERVER-IP>
+    ```
+
+    Train or update an ML model and save it as `/Development/models/new_model.pkl`.
+    
+    Push the changes to the GitHub repo (a GitHub Action will be triggered and save the model as `/Production/best_model.pkl` if the R2-Score from the new model is better than the one for the current one).
+
+    Copy the `best_model.pkl` to the bare git repo `my_project`.
+
+    ```bash
+    git pull
+    ```
+
+    ```bash
+    cp /Production/best_model.pkl /home/appuser/my_project/
+    ```
+
+    Inside `my_project` directory ommit the changes and push them to the Production server.
+
+    ```bash
+    cd /home/appuser/my_project
+    ```
+
+    ```bash
+    git add best_model.pkl
+    ```
+
+    ```bash
+    git commit -m "Deploy a new improved model"
+    ```
+
+    ```bash
+    git push production master
+    ```
+
+    You should see the following output:
+
+    ```bash
+    remote: Master ref received. Deploying master branch to production...
+    ```
+
+    You can now access the web app and run predictions using the newly updated model.
+
+    `http://<PRODUCTION-SERVER-FLOATING-IP>:5100`
+
 ## Development Configuration
 
 For setting up the development environment, see [`Development/README.md`](Development/README.md).
