@@ -28,25 +28,37 @@ search_spaces = {
     "RandomForest": {
         "cls": RandomForestRegressor,
         "space": {
-            "n_estimators": tune.choice([100, 150, 200]),
-            "max_depth": tune.choice([5, 10, 15]),
-            "min_samples_split": tune.choice([2, 4])
+            "n_estimators": tune.choice([100, 200, 300, 400, 500]),
+            "max_depth": tune.choice([None, 10, 20, 30, 50]),
+            "min_samples_split": tune.choice([2, 5, 10]),
+            "min_samples_leaf": tune.choice([1, 2, 4, 8]),
+            "max_features": tune.choice(["sqrt", "log2", None]),
+            "bootstrap": tune.choice([True, False])
         }
     },
     "GradientBoosting": {
         "cls": GradientBoostingRegressor,
         "space": {
-            "n_estimators": tune.choice([100, 150]),
-            "learning_rate": tune.choice([0.05, 0.1]),
-            "max_depth": tune.choice([3, 5, 7])
+            "n_estimators": tune.choice([100, 200, 300, 500]),
+            "learning_rate": tune.choice([0.01, 0.03, 0.05, 0.1, 0.2]),
+            "max_depth": tune.choice([3, 5, 7, 10]),
+            "min_samples_split": tune.choice([2, 5, 10]),
+            "min_samples_leaf": tune.choice([1, 2, 4, 8]),
+            "subsample": tune.choice([0.5, 0.6, 0.8, 1.0]),
+            "max_features": tune.choice(["sqrt", "log2", None])
         }
     },
     "XGBoost": {
         "cls": XGBRegressor,
         "space": {
-            "n_estimators": tune.choice([100, 150]),
-            "max_depth": tune.choice([3, 6]),
-            "learning_rate": tune.choice([0.05, 0.1]),
+            "n_estimators": tune.choice([100, 200, 300, 500]),
+            "learning_rate": tune.choice([0.01, 0.03, 0.05, 0.1, 0.2]),
+            "max_depth": tune.choice([3, 6, 10, 15]),
+            "subsample": tune.choice([0.5, 0.6, 0.8, 1.0]),
+            "colsample_bytree": tune.choice([0.5, 0.6, 0.8, 1.0]),
+            "gamma": tune.choice([0, 0.1, 0.3, 1.0]),
+            "reg_alpha": tune.choice([0, 0.1, 0.5, 1]),
+            "reg_lambda": tune.choice([1, 1.5, 2, 5]),
             "verbosity": 0
         }
     },
@@ -57,7 +69,8 @@ search_spaces = {
     "RidgeRegression": {
         "cls": Ridge,
         "space": {
-            "alpha": tune.choice([0.1, 1.0, 10.0])
+            "alpha": tune.choice([0.001, 0.01, 0.1, 0.5, 1.0, 10.0, 50.0, 100.0]),
+            "solver": tune.choice(["auto", "svd", "cholesky", "lsqr"])
         }
     }
 }
