@@ -216,8 +216,27 @@ This project presents an end-to-end automated pipeline for predicting GitHub rep
 
     **Option 2: Using SSH**
 
-    '''''''''''''''**ADD STEPS**'''''''''''''''
+    To use SSH instead of a GitHub Personal Access Token, you need to generate an SSH key on the Client machine.
 
+    ```bash
+    ssh-keygen -t ed25519 -C "<YOUR_GITHUB_EMAIL>"
+    ```
+    
+    When asked, set the file path `/home/ubuntu/.ssh/id_ed25519`. Do not set the password, simply press Enter twice.
+
+    You need to add the generated SSH public key to your GitHub account.
+
+    1. Display the public key and copy it.
+
+        ```bash
+        cat /home/ubuntu/.ssh/id_ed25519.pub
+        ```
+
+    2. Go to GitHub → Settings → SSH and GPG keys
+
+    3. Click New SSH key
+
+    4. Paste the contents and save
 
     When using the SSH the playbook `configuration_w_ssh.yml` should be run.
 
