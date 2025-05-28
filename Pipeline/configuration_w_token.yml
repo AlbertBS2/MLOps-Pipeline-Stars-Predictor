@@ -188,25 +188,18 @@
         key: "{{ lookup('file', '/tmp/ssh_keys/dev_git_hooks_key.pub') }}"
 
     - name: create directory
-      become: true
       file:
        path: "/home/appuser/my_project"
        state: directory
+      become_user: appuser
 
-    - name: init git
-      become: true
-      command: git init --bare /home/appuser/my_project
+    - name: Initialise bare repo
+      shell: |
+        cd /home/appuser/my_project
+        git init --bare
       args:
-       creates: /home/appuser/my_project/HEAD
-
-    - name: Change ownership of directory
-      become: true
-      file:
-       path: /home/appuser/my_project
-       state: directory
-       recurse: yes
-       owner: appuser
-       group: appuser
+        executable: /bin/bash
+      become_user: appuser
 
     - name: Move post-receive
       become: true
@@ -267,7 +260,9 @@
       become_user: appuser
 
     - name: Initialise local repo (default branch is master)
-      command: git init /home/appuser/my_project
+      shell: |
+        cd /home/appuser/my_project
+        git init
       args:
         creates: /home/appuser/my_project/.git
       become_user: appuser
@@ -280,14 +275,17 @@
         executable: /bin/bash
       become_user: appuser
 
-    - name: Create & commit test file if repo empty
+    - name: Create a test file
+      copy:
+        content: "test\n"
+        dest: /home/appuser/my_project/test.txt
+      become_user: appuser
+
+    - name: Commit test file
       shell: |
         cd /home/appuser/my_project
-        if [ "$(git rev-list --count HEAD || echo 0)" -eq 0 ]; then
-          echo "test" > test.txt
-          git add test.txt
-          git commit -m "Test commit"
-        fi
+        git add test.txt
+        git commit -m "Test commit"
       args:
         executable: /bin/bash
       become_user: appuser
@@ -303,6 +301,10 @@
       args:
         executable: /bin/bash
       become_user: appuser
+
+    - name: Remove test.txt
+      become: true
+      command: rm /home/appuser/my_project/test.txt
 
 # PLAY 7: Verify test.txt on production server
 - name: Verify test.txt on production server
